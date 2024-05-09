@@ -1,5 +1,16 @@
 title: Uzdik GitHub
 logo: /assets/img/uzdik-logo.png
-minimal_mistakes_skin: "air"
-#show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
+
+header_pages:
+  - Home: /
+  - About: /about
+  - Contact: /contact
+
+social_links:
+  - name: Facebook
+    url: https://www.facebook.com/YourPage
+  - name: YouTube
+    url: https://www.youtube.com/YourChannel
+
