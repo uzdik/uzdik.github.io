@@ -3,13 +3,10 @@ layout: page
 title: Авторы
 permalink: /author/
 ---
-
-<div style="max-width: 800px; margin: 20px auto; overflow: hidden;">
-  <div style="float: left; margin-right: 20px;">
-    <img src="\assets\img\yergali.png" alt="Blog Image" style="height: auto; max-height: 300px; object-fit: cover;">
-  </div>
+<div style="position: relative;">
+  <img src="\assets\img\yergali.png" alt="Blog Image" style="position: absolute; top: 0; right: 0; width: 200px; height: 200px;">
 </div>
-    
+
 *Толық аты-жөнім* &mdash; <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>.
 
 *Оңтүстік өңірінде, Шымкент қаласында туып өстім.* 
