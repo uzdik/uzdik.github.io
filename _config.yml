@@ -3,13 +3,21 @@ logo: /assets/img/uzdik-logo.png
 show_downloads: false
 theme: jekyll-theme-minimal
 
-social:
-  type:  Uzdik BILIM ARNA # Person or Organization (defaults to Person)
-  name:  Yergali Berdibayev # If the user or organization name differs from the site's name
+author:
+  name: "Your Name"
+  avatar: "/assets/img/uzdik-logo.png"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "Somewhere"
   links:
-    - "https://www.youtube.com/Uzdik"
-    - "https://t.me/uzdik_bilim"
-    - "https://instagram.com/uzdik.bilim"
-    - "https://www.facebook.com/uzdik.bilim"
-    
-
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
