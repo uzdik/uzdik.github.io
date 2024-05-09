@@ -1,5 +1,5 @@
 <div style="position: relative;">
-  <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 0; left: 0; width: 80px; height: 80px;">
+  <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 10; left: 0; width: 80px; height: 80px;">
 </div>
 
 <p style="text-align: center;"><b><i>Қош келдіңіз - Үздік Білімпаз!</i></b></p>
