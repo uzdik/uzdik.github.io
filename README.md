@@ -1,4 +1,4 @@
-# Yergali Berdibayev
+# “Үздік Білім” арнаның ресми github репозитарийіне қош келдіңіз!
 
 ## Menu
 Teacher, AI engineer
