@@ -1,5 +1,5 @@
 ### “Үздік Білім” репозитарийі
-Teacher, AI engineer
+ Сапалы қазақша IT контенті құру, заманауи қазақ IT әлеуметті қалыптастыру, кәзіргі нарыққа сай келетін біліммен бөлісу. 
 
 ### Education
 - 2004-08 BSc Software Engineering at Kazakh National Technical Univeristy (KazNTU)
