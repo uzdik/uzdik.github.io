@@ -155,8 +155,8 @@ pre>code {
     font-size: 14px;
     color: #828282;
     font-style: italic; /* Add italic font style */
-    margin-right: 0; /* Reset the right margin */
-    margin-left: auto; /* Pushes the author information to the right side */
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensure block level display */
 }
 
 
