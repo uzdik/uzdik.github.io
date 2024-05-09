@@ -21,7 +21,7 @@ port        : 4000
 ################################
 # Theme Settings
 ################################
-theme       : minimal-jekyll-theme
+theme       : jekyll-theme-minimal #minimal-jekyll-theme
 permalink   : /:title/
 
 collections:
