@@ -141,9 +141,12 @@ pre>code {
     vertical-align: text-top
 }
 
-.social-media-list li+li {
-    padding-top: 5px
+.social-media-list li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+  padding-top: 5px; /* Add padding between list items */
 }
+
 
 table {
     margin-bottom: 30px;
