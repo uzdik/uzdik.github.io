@@ -1,27 +1,12 @@
 title:  Үздік GitHub
-#logo: /assets/img/uzdik-logo.png
-#author:
-#  name: Yergali Berdibayev
-#  email: uzdik.kz@gmail.com
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-#description: >
-#  Сапалы қазақша IT контенті құру, заманауи қазақ IT әлеуметті қалыптастыру, кәзіргі нарыққа сай келетін біліммен бөлісу. 
-  
-# Build settings
 theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  
 header_pages:
   - about.md
-
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
-
 minima:
   # Minima skin selection.
   # Available skins are:
@@ -32,13 +17,10 @@ minima:
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: classic
-  
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #date_format: "%b-%d-%Y"
-
-  # Generate social links in footer.
   social_links:
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
