@@ -4,7 +4,7 @@ title: Авторы
 permalink: /author/
 ---
 <div style="position: relative;">
-  <img src="\assets\img\yergali.png" alt="Blog Image" style="position: absolute; top: 0; right: 0; width: 200px; height: 200px;">
+  <img src="\assets\img\yergali.png" alt="Blog Image" style="float: right; width: 200px; height: 200px; margin-left: 20px;" />
 </div>
 
 *Толық аты-жөнім* &mdash; <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>.
