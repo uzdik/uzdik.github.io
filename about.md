@@ -30,7 +30,8 @@ permalink: /author/
 
 *Мен 2021-жылдан бастап түрлі күрстар жасап, көпшілікпен тегін де, ақылы да бөлісіп келемін. Енді солардың бәрін бір жерге жинап, сіздермен бөлісуді жөн көрдім. Қабыл алыңыздар, мұнда сол өткен курстарымның сілтемелері.*
 
-## [Python &mdash; Базалық курстар]()
+## [Python — Базалық курстар]()
+
 <details>
   <summary>"YouTube Live: Python тілін 0-ден үйрену (5-сабақ)"</summary>
   
@@ -40,7 +41,7 @@ permalink: /author/
   - *[2-сабақ. loop, for, while, list, pop, remove, sort/sorted, upper/lower, append](https://www.youtube.com/live/R3UUv3VwLms?si=WOwflNo75EEzZCGZ)*
   - *[3-сабақ. 2D list, санау жүйелері, dict, abs, pow, ord, chr](https://www.youtube.com/live/YNdGO2nDSjs?si=P8*Luu86uDTRZpnt)*
   - *[4-сабақ. def, math, random, file read/write, lambda](https://www.youtube.com/live/1GcYFDHsuOc?si=OewORO*wo4vC5vfp)*
-  - *[5-сабақ. ООП &mdash; объектіге бағытталған бағдарламалау](https://www.youtube.com/live/3EKLBz*GfL0?si=e-87pi-gbeHme-UD)*
+  - *[5-сабақ. ООП &amp;mdash; объектіге бағытталған бағдарламалау](https://www.youtube.com/live/3EKLBz*GfL0?si=e-87pi-gbeHme-UD)*
   - <a href="https://drive.google.com/file/d/1gCqn4CsUEfqs0LURa4d*92nzTo567MR4/view?usp=drive*link" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a>
 </details>
 
