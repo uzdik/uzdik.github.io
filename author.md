@@ -4,11 +4,12 @@ title: Авторы
 permalink: /author/
 ---
 
-<div style="position: relative;">
-  <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 0; right: 0; width: 100px; height: 100px;">
-  <!-- Your content goes here -->
-</div>
-
+<div style="max-width: 800px; margin: 20px auto; overflow: hidden;">
+  <div style="float: left; margin-right: 20px;">
+    <img src="\assets\img\uzdik-logo.png" alt="Blog Image" style="height: auto; max-height: 300px; object-fit: cover;">
+  </div>
+<div style="overflow: hidden;"> 
+    
 *Толық аты-жөнім* &mdash; <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>.
 
 *Оңтүстік өңірінде, Шымкент қаласында туып өстім.* 
@@ -34,3 +35,6 @@ permalink: /author/
 
 
 *Мен 2021-жылдан бастап түрлі күрстар жасап, көпшілікпен тегін де, ақылы да бөлісіп келемін. Енді солардың бәрін бір жерге жинап, сіздермен бөлісуді жөн көрдім. Қабыл алыңыздар, мұнда сол өткен курстарымның сілтемелері.*
+
+  </div>
+</div>
