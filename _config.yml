@@ -6,8 +6,8 @@ title:  Үздік GitHub
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Сапалы қазақша IT контенті құру, заманауи қазақ IT әлеуметті қалыптастыру, кәзіргі нарыққа сай келетін біліммен бөлісу. 
+#description: >
+#  Сапалы қазақша IT контенті құру, заманауи қазақ IT әлеуметті қалыптастыру, кәзіргі нарыққа сай келетін біліммен бөлісу. 
   
 # Build settings
 theme: minima
