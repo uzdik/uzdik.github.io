@@ -4,7 +4,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
-  - about.md
+  - author.md
+  - coures.md
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
 minima:
