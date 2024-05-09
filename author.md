@@ -6,9 +6,9 @@ permalink: /author/
 
 <div style="max-width: 800px; margin: 20px auto; overflow: hidden;">
   <div style="float: left; margin-right: 20px;">
-    <img src="\assets\img\uzdik-logo.png" alt="Blog Image" style="height: auto; max-height: 300px; object-fit: cover;">
+    <img src="\assets\img\yergali.png" alt="Blog Image" style="height: auto; max-height: 300px; object-fit: cover;">
   </div>
-<div style="overflow: hidden;"> 
+</div>
     
 *Толық аты-жөнім* &mdash; <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>.
 
@@ -36,5 +36,4 @@ permalink: /author/
 
 *Мен 2021-жылдан бастап түрлі күрстар жасап, көпшілікпен тегін де, ақылы да бөлісіп келемін. Енді солардың бәрін бір жерге жинап, сіздермен бөлісуді жөн көрдім. Қабыл алыңыздар, мұнда сол өткен курстарымның сілтемелері.*
 
-  </div>
-</div>
+  
