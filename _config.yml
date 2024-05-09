@@ -3,17 +3,13 @@ logo: /assets/img/uzdik-logo.png
 show_downloads: false
 theme: jekyll-theme-minimal
 
-header_pages:
-  - Home: /
-  - About: /about
-  - Contact: /contact
-
-social_links:
-  - name: YouTube
-    url: https://www.youtube.com/Uzdik
-  - name: Telegram
-    url: https://t.me/uzdik_bilim
-  - name: Facebook
-    url: https://www.facebook.com/uzdik.bilim
-
+social:
+  type:  Uzdik BILIM ARNA # Person or Organization (defaults to Person)
+  name:  Yergali Berdibayev # If the user or organization name differs from the site's name
+  links:
+    - "https://www.youtube.com/Uzdik"
+    - "https://t.me/uzdik_bilim"
+    - "https://instagram.com/uzdik.bilim"
+    - "https://www.facebook.com/uzdik.bilim"
+    
 
