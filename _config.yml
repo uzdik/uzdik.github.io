@@ -1,4 +1,4 @@
-title: Uzdik GitHub
+title: Үздік GitHub
 logo: /assets/img/uzdik-logo.png
 show_downloads: false
 theme: jekyll-theme-minimal
@@ -9,8 +9,11 @@ header_pages:
   - Contact: /contact
 
 social_links:
-  - name: Facebook
-    url: https://www.facebook.com/YourPage
   - name: YouTube
-    url: https://www.youtube.com/YourChannel
+    url: https://www.youtube.com/Uzdik
+  - name: Telegram
+    url: https://t.me/uzdik_bilim
+  - name: Facebook
+    url: https://www.facebook.com/uzdik.bilim
+
 
