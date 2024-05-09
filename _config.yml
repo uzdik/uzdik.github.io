@@ -39,8 +39,8 @@ minima:
   #date_format: "%b-%d-%Y"
 
   # Generate social links in footer.
-  # social_links:
-    #- { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
-    #- { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
-    #- { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim" }
-    #- { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
+  social_links:
+    - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
+    - { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim" }
+    - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
