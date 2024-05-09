@@ -141,22 +141,22 @@ pre>code {
     vertical-align: text-top
 }
 
+.social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
 .social-media-list li {
   display: inline-block;
   margin-right: 10px; /* Adjust as needed */
   padding-top: 5px; /* Add padding between list items */
 }
 
-.social-links {
-    display: inline-block;
-}
-
 .author {
-    font-size: 14px;
-    color: #828282;
-    font-style: italic; /* Add italic font style */
-    margin: 0 auto; /* Center horizontally */
-    display: block; /* Ensure block level display */
+  font-size: 14px;
+  color: #828282;
+  font-style: italic;
+  margin-left: auto; /* Pushes the author information to the right side */
 }
 
 
