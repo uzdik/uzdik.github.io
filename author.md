@@ -4,6 +4,11 @@ title: Авторы
 permalink: /author/
 ---
 
+<div style="position: relative;">
+  <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 0; right: 0; width: 100px; height: 100px;">
+  <!-- Your content goes here -->
+</div>
+
 *Толық аты-жөнім* &mdash; <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>.
 
 *Оңтүстік өңірінде, Шымкент қаласында туып өстім.* 
