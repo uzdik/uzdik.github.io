@@ -147,6 +147,10 @@ pre>code {
   padding-top: 5px; /* Add padding between list items */
 }
 
+.author {
+    font-size: 14px; /* Adjust as needed */
+    color: #828282;
+}
 
 table {
     margin-bottom: 30px;
