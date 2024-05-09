@@ -147,8 +147,13 @@ pre>code {
   padding-top: 5px; /* Add padding between list items */
 }
 
+.social-links {
+    display: inline-block;
+}
+
 .author {
-    font-size: 14px; /* Adjust as needed */
+    margin-left: auto; /* Pushes the author information to the right side */
+    font-size: 14px;
     color: #828282;
 }
 
