@@ -23,6 +23,10 @@ minima:
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #date_format: "%b-%d-%Y"
+collections:
+  courses:
+    output: true
+
   social_links:
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
