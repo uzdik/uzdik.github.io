@@ -1,5 +1,5 @@
 ---
-layout: courses
+layout: post
 title: "Python — Базалық курстар"
 categories: python
 ---
