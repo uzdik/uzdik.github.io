@@ -7,6 +7,8 @@ title: Python — Базалық курстар
   <details>
     <summary>YouTube Live: Python тілін 0-ден үйрену (5-сабақ)</summary>
     <ul>
+       <li><a href="https://www.youtube.com/watch?v=3fyW2D944cQ" target="_blank">Кіріспе. (алғы сөз)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=aqRX9P1RF-A" target="_blank">1-сабақ. input, print, bool, int, float, str, if else, type, len</a></li>
       <li><a href="https://www.youtube.com/live/3fyW2D944cQ?si=44tW9PUd1d0IJpEm">Кіріспе. (алғы сөз)</a></li>
       <li><a href="https://www.youtube.com/live/aqRX9P1RF-A?si=AgXOXv4zToX0NRXE">1-сабақ. input, print, bool, int, float, str, if else, type, len</a></li>
       <li><a href="https://www.youtube.com/live/R3UUv3VwLms?si=WOwflNo75EEzZCGZ">2-сабақ. loop, for, while, list, pop, remove, sort/sorted, upper/lower, append</a></li>
