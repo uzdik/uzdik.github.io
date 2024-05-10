@@ -1,5 +1,5 @@
 ---
-layout: courses
+layout: course
 title: Курстар
 permalink: /courses/
 ---
