@@ -8,7 +8,7 @@ title: Python — Базалық курстар
     <ul>
        <li><a href="https://www.youtube.com/watch?v=3fyW2D944cQ" target="_blank">Кіріспе. (алғы сөз)</a></li>
       <li><a href="https://www.youtube.com/watch?v=aqRX9P1RF-A" target="_blank">1-сабақ. input, print, bool, int, float, str, if else, type, len</a></li>
-      <li><a href="https://www.youtube.com/live/R3UUv3VwLms?si=WOwflNo75EEzZCGZ" target="_blank">2-сабақ. loop, for, while, list, pop, remove, sort/sorted, upper/lower, append</a></li>
+      <li><a href="https://www.youtube.com/watch?v=WOwflNo75EEzZCGZ" target="_blank">2-сабақ. loop, for, while, list, pop, remove, sort/sorted, upper/lower, append</a></li>
       <li><a href="https://www.youtube.com/live/YNdGO2nDSjs?si=P8_Luu86uDTRZpnt" target="_blank">3-сабақ. 2D list, санау жүйелері, dict, abs, pow, ord, chr</a></li>
       <li><a href="https://www.youtube.com/live/1GcYFDHsuOc?si=OewORO_wo4vC5vfp" target="_blank">4-сабақ. def, math, random, file read/write, lambda</a></li>
       <li><a href="https://www.youtube.com/live/3EKLBz_GfL0?si=e-87pi-gbeHme-UD" target="_blank">5-сабақ. ООП &mdash; объектіге бағытталған бағдарламалау</a></li>
@@ -18,7 +18,7 @@ title: Python — Базалық курстар
 
     <h3>Python тілін 0-ден үйрену (толықтырулар) (8-сабақ)</h3>
     <ul>
-      <li><a href="https://youtu.be/vM5giWjYmQE?si=y5rJwfELdfboaT_o" target="_blank">1-сабақ. Python орнату. Айнымалылар мен типтер</a></li>
+      <li><a href="https://www.youtube.com/watch?v=y5rJwfELdfboaT_o" target="_blank">1-сабақ. Python орнату. Айнымалылар мен типтер</a></li>
       <li><a href="https://youtu.be/OpYDPnR9Ooo?si=j2lVXnID62V4WMDT" target="_blank">2-сабақ. int, input, split, map, bool</a></li>
       <li><a href="https://youtu.be/w81pEv5swqE?si=bQ9yWgC3UclVbx4E" target="_blank">3-сабақ. string, div, mod, acmp, hackerrank</a></li>
       <li><a href="https://youtu.be/zMse4EjK5Uk?si=uf7j2qwfAjFZ37Jg" target="_blank">4-сабақ. F-format, acmp, hackerrank</a></li>
