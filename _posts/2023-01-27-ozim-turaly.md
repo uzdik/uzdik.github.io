@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Жазба 1. Өзім туралы"
-author: Ерғали Тұрарбекұлы
+author: Ерғали Тұрарбекұлы Бердібаев
 categories: personal
 ---
 
