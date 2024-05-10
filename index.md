@@ -4,7 +4,7 @@ layout: page
 
 
 <details>
-  <summary><h2>Алғы сөз</h2></summary>
+  <h2><summary>Алғы сөз</summary></h2>
   <div style="position: relative;">
   <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 30px; left: 0; width: 95px; height: 95px;">
 </div>
