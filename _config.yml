@@ -7,8 +7,7 @@ header_pages:
   - author.md
   - kurstar.md
   - jazbalar.md
-# Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
+
 minima:
   # Minima skin selection.
   # Available skins are:
@@ -19,16 +18,13 @@ minima:
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: classic
-  # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
 
   social_links:
+    - { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim"}
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
     - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
-    - { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim"}
+
 
 permalink: /:categories/:title
 
