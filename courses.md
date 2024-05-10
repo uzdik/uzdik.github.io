@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Курстар
-permalink: /courses/
+title: "Python — Базалық курстар"
+categories: courses
+author:
+- Yergali
 ---
 
 ## [Python — Базалық курстар]()
