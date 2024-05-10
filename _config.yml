@@ -20,8 +20,8 @@ minima:
   skin: classic
 
   social_links:
-    - { platform: telegram,       user_url: "https://t.me/uzdik_bilim" }
-    - { platform: telegram,       user_url: "https://t.me/jekyll" }  
+    - { platform: t,       user_url: "https://t.me/uzdik_bilim" }
+    - { platform: Telegram,       user_url: "https://t.me/jekyll" }  
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
     - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
