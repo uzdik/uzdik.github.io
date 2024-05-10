@@ -1,36 +1,33 @@
 title:  Үздік Білім
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
 header_pages:
   - author.md
   - kurstar.md
   - jazbalar.md
-
-minima:
-  # Minima skin selection.
-  # Available skins are:
-  # classic	           Default, light color scheme.
-  # dark	             Dark variant of the classic skin.
-  # auto	             Adaptive skin based on the default classic and dark skins.
-  # solarized-light	   Light variant of solarized color scheme.
-  # solarized-dark	   Dark variant of solarized color scheme.
-  # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
-
-  social_links:
   
-    - { platform: chat,       user_url: "https://t.me/Uzdik_Bilim_chat", title: "Telegram Chat" }  
-    - { platform: rss,       user_url: "https://t.me/Uzdik_BILIM", title: "Telegram"  }
-    - { platform: chat,       user_url: "https://t.me/Uzdik_Bilim_chat", title: "Telegram Chat" }  
-    - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
-    - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
-    - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
-
-
 permalink: /:categories/:title
 
 collections:
   courses:
     output: true
+    
+minima:
+  # Minima skin selection.
+    # classic	           Default, light color scheme.
+    # dark	             Dark variant of the classic skin.
+    # auto	             Adaptive skin based on the default classic and dark skins.
+    # solarized-light	   Light variant of solarized color scheme.
+    # solarized-dark	   Dark variant of solarized color scheme.
+    # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+  
+  social_links:
+    - { platform: rss,       user_url: "https://t.me/Uzdik_BILIM", title: "Telegram"  }  
+    - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
+    - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
