@@ -20,8 +20,10 @@ minima:
   skin: classic
 
   social_links:
-    - { platform: rss,       user_url: "https://t.me/Uzdik_BILIM" }
-    - { platform: chat,       user_url: "https://t.me/Uzdik_Bilim_chat" }  
+  
+    - { platform: chat,       user_url: "https://t.me/Uzdik_Bilim_chat", title: "Telegram Chat" }  
+    - { platform: rss,       user_url: "https://t.me/Uzdik_BILIM", title: "Telegram"  }
+    - { platform: chat,       user_url: "https://t.me/Uzdik_Bilim_chat", title: "Telegram Chat" }  
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
     - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
