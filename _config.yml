@@ -28,7 +28,7 @@ minima:
     - { platform: youtube,        user_url: "https://www.youtube.com/Uzdik" }
     - { platform: instagram,      user_url: "https://www.instagram.com/uzdik.bilim" }
     - { platform: facebook,       user_url: "https://www.facebook.com/uzdik.bilim" }
-    - { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim" }
+    - { platform: telegram,       user_url: "https://t.me/Uzdik_Bilim" , title: "Telegram"}
 
 permalink: /:categories/:title
 
