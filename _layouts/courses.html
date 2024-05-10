@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<div class="courses">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% assign courses = site.courses %}
+
+  {%- if courses.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="course-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="course-list">
+      {%- for course in courses -%}
+      <li>
+        <h3>
+          <a class="course-link" href="{{ course.url | relative_url }}">
+            {{ course.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ course.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>
