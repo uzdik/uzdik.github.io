@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: courses
 title: "Python — Базалық курстар"
 categories: courses
 author:
