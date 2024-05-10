@@ -9,7 +9,7 @@ layout: base
 
   {{ content }}
 
-
+{%- unless page.path == 'README.md' -%}
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
