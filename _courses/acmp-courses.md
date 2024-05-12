@@ -29,7 +29,7 @@ title: ACMP платформасындағы курстар (37-сабақ)
     </ul>
 </div>
 <p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></p>
-
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Алгоритмдер курсы (17-сабақ)</h3>
@@ -56,3 +56,4 @@ title: ACMP платформасындағы курстар (37-сабақ)
 
 <p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></p>
 
+<hr>
