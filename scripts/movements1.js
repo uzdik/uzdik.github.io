@@ -1,95 +1,82 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['Idea A', 'Idea B', 'Idea C', 'Idea D'];
+  const ideas = ['Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
 
   // Define oval parameters
-  const ovalWidth = 300; // Width of the oval
-  const ovalHeight = 200; // Height of the oval
-  const centerX = window.innerWidth / 2; // X-coordinate of the center of the oval
-  const centerY = window.innerHeight / 2; // Y-coordinate of the center of the oval
+  const ovalWidth = 600; // Width of the oval
+  const ovalHeight = 400; // Height of the oval
   const angleOffset = Math.PI / 8; // Offset for starting angle
 
-  // Create user center image
-  const userImage = document.createElement('img');
-  userImage.src = "/assets/img/uzdik-logo.png";
-  userImage.alt = "User";
-  userImage.classList.add('user-image');
-  centerUser.appendChild(userImage);
+  // Array to store rotation intervals
+  const rotationIntervals = [];
 
-  // Function to calculate the position of an idea on the ellipse
-  function calculatePosition(angle, radiusX, radiusY, centerX, centerY) {
-    const x = centerX + radiusX * Math.cos(angle);
-    const y = centerY + radiusY * Math.sin(angle);
+  // Function to remove all rotation intervals
+  function removeRotationIntervals() {
+    rotationIntervals.forEach(interval => clearInterval(interval));
+  }
+
+  // Function to calculate idea position
+  function calculateIdeaPosition(index, time) {
+    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2;
+    const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
+    const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
+    // Adjust radius for distance from center
+    let radius = ovalWidth / 2 + 200; // 200 pixels further from the center
+
+    // Gradually reduce radius if close to the center
+    radius -= Math.min(time / 1000, 5) * 40; // Reduce radius by up to 40 pixels per second
+    if (radius < 200) {
+      // Start rotation around the center
+      radius = 200; // Maintain a minimum distance from the center
+    }
+    
+    // Calculate x and y positions
+    const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
+    const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
+
     return { x, y };
   }
 
-  // Function to create and initialize an idea
-  function initializeIdea(idea, index) {
-    const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
-    const { x, y } = calculatePosition(angle, ovalWidth / 2, ovalHeight / 2, centerX, centerY);
-    
-    const ideaElement = document.createElement('div');
-    ideaElement.classList.add('idea');
-    ideaElement.textContent = idea;
-    ideaElement.style.left = x + 'px';
-    ideaElement.style.top = y + 'px';
+  // Create ideas clouds rotating around the user in an oval shape
+  ideas.forEach((idea, index) => {
+    const cloud = document.createElement('div');
+    cloud.classList.add('idea');
+    cloud.textContent = idea;
+    document.body.appendChild(cloud);
 
-    // Add event listener to stop rotation when idea is hovered
-    ideaElement.addEventListener('mouseenter', () => {
+    // Set initial position of ideas randomly
+    const randomX = Math.random() * window.innerWidth;
+    const randomY = Math.random() * window.innerHeight;
+    cloud.style.left = randomX + 'px';
+    cloud.style.top = randomY + 'px';
+
+    // Rotate clouds around the user
+    const rotateCloud = () => {
+      const time = Date.now();
+      const { x, y } = calculateIdeaPosition(index, time);
+      cloud.style.left = x + 'px';
+      cloud.style.top = y + 'px';
+    };
+
+    let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
+    rotationIntervals.push(rotationInterval); // Push rotation interval to the array
+
+    // Stop rotation when mouse is over an idea
+    cloud.addEventListener('mouseenter', () => {
       clearInterval(rotationInterval);
     });
 
-    // Add event listener to resume rotation when mouse leaves idea
-    ideaElement.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateIdeas, 50);
+    // Resume rotation when mouse leaves an idea
+    cloud.addEventListener('mouseleave', () => {
+      rotationInterval = setInterval(rotateCloud, 50);
+      rotationIntervals.push(rotationInterval); // Push rotation interval to the array
     });
+  });
 
-    document.body.appendChild(ideaElement);
-
-    return { element: ideaElement, angle };
-  }
-
-  // Initialize and store all ideas
-  const ideaObjects = ideas.map((idea, index) => initializeIdea(idea, index));
-
-  // Function to rotate ideas around the user-center
-  function rotateIdeas() {
-    const time = Date.now();
-    ideaObjects.forEach(({ element, angle }, index) => {
-      const newX = centerX + ovalWidth / 2 * Math.cos(angle + time / 1000 + index * 0.1);
-      const newY = centerY + ovalHeight / 2 * Math.sin(angle + time / 1000 + index * 0.1);
-      element.style.left = newX + 'px';
-      element.style.top = newY + 'px';
-    });
-  }
-
-  // Rotate ideas periodically
-  let rotationInterval = setInterval(rotateIdeas, 50);
-
-  // Function to enlarge the user-center image and stop idea rotation when hovered
-  function handleUserCenterHover() {
-    clearInterval(rotationInterval);
-    userImage.style.transform = 'scale(1.2)';
-    ideaObjects.forEach(({ element }) => {
-      element.style.transition = 'none';
-    });
-  }
-
-  // Function to shrink the user-center image and resume idea rotation when not hovered
-  function handleUserCenterLeave() {
-    rotationInterval = setInterval(rotateIdeas, 50);
-    userImage.style.transform = 'scale(1)';
-    ideaObjects.forEach(({ element }) => {
-      element.style.transition = '';
-    });
-  }
-
-  // Add event listeners for user-center hover and leave
-  centerUser.addEventListener('mouseenter', handleUserCenterHover);
-  centerUser.addEventListener('mouseleave', handleUserCenterLeave);
+  // Remove rotation intervals before unloading the page
+  window.addEventListener('beforeunload', removeRotationIntervals);
 }
-
