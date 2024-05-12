@@ -2,7 +2,7 @@
 layout: course
 title: ACMP платформасындағы курстар (37-сабақ)
 ---
-
+<hr>
 <div class="youtube-spoilers">
     <h3>Информатика олимпиадасын 0-ден үйрену (20-сабақ)</h3>
     <ul>
@@ -28,8 +28,7 @@ title: ACMP платформасындағы курстар (37-сабақ)
         <li><a href="https://www.youtube.com/watch?v=UlSCyMBfw7k" target="_blank">20-сабақ. Функции-2: 1080</a></li>
     </ul>
 </div>
-<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></p>
-<hr>
+<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a><br><hr>
 
 <div class="youtube-spoilers">
     <h3>Алгоритмдер курсы (17-сабақ)</h3>
@@ -53,7 +52,4 @@ title: ACMP платформасындағы курстар (37-сабақ)
         <li><a href="https://www.youtube.com/watch?v=_F6mk52x6gw" target="_blank">17-сабақ. Сегменттегі сома. RSQ. Сумма на отрезках</a></li>
     </ul>
 </div>
-
-<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></p>
-
-<hr>
+<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a><br><hr>
