@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Python — Базалық курстар
+title: Python — Базалық курстар (13-сабақ)
 ---
 
 <div class="youtube-spoilers">
