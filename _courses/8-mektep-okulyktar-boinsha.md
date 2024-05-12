@@ -17,6 +17,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=y_P0qn4Q1Go" target="_blank">3.9 Практикалық жұмыс</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66053642/-6-2020" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 6-сынып</a><br>
 <hr>
 
 <div class="youtube-spoilers">
@@ -33,6 +34,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=6UyNnrUbqsE" target="_blank">4.9-4.10 Практикалық жұмыс</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66053769/-7-2021" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 7-сынып</a><br>
 <hr>
 
 <div class="youtube-spoilers">
@@ -49,6 +51,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=twOLAACMWuI" target="_blank">4.8-4.9 Программалауды үйренейік.</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66053844/-8-2021" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 8-сынып</a><br>
 <hr>
 <div class="youtube-spoilers">
     <h3>Алматыкітап: 9-сынып (10-сабақ)</h3>
@@ -66,6 +69,9 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=u3vkjSDM9BQ" target="_blank">Pygame (пайгейм) кітапханасы</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66053915/-9-2019" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 9-сынып</a><br>
+<a href="https://www.yumpu.com/ru/document/read/66053916/-10-2019" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 10-сынып</a><br>
+<a href="https://www.yumpu.com/ru/document/read/66053918/-11-2020" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Алматыкітап) Информатика 11-сынып</a><br>
 <hr>
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 6-сынып (6-сабақ)</h3>
@@ -78,6 +84,8 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=/29WewCfP5ZI" target="_blank">§20 Мәліметтерді енгізу мен шығару</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66297509/-6-2020" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 6-сынып</a><br>
+<a href="https://www.yumpu.com/ru/document/read/66297920/-7-2021" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 7-сынып</a><br>
 <hr>
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 8-сынып (2-сабақ)</h3>
@@ -86,6 +94,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=/RFKiHdCgzk4" target="_blank">§18-19 FOR циклі</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66297616/-8-2021" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 8-сынып</a><br>
 <hr>
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 9-сынып (2-сабақ)</h3>
@@ -94,4 +103,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=/9H3G4vB5_b8" target="_blank">§18-19. Берілген сипаттары бар элементтерді іздеу</a></li>
     </ul>
 </div>
+<a href="https://www.yumpu.com/ru/document/read/66297663/-9-2019" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 9-сынып</a><br>
+<a href="https://ww.yumpu.com/ru/document/read/66297736/-10-2019" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 10-сынып</a><br>
+<a href="https://www.yumpu.com/ru/document/read/66297802/-11-2020" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 11-сынып</a><br>
 <hr>
