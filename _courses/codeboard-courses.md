@@ -6,7 +6,6 @@ title: Codeboard платформасындағы курстар (16-сабақ)
 <div class="youtube-spoilers">
     <h3>Python - мамыр курсы (8-сабақ)</h3>
     <ul>
-        <li><a href="https://codeboard.io/users/uzdik" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=3mu4OluIVEs" target="_blank">1-сабақ. Codeboard.io платформасында жұмыс істеу.</a></li>
         <li><a href="https://www.youtube.com/watch?v=GESdJGf25Nc" target="_blank">2-сабақ. print, input, comments, type, int, str, f-format</a></li>
         <li><a href="https://www.youtube.com/watch?v=L9-X1EkjLvo" target="_blank">3-сабақ. Арифметика</a></li>
@@ -17,11 +16,12 @@ title: Codeboard платформасындағы курстар (16-сабақ)
         <li><a href="https://www.youtube.com/watch?v=q-gGzMx9Z7Q" target="_blank">8-сабақ. for, while, файлдан оқу-жазу</a></li>
     </ul>
 </div>
+<p><a href="https://codeboard.io/users/uzdik" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a></p>
 
+        
 <div class="youtube-spoilers">
     <h3>Массивтер - маусым курсы (8-сабақ)</h3>
     <ul>
-        <li><a href="https://codeboard.io/users/uzdik" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=Ilyc7hKX5lw" target="_blank">1-сабақ. import array, list, slice</a></li>
         <li><a href="https://www.youtube.com/watch?v=YG4lsK3SxiM" target="_blank">2-сабақ. Үй тапсырмаларын талқылау</a></li>
         <li><a href="https://www.youtube.com/watch?v=jJruzIfc9pc" target="_blank">3-сабақ. for-loop, append, join</a></li>
