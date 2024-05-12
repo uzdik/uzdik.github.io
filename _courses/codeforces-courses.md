@@ -17,7 +17,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=0PY6rHTRVr4" target="_blank">9-сабақ. 2D Массивтер. Пайдалы кітапханалар. 8-9-10-контесттерін талдау</a></li>
     </ul>
 </div>
-<p><a href="https://uzdik.contest.codeforces.com" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a></p>
+<p><a href="https://uzdik.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a></p>
 
 
 <div class="youtube-spoilers">
@@ -33,7 +33,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=nclcVkbq2wo" target="_blank">Сабақ 8. 7-контест талдау</a></li>
     </ul>
 </div>
-<p><a href="https://algo.contest.codeforces.com" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></p>
+<p><a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></p>
 
 <div class="youtube-spoilers">
     <h3>Интенсивті жаздық курс (8-сабақ)</h3>
@@ -49,7 +49,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=E4khr-3COwY" target="_blank">8-сабақ. import fractions, datetime</a></li>
     </ul>
 </div>
-<p><a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
+<p><a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
 
 
 <div class="youtube-spoilers">
@@ -62,5 +62,5 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">5-сабақ. Codeforces группа мен домендік қолданушылар құру. (2)</a></li>
     </ul>
 </div>
-<p><a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></p>
+<p><a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></p>
 
