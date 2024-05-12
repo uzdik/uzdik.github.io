@@ -732,7 +732,7 @@ details {
   /* Adjust the center of the ideas */
   /* You may need to fine-tune these values based on your design */
   left: 50%; /* Adjust left position */
-  top: 50%; /* Adjust top position */
+  top: 45%; /* Adjust top position */
   transform: translate(-50%, -50%); /* Center the idea */
 }
 
@@ -743,8 +743,8 @@ details {
   background-image: url('/assets/img/uzdik-logo.png');
   background-size: cover;
   border-radius: 50%;
-  left: 10%;
-  top: 90%;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure center user is on top */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
