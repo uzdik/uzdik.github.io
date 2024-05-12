@@ -3,8 +3,6 @@ layout: course
 title: ACMP платформасындағы курстар (37-сабақ)
 ---
 
-<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a>
-
 <div class="youtube-spoilers">
     <h3>Информатика олимпиадасын 0-ден үйрену (20-сабақ)</h3>
     <ul>
@@ -30,8 +28,8 @@ title: ACMP платформасындағы курстар (37-сабақ)
         <li><a href="https://www.youtube.com/watch?v=UlSCyMBfw7k" target="_blank">20-сабақ. Функции-2: 1080</a></li>
     </ul>
 </div>
+<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></p>
 
-<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a>
 
 <div class="youtube-spoilers">
     <h3>Алгоритмдер курсы (17-сабақ)</h3>
@@ -56,4 +54,5 @@ title: ACMP платформасындағы курстар (37-сабақ)
     </ul>
 </div>
 
+<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></p>
 
