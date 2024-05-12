@@ -18,6 +18,6 @@ title: Informatics платформасындағы курстар (9-сабақ
         <li><a href="https://www.youtube.com/watch?v=aa5YwNRpFwg" target="_blank">Сабақ 9. Екі өлшемді массив тапсырмалары</a></li>
     </ul>
 </div>
-<p><a href="https://informatics.msk.ru/course/view.php?id=5394" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a></p>
+<p><a href="https://informatics.msk.ru/course/view.php?id=5394" target="_blank" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a></p>
 
 
