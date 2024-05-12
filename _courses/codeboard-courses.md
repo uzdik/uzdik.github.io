@@ -16,7 +16,8 @@ title: Codeboard платформасындағы курстар (16-сабақ)
         <li><a href="https://www.youtube.com/watch?v=q-gGzMx9Z7Q" target="_blank">8-сабақ. for, while, файлдан оқу-жазу</a></li>
     </ul>
 </div>
-<a href="https://codeboard.io/users/uzdik" target="_blank" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a><br><hr>
+<a href="https://codeboard.io/users/uzdik" target="_blank" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a><br>
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Массивтер - маусым курсы (8-сабақ)</h3>
