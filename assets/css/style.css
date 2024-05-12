@@ -720,3 +720,30 @@ table td {
 .idea:hover, .center-user:hover {
   transform: scale(1.1); /* Make the hovered element slightly bigger */
 }
+
+details {
+    background-color: #f0f0f0; /* Set background color for the details */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    margin-bottom: 10px; /* Add some margin */
+    padding: 10px; /* Add padding */
+  }
+
+  details[open] {
+    background-color: #fff; /* Change background color when details are open */
+  }
+
+  summary {
+    font-size: 24px;
+    color: #333; /* Set color for the summary */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+  summary:hover {
+    color: #555; /* Change color on hover */
+  }
+
+  .content {
+    color: #444; /* Set color for the content */
+    margin-top: 10px; /* Add some margin */
+  }
