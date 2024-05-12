@@ -18,7 +18,8 @@ title: Codeboard платформасындағы курстар (16-сабақ)
 </div>
 <p><a href="https://codeboard.io/users/uzdik" target="_blank" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a></p>
 
-        
+<hr>
+
 <div class="youtube-spoilers">
     <h3>Массивтер - маусым курсы (8-сабақ)</h3>
     <ul>
