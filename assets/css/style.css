@@ -701,6 +701,12 @@ table td {
   transition: all 0.5s ease-in-out; /* Slower transition */
   cursor: pointer; /* Change cursor to pointer */
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  
+  /* Adjust the center of the ideas */
+  /* You may need to fine-tune these values based on your design */
+  left: 50%; /* Adjust left position */
+  top: 50%; /* Adjust top position */
+  transform: translate(-50%, -50%); /* Center the idea */
 }
 
 
