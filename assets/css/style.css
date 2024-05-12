@@ -703,6 +703,7 @@ table td {
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
+
 .center-user {
   position: absolute;
   width: 100px;
@@ -717,8 +718,8 @@ table td {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.idea:hover, .center-user:hover {
-  transform: scale(1.1); /* Make the hovered element slightly bigger */
+.center-user:hover {
+  transform: translate(-50%, -50%) scale(1.1); /* Apply scale without affecting position */
 }
 
 details {
