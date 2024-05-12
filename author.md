@@ -6,10 +6,6 @@ permalink: /author/
 <details>
   <summary style="font-size: 24px;">Алғы сөз</summary>
   <div class="content">
-  <div style="position: relative;">
-  <img src="\assets\img\uzdik-logo.png" alt="Image" style="position: absolute; top: 30px; left: 0; width: 95px; height: 95px;">
-</div>
-
 <p style="text-align: center;"><b><i>Қош келдіңіз - Үздік Білімпаз!</i></b></p>
 <p style="text-align: right;">
 <i>Жаңа қадамдарыңыз оңынан болсын!<br>
