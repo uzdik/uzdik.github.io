@@ -36,7 +36,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     ideaElement.classList.add('idea');
     ideaElement.textContent = idea;
     ideaElement.style.left = x + 'px';
-    ideaElement.style.top =     ideaElement.style.top = y + 'px';
+    ideaElement.style.top = y + 'px';
 
     // Add event listener to stop rotation when idea is hovered
     ideaElement.addEventListener('mouseenter', () => {
