@@ -732,8 +732,8 @@ details {
   /* Adjust the center of the ideas */
   /* You may need to fine-tune these values based on your design */
   left: 50%; /* Adjust left position */
-  top: 45%; /* Adjust top position */
-  transform: translate(-50%, -45%); /* Center the idea */
+  top: 50%; /* Adjust top position */
+  transform: translate(-50%, -80%); /* Center the idea */
 }
 
 .center-user {
