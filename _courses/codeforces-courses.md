@@ -2,10 +2,11 @@
 layout: course
 title: Codeforces платформасындағы курстар (30-сабақ)
 ---
+<a href="https://uzdik.contest.codeforces.com" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a>
+
 <div class="youtube-spoilers">
     <h3>Python 0-ден бастау (9-сабақ)</h3>
     <ul>
-        <li><a href="https://uzdik.contest.codeforces.com" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=X-XxcQxSDRI" target="_blank">1-сабақ. Кіріспе. Input-Print</a></li>
         <li><a href="https://www.youtube.com/watch?v=zyEE9nAy3jo" target="_blank">2-сабақ. Арифметика 1-контестін талдау</a></li>
         <li><a href="https://www.youtube.com/watch?v=GL4xhB7WaP0" target="_blank">3-сабақ. Шарттар 2-контестін талдау</a></li>
@@ -17,11 +18,11 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=0PY6rHTRVr4" target="_blank">9-сабақ. 2D Массивтер. Пайдалы кітапханалар. 8-9-10-контесттерін талдау</a></li>
     </ul>
 </div>
+<a href="https://algo.contest.codeforces.com" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a>
 
 <div class="youtube-spoilers">
     <h3>Алгоритм. Бастауыш деңгей (8-сабақ)</h3>
     <ul>
-        <li><a href="https://algo.contest.codeforces.com" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">Сабақ 1. Арифметика</a></li>
         <li><a href="https://www.youtube.com/watch?v=tTK2RH5WJ-w" target="_blank">Сабақ 2. 1-контест талдау</a></li>
         <li><a href="https://www.youtube.com/watch?v=1CcNX4YGu24" target="_blank">Сабақ 3. Big O. Массив. Цикл. Жай сан. Кезек.</a></li>
@@ -50,11 +51,10 @@ title: Codeforces платформасындағы курстар (30-сабақ
     </ul>
 </div>
 
-
+<a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a>
 <div class="youtube-spoilers">
     <h3>Polygon-да есеп құру сабақтары (5-сабақ)</h3>
     <ul>
-        <li><a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></li>
         <li><a href="https://www.youtube.com/watch?v=-RySti3XQdw" target="_blank">1-сабақ. Codeforces архив есептері арқылы құру.</a></li>
         <li><a href="https://www.youtube.com/watch?v=lHocyjZ-dCc" target="_blank">2-сабақ. Codeforces Polygon үйрету. IOI есеп құру.</a></li>
         <li><a href="https://www.youtube.com/watch?v=3NVygRFIo40" target="_blank">3-сабақ. Codeforces Polygon үйрету. Кездейсоқ тесттер құру.</a></li>
