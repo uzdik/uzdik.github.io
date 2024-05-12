@@ -28,7 +28,7 @@ title: ACMP платформасындағы курстар (37-сабақ)
         <li><a href="https://www.youtube.com/watch?v=UlSCyMBfw7k" target="_blank">20-сабақ. Функции-2: 1080</a></li>
     </ul>
 </div>
-<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></p>
+<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></p>
 
 
 <div class="youtube-spoilers">
@@ -54,5 +54,5 @@ title: ACMP платформасындағы курстар (37-сабақ)
     </ul>
 </div>
 
-<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></p>
+<p><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" target="_blank" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></p>
 
