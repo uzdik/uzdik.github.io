@@ -2,7 +2,6 @@
 layout: course
 title: Codeforces платформасындағы курстар (30-сабақ)
 ---
-<a href="https://uzdik.contest.codeforces.com" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a>
 
 <div class="youtube-spoilers">
     <h3>Python 0-ден бастау (9-сабақ)</h3>
@@ -18,7 +17,8 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=0PY6rHTRVr4" target="_blank">9-сабақ. 2D Массивтер. Пайдалы кітапханалар. 8-9-10-контесттерін талдау</a></li>
     </ul>
 </div>
-<a href="https://algo.contest.codeforces.com" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a>
+<p><a href="https://uzdik.contest.codeforces.com" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a></p>
+
 
 <div class="youtube-spoilers">
     <h3>Алгоритм. Бастауыш деңгей (8-сабақ)</h3>
@@ -33,7 +33,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=nclcVkbq2wo" target="_blank">Сабақ 8. 7-контест талдау</a></li>
     </ul>
 </div>
-
+<p><a href="https://algo.contest.codeforces.com" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></p>
 
 <div class="youtube-spoilers">
     <h3>Интенсивті жаздық курс (8-сабақ)</h3>
@@ -47,11 +47,11 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=KAFoho9FiC8" target="_blank">6-сабақ. import re</a></li>
         <li><a href="https://www.youtube.com/watch?v=l6LFib8G8eI" target="_blank">7-сабақ. import collections</a></li>
         <li><a href="https://www.youtube.com/watch?v=E4khr-3COwY" target="_blank">8-сабақ. import fractions, datetime</a></li>
-        <li><a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></li>
     </ul>
 </div>
+<p><a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
 
-<a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a>
+
 <div class="youtube-spoilers">
     <h3>Polygon-да есеп құру сабақтары (5-сабақ)</h3>
     <ul>
@@ -62,5 +62,5 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">5-сабақ. Codeforces группа мен домендік қолданушылар құру. (2)</a></li>
     </ul>
 </div>
-
+<p><a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></p>
 
