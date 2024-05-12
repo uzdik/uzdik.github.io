@@ -25,7 +25,15 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
     const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
     // Adjust radius for distance from center
-    const radius = ovalWidth / 2 + 200; // 200 pixels further from the center
+    let radius = ovalWidth / 2 + 200; // 200 pixels further from the center
+
+    // Gradually reduce radius if close to the center
+    radius -= Math.min(time / 1000, 5) * 40; // Reduce radius by up to 40 pixels per second
+    if (radius < 200) {
+      // Start rotation around the center
+      radius = 200; // Maintain a minimum distance from the center
+    }
+    
     // Calculate x and y positions
     const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
     const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
@@ -40,10 +48,11 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     cloud.textContent = idea;
     document.body.appendChild(cloud);
 
-    // Set initial position of ideas
-    const { x, y } = calculateIdeaPosition(index, Date.now());
-    cloud.style.left = x + 'px';
-    cloud.style.top = y + 'px';
+    // Set initial position of ideas randomly
+    const randomX = Math.random() * window.innerWidth;
+    const randomY = Math.random() * window.innerHeight;
+    cloud.style.left = randomX + 'px';
+    cloud.style.top = randomY + 'px';
 
     // Rotate clouds around the user
     const rotateCloud = () => {
