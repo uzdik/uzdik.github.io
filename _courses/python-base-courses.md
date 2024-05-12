@@ -2,7 +2,7 @@
 layout: course
 title: Python — Базалық курстар (13-сабақ)
 ---
-
+<hr>
 <div class="youtube-spoilers">
     <h3>YouTube Live: Python тілін 0-ден үйрену (5-сабақ)</h3>
     <ul>
@@ -14,7 +14,7 @@ title: Python — Базалық курстар (13-сабақ)
 <li><a href="https://www.youtube.com/watch?v=3EKLBz_GfL0" target="_blank">5-сабақ. ООП &mdash; объектіге бағытталған бағдарламалау</a></li>
     </ul>
 </div>
-<p><a href="https://drive.google.com/file/d/1gCqn4CsUEfqs0LURa4d_92nzTo567MR4/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
+<a href="https://drive.google.com/file/d/1gCqn4CsUEfqs0LURa4d_92nzTo567MR4/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a><br>
 <hr>
 
 <div class="youtube-spoilers">
