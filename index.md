@@ -20,3 +20,5 @@ layout: page
 <i><b>Ерғали Тұрарбекұлы Бердібаев</b></i>
 </p>
 </details>
+
+<div class="center-user"></div>
