@@ -84,14 +84,15 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
 
   // Resume rotation when mouse leaves the center user
   centerUser.addEventListener('mouseleave', () => {
-    ideas.forEach((idea, index) => {
+    rotationIntervals.forEach((interval, index) => {
+      const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
       const rotationInterval = setInterval(() => {
         const time = Date.now();
         const { x, y } = calculateIdeaPosition(index, time);
-        ideas[index].style.left = x + 'px';
-        ideas[index].style.top = y + 'px';
+        cloud.style.left = x + 'px';
+        cloud.style.top = y + 'px';
       }, 50);
-      rotationIntervals.push(rotationInterval);
+      rotationIntervals[index] = rotationInterval;
     });
   });
 
