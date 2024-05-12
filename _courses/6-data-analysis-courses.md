@@ -11,7 +11,7 @@ title: Yandex.contest - Python көмегімен деректерді талд�
         <li><a href="https://www.youtube.com/watch?v=UBXsgHCrpvs" target="_blank">3-сабақ. Python Цикл. For-While loop</a></li>
         <li><a href="https://www.youtube.com/watch?v=vzVliy1EyYA" target="_blank">4-сабақ. Реттелген python дата типтері. List. Dict. Tuple. Set</a></li>
         <li><a href="https://www.youtube.com/watch?v=am98doUh7Tk" target="_blank">5-сабақ. Функция мен процедуралар. Екі өлшемді массивтер</a></li>
-        <li><a href="https://www.youtube.com/watch?v=Bf8fRIqCY4E" target="_blank">6-сабақ. Стандартты кітапханалар. Math. Collections. Itertools. Try except. Zip. Eval. Bin. Oct. Hex</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Bf8fRIqCY4E" target="_blank">6-сабақ. Стандарт кітапханалар. Math. Collections. Itertools. Try. Zip. Eval. Bin. Oct. Hex</a></li>
         <li><a href="https://www.youtube.com/watch?v=6pEbKApU-n8" target="_blank">7-сабақ. Файлдармен жұмыс. Read. Readlines. Write. Writelines.</a></li>
         <li><a href="https://www.youtube.com/watch?v=UyRZ4cicqmQ" target="_blank">8-сабақ. Jupyter Notebook орнату. Numpy кітапханасы</a></li>
         <li><a href="https://www.youtube.com/watch?v=MpVKL-6-5Mk" target="_blank">9-сабақ. Numpy Random мен Pandas кітапханасы</a></li>
