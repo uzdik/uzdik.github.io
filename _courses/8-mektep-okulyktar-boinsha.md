@@ -10,8 +10,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
         <li><a href="https://www.youtube.com/watch?v=jj12O9Wd0qE" target="_blank">3.1 IDE-мен танысу</a></li>
         <li><a href="https://www.youtube.com/watch?v=1NtrhEHJNJc" target="_blank">3.2 Тіл алфавиті. Синтаксис.</a></li>
         <li><a href="https://www.youtube.com/watch?v=tn8_uxhwTbc" target="_blank">3.3 Деректердің типтері</a></li>
-        <li><a href="https://www.youtube.com/watch?v=tn8_uxhwTbc" target="_blank">3.3 Деректердің типтері</a></li>
-        <li><a href="https://www.youtube.com/watch?v=PTKwx9lVQyo" target="_blank">3.4 </a></li>
+        <li><a href="https://www.youtube.com/watch?v=PTKwx9lVQyo" target="_blank">3.4 Арифметикалық өрнектер</a></li>
         <li><a href="https://www.youtube.com/watch?v=Wvs9g71uYcQ" target="_blank">3.5-3.6 Практикалық тапсырмалар</a></li>
         <li><a href="https://www.youtube.com/watch?v=s_K3m-Y6fXs" target="_blank">3.7 Санды енгізу және шығару</a></li>
         <li><a href="https://www.youtube.com/watch?v=JBalQbgXqyk" target="_blank">3.8 Сызықтық алгоритмдерді программалау</a></li>
