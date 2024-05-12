@@ -743,8 +743,8 @@ details {
   background-image: url('/assets/img/uzdik-logo.png');
   background-size: cover;
   border-radius: 50%;
-  left: 50%;
-  top: 50%;
+  left: 10%;
+  top: 90%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure center user is on top */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
