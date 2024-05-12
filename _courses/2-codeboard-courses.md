@@ -1,6 +1,6 @@
 ---
 layout: course
-title: 2. Codeboard платформасындағы курстар (16-сабақ)
+title: Codeboard платформасындағы курстар (16-сабақ)
 ---
 <hr>
 <div class="youtube-spoilers">
