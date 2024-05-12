@@ -6,6 +6,11 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
   // Create the center user
   const centerUser = document.querySelector('.center-user');
 
+  // Define oval parameters
+  const ovalWidth = 600; // Width of the oval
+  const ovalHeight = 400; // Height of the oval
+  const angleOffset = Math.PI / 8; // Offset for starting angle
+
   // Array to store rotation intervals
   const rotationIntervals = [];
 
@@ -14,66 +19,52 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.forEach(interval => clearInterval(interval));
   }
 
-  // Function to calculate random idea position within the visible area of the screen
-  function calculateRandomIdeaPosition() {
-    const randomX = Math.random() * (window.innerWidth - 200); // Subtracting 200 to keep ideas within visible area
-    const randomY = Math.random() * (window.innerHeight - 200); // Subtracting 200 to keep ideas within visible area
-    return { x: randomX, y: randomY };
+  // Function to calculate idea position
+  function calculateIdeaPosition(index, time) {
+    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2;
+    const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
+    const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
+    // Adjust radius for distance from center
+    const radius = ovalWidth / 2 + 200; // 200 pixels further from the center
+    // Calculate x and y positions
+    const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
+    const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
+
+    return { x, y };
   }
 
-  // Create ideas clouds with random positions
+  // Create ideas clouds rotating around the user in an oval shape
   ideas.forEach((idea, index) => {
     const cloud = document.createElement('div');
     cloud.classList.add('idea');
     cloud.textContent = idea;
     document.body.appendChild(cloud);
 
-    // Move ideas to random positions
-    const randomPosition = calculateRandomIdeaPosition();
-    cloud.style.left = randomPosition.x + 'px';
-    cloud.style.top = randomPosition.y + 'px';
+    // Set initial position of ideas
+    const { x, y } = calculateIdeaPosition(index, Date.now());
+    cloud.style.left = x + 'px';
+    cloud.style.top = y + 'px';
+
+    // Rotate clouds around the user
+    const rotateCloud = () => {
+      const time = Date.now();
+      const { x, y } = calculateIdeaPosition(index, time);
+      cloud.style.left = x + 'px';
+      cloud.style.top = y + 'px';
+    };
+
+    let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
+    rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
     // Stop rotation when mouse is over an idea
     cloud.addEventListener('mouseenter', () => {
-      clearInterval(rotationIntervals[index]);
+      clearInterval(rotationInterval);
     });
 
     // Resume rotation when mouse leaves an idea
     cloud.addEventListener('mouseleave', () => {
-      if (!centerUser.classList.contains('hovered')) {
-        rotationIntervals[index] = setInterval(() => {
-          const randomPosition = calculateRandomIdeaPosition();
-          cloud.style.left = randomPosition.x + 'px';
-          cloud.style.top = randomPosition.y + 'px';
-        }, 50);
-      }
-    });
-
-    // Rotate clouds around the user
-    rotationIntervals[index] = setInterval(() => {
-      const randomPosition = calculateRandomIdeaPosition();
-      cloud.style.left = randomPosition.x + 'px';
-      cloud.style.top = randomPosition.y + 'px';
-    }, 50);
-  });
-
-  // Stop rotation when mouse is over the center user
-  centerUser.addEventListener('mouseenter', () => {
-    centerUser.classList.add('hovered');
-    removeRotationIntervals();
-  });
-
-  // Resume rotation when mouse leaves the center user
-  centerUser.addEventListener('mouseleave', () => {
-    centerUser.classList.remove('hovered');
-    ideas.forEach((idea, index) => {
-      if (!document.querySelector('.idea:hover')) {
-        rotationIntervals[index] = setInterval(() => {
-          const randomPosition = calculateRandomIdeaPosition();
-          document.querySelectorAll('.idea')[index].style.left = randomPosition.x + 'px';
-          document.querySelectorAll('.idea')[index].style.top = randomPosition.y + 'px';
-        }, 50);
-      }
+      rotationInterval = setInterval(rotateCloud, 50);
+      rotationIntervals.push(rotationInterval); // Push rotation interval to the array
     });
   });
 
