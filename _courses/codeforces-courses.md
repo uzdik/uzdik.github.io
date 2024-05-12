@@ -56,7 +56,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
     <ul>
         <li><a href="https://polygon.codeforces.com" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></li>
         <li><a href="https://www.youtube.com/watch?v=-RySti3XQdw" target="_blank">1-сабақ. Codeforces архив есептері арқылы құру.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=lHocyjZ-dCcһ" target="_blank">2-сабақ. Codeforces Polygon үйрету. IOI есеп құру.</a></li>
+        <li><a href="https://www.youtube.com/watch?v=lHocyjZ-dCc" target="_blank">2-сабақ. Codeforces Polygon үйрету. IOI есеп құру.</a></li>
         <li><a href="https://www.youtube.com/watch?v=3NVygRFIo40" target="_blank">3-сабақ. Codeforces Polygon үйрету. Кездейсоқ тесттер құру.</a></li>
         <li><a href="https://www.youtube.com/watch?v=yKkkKQkHobE" target="_blank">4-сабақ. Codeforces группа мен домендік қолданушылар құру. (1)</a></li>
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">5-сабақ. Codeforces группа мен домендік қолданушылар құру. (2)</a></li>
