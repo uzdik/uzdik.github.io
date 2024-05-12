@@ -13,8 +13,8 @@ title: Python — Базалық курстар
 <li><a href="https://www.youtube.com/watch?v=1GcYFDHsuOc" target="_blank">4-сабақ. def, math, random, file read/write, lambda</a></li>
 <li><a href="https://www.youtube.com/watch?v=3EKLBz_GfL0" target="_blank">5-сабақ. ООП &mdash; объектіге бағытталған бағдарламалау</a></li>
     </ul>
-
-
+</div>
+<div class="youtube-spoilers">
     <h3>Python тілін 0-ден үйрену (толықтырулар) (8-сабақ)</h3>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=vM5giWjYmQE" target="_blank">1-сабақ. Python орнату. Айнымалылар мен типтер</a></li>
