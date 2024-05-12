@@ -717,7 +717,7 @@ details {
 .idea {
   position: absolute;
   width: 100px;
-  height: 50px;
+  height: 30px;
   background-color: #90CAF9;
   border-radius: 20px;
   padding: 10px;
@@ -751,5 +751,5 @@ details {
 }
 
 .center-user:hover {
-  transform: translate(-50%, -50%) scale(1.1); /* Apply scale without affecting position */
+  transform: translate(-50%, -50%) scale(1.2); /* Apply scale without affecting position */
 }
