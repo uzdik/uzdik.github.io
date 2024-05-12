@@ -17,7 +17,8 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=0PY6rHTRVr4" target="_blank">9-сабақ. 2D Массивтер. Пайдалы кітапханалар. 8-9-10-контесттерін талдау</a></li>
     </ul>
 </div>
-<a href="https://uzdik.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a><br><hr>
+<a href="https://uzdik.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a><br>
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Алгоритм. Бастауыш деңгей (8-сабақ)</h3>
@@ -60,4 +61,5 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">5-сабақ. Codeforces группа мен домендік қолданушылар құру. (2)</a></li>
     </ul>
 </div>
-<a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a><hr>
+<a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a>
+<hr>
