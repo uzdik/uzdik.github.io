@@ -4,7 +4,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 ---
 <hr>
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Алматыкітап: 6-сынып (9-сабақ)</h3>
+    <h3>Алматыкітап: 6-сынып (9-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=KDoEtMxOCRs" target="_blank">3-тоқсан. Python орнату</a></li>
         <li><a href="https://www.youtube.com/watch?v=jj12O9Wd0qE" target="_blank">3.1 IDE-мен танысу</a></li>
@@ -20,7 +20,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <hr>
 
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Алматыкітап: 7-сынып (10-сабақ)</h3>
+    <h3>Алматыкітап: 7-сынып (10-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=SIqvyQlVVvY" target="_blank">3-тоқсан. Файлмен жұмыс (1)</a></li>
         <li><a href="https://www.youtube.com/watch?v=trapGb995OA" target="_blank">4.1 Файлмен жұмыс (2)</a></li>
@@ -36,7 +36,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <hr>
 
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Алматыкітап: 8-сынып (9-сабақ)</h3>
+    <h3>Алматыкітап: 8-сынып (9-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=yRYO0519Cjs" target="_blank">4.1 FOR циклі</a></li>
         <li><a href="https://www.youtube.com/watch?v=0VQfSrSbzSM" target="_blank">4.1 FOR циклі (Жалғасы)</a></li>
@@ -51,7 +51,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 </div>
 <hr>
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Алматыкітап: 9-сынып (10-сабақ)</h3>
+    <h3>Алматыкітап: 9-сынып (10-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=kDLPkJjfOF8" target="_blank">4.1 Бірөлшемді массив</a></li>
         <li><a href="https://www.youtube.com/watch?v=nO1EU72CBAM" target="_blank">4.2 Бірөлшемді массивтерге деректер енгізу</a></li>
@@ -68,7 +68,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 </div>
 <hr>
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Арман ПВ: 6-сынып (6-сабақ)</h3>
+    <h3>Арман ПВ: 6-сынып (6-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=/TMNiF1fNxr4" target="_blank">§15 Python IDE-мен танысу</a></li>
         <li><a href="https://www.youtube.com/watch?v=/hR03xLZVRfI" target="_blank">§16 Тіл әліпбиі. Синтаксис</a></li>
@@ -80,7 +80,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 </div>
 <hr>
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Арман ПВ: 8-сынып (2-сабақ)</h3>
+    <h3>Арман ПВ: 8-сынып (2-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=/PzK1OMQYaNU" target="_blank">§17 WHILE циклі</a></li>
         <li><a href="https://www.youtube.com/watch?v=/RFKiHdCgzk4" target="_blank">§18-19 FOR циклі</a></li>
@@ -88,7 +88,7 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 </div>
 <hr>
 <div class="youtube-spoilers">
-    <h3>YouTube Live: Арман ПВ: 9-сынып (2-сабақ)</h3>
+    <h3>Арман ПВ: 9-сынып (2-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=/F1_gn5jNC_E" target="_blank">§16-17. Бірөлшемді массив</a></li>
         <li><a href="https://www.youtube.com/watch?v=/9H3G4vB5_b8" target="_blank">§18-19. Берілген сипаттары бар элементтерді іздеу</a></li>
