@@ -33,8 +33,9 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=nclcVkbq2wo" target="_blank">Сабақ 8. 7-контест талдау</a></li>
     </ul>
 </div>
-<p><a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></p>
+<a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a>
 <hr>
+
 <div class="youtube-spoilers">
     <h3>Интенсивті жаздық курс (8-сабақ)</h3>
     <ul>
@@ -49,7 +50,8 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=E4khr-3COwY" target="_blank">8-сабақ. import fractions, datetime</a></li>
     </ul>
 </div>
-<a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a><br><hr>
+<a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a><br>
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Polygon-да есеп құру сабақтары (5-сабақ)</h3>
