@@ -11,6 +11,14 @@ const centerX = window.innerWidth / 2; // X-coordinate of the center of the oval
 const centerY = window.innerHeight / 2; // Y-coordinate of the center of the oval
 const angleOffset = Math.PI / 8; // Offset for starting angle
 
+// Array to store rotation intervals
+const rotationIntervals = [];
+
+// Function to remove all rotation intervals
+function removeRotationIntervals() {
+  rotationIntervals.forEach(interval => clearInterval(interval));
+}
+
 // Create ideas clouds rotating around the user in an oval shape
 ideas.forEach((idea, index) => {
   const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
@@ -24,38 +32,43 @@ ideas.forEach((idea, index) => {
   cloud.style.top = y + 'px';
   document.body.appendChild(cloud);
 
- // Rotate clouds around the user
-    const rotateCloud = () => {
-      if (!mouseIsOver) { // Check if mouse is not over any idea or center user
-        const time = Date.now();
-        const newX = centerX + ovalWidth / 2 * Math.cos(angle + time / 1000 + index * 0.1);
-        const newY = centerY + ovalHeight / 2 * Math.sin(angle + time / 1000 + index * 0.1);
-        cloud.style.left = newX + 'px';
-        cloud.style.top = newY + 'px';
-      }
-    };
+  // Rotate clouds around the user
+  const rotateCloud = () => {
+    if (!mouseIsOver) { // Check if mouse is not over any idea or center user
+      const time = Date.now();
+      const newX = centerX + ovalWidth / 2 * Math.cos(angle + time / 1000 + index * 0.1);
+      const newY = centerY + ovalHeight / 2 * Math.sin(angle + time / 1000 + index * 0.1);
+      cloud.style.left = newX + 'px';
+      cloud.style.top = newY + 'px';
+    }
+  };
 
-    let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
-    let mouseIsOver = false;
+  let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
+  rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
-    // Stop rotation when mouse is over an idea or center user
-    cloud.addEventListener('mouseenter', () => {
-      clearInterval(rotationInterval);
-      mouseIsOver = true;
-    });
+  let mouseIsOver = false;
 
-    cloud.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateCloud, 50);
-      mouseIsOver = false;
-    });
-
-    centerUser.addEventListener('mouseenter', () => {
-      clearInterval(rotationInterval);
-      mouseIsOver = true;
-    });
-
-    centerUser.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateCloud, 50);
-      mouseIsOver = false;
-    });
+  // Stop rotation when mouse is over an idea or center user
+  cloud.addEventListener('mouseenter', () => {
+    clearInterval(rotationInterval);
+    mouseIsOver = true;
   });
+
+  cloud.addEventListener('mouseleave', () => {
+    rotationInterval = setInterval(rotateCloud, 50);
+    mouseIsOver = false;
+  });
+
+  centerUser.addEventListener('mouseenter', () => {
+    clearInterval(rotationInterval);
+    mouseIsOver = true;
+  });
+
+  centerUser.addEventListener('mouseleave', () => {
+    rotationInterval = setInterval(rotateCloud, 50);
+    mouseIsOver = false;
+  });
+});
+
+// Remove rotation intervals before unloading the page
+window.addEventListener('beforeunload', removeRotationIntervals);
