@@ -18,7 +18,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
     </ul>
 </div>
 <p><a href="https://uzdik.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">uzdik.contest.codeforces.com тапсырмалары</a></p>
-
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Алгоритм. Бастауыш деңгей (8-сабақ)</h3>
@@ -34,7 +34,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
     </ul>
 </div>
 <p><a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a></p>
-
+<hr>
 <div class="youtube-spoilers">
     <h3>Интенсивті жаздық курс (8-сабақ)</h3>
     <ul>
@@ -50,7 +50,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
     </ul>
 </div>
 <p><a href="https://drive.google.com/file/d/19I2jbifTVZ6DYHoyycVHlaYOpnSy-rHF/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
-
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Polygon-да есеп құру сабақтары (5-сабақ)</h3>
@@ -63,4 +63,4 @@ title: Codeforces платформасындағы курстар (30-сабақ
     </ul>
 </div>
 <p><a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a></p>
-
+<hr>
