@@ -19,5 +19,4 @@ title: Informatics платформасындағы курстар (9-сабақ
     </ul>
 </div>
 <p><a href="https://informatics.msk.ru/course/view.php?id=5394" target="_blank" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a></p>
-
-
+<hr>
