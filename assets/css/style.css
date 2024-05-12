@@ -687,47 +687,6 @@ table td {
     color: #099
 }
 
-.idea {
-  position: absolute;
-  width: 100px;
-  height: 50px;
-  background-color: #90CAF9;
-  border-radius: 20px;
-  padding: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  text-align: center;
-  line-height: 1.4;
-  transition: all 0.5s ease-in-out; /* Slower transition */
-  cursor: pointer; /* Change cursor to pointer */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  
-  /* Adjust the center of the ideas */
-  /* You may need to fine-tune these values based on your design */
-  left: 50%; /* Adjust left position */
-  top: 50%; /* Adjust top position */
-  transform: translate(-50%, -50%); /* Center the idea */
-}
-
-
-.center-user {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-image: url('/assets/img/uzdik-logo.png');
-  background-size: cover;
-  border-radius: 50%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1; /* Ensure center user is on top */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.center-user:hover {
-  transform: translate(-50%, -50%) scale(1.1); /* Apply scale without affecting position */
-}
-
 details {
     background-color: #f0f0f0; /* Set background color for the details */
     border: 1px solid #ccc; /* Add border */
@@ -754,3 +713,50 @@ details {
     color: #444; /* Set color for the content */
     margin-top: 10px; /* Add some margin */
   }
+
+.idea {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #90CAF9;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4;
+  transition: all 0.5s ease-in-out; /* Slower transition */
+  cursor: pointer; /* Change cursor to pointer */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  /* Center the idea */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Ensure ideas appear below the center user */
+  z-index: 0; /* Lower z-index */
+}
+
+.idea:hover {
+  transform: scale(1.1); /* Make the hovered idea slightly bigger */
+  z-index: 1; /* Ensure hovered idea appears above other ideas */
+}
+
+.center-user {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('/assets/img/uzdik-logo.png');
+  background-size: cover;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Ensure center user is on top of ideas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.center-user:hover {
+  transform: scale(1.1); /* Apply scale without affecting position */
+}
