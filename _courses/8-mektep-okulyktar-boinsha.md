@@ -67,6 +67,31 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
     </ul>
 </div>
 <hr>
-
-
-
+<div class="youtube-spoilers">
+    <h3>YouTube Live: Арман ПВ: 6-сынып (6-сабақ)</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=/TMNiF1fNxr4" target="_blank">§15 Python IDE-мен танысу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/hR03xLZVRfI" target="_blank">§16 Тіл әліпбиі. Синтаксис</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/PmnmMG6xkfo" target="_blank">§17 Мәліметтер типтері</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/0FHbX3m4NwA" target="_blank">§18 Мәліметтер типтерін жіктеу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/WQnE0VfGESI" target="_blank">§19 Арифметикалық өрнектердің жазылуы</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/29WewCfP5ZI" target="_blank">§20 Мәліметтерді енгізу мен шығару</a></li>
+    </ul>
+</div>
+<hr>
+<div class="youtube-spoilers">
+    <h3>YouTube Live: Арман ПВ: 8-сынып (2-сабақ)</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=/PzK1OMQYaNU" target="_blank">§17 WHILE циклі</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/RFKiHdCgzk4" target="_blank">§18-19 FOR циклі</a></li>
+    </ul>
+</div>
+<hr>
+<div class="youtube-spoilers">
+    <h3>YouTube Live: Арман ПВ: 9-сынып (2-сабақ)</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=/F1_gn5jNC_E" target="_blank">§16-17. Бірөлшемді массив</a></li>
+        <li><a href="https://www.youtube.com/watch?v=/9H3G4vB5_b8" target="_blank">§18-19. Берілген сипаттары бар элементтерді іздеу</a></li>
+    </ul>
+</div>
+<hr>
