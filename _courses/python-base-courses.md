@@ -15,7 +15,7 @@ title: Python — Базалық курстар (13-сабақ)
     </ul>
 </div>
 <p><a href="https://drive.google.com/file/d/1gCqn4CsUEfqs0LURa4d_92nzTo567MR4/view?usp=drive_link" target="_blank" style="float: left; color: red; font-style:italic;">Қысқаша конспект материалдар</a></p>
-
+<hr>
 
 <div class="youtube-spoilers">
     <h3>Python тілін 0-ден үйрену (толықтырулар) (8-сабақ)</h3>
@@ -30,3 +30,4 @@ title: Python — Базалық курстар (13-сабақ)
       <li><a href="https://www.youtube.com/watch?v=yKdpskZxEH8" target="_blank">8-сабақ. For &mdash; While &mdash; ACMP</a></li>
     </ul>
 </div>
+<hr>
