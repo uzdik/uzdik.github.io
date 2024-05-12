@@ -27,7 +27,7 @@ function calculateIdeaPosition(index, time) {
   const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
   const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
   // Adjust radius for distance from center
-  const radius = ovalWidth / 2 + 50; // 50 pixels further from the center
+  const radius = ovalWidth / 2 + 100; // 50 pixels further from the center
   // Calculate x and y positions
   const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
   const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
