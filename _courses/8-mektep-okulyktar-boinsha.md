@@ -6,15 +6,16 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>YouTube Live: Алматыкітап: 6-сынып (9-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=KDoEtMxOCRs" target="_blank">0-сабақ. Python орнату</a></li>
-        <li><a href="https://www.youtube.com/watch?v=jj12O9Wd0qE" target="_blank">1-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=1NtrhEHJNJc" target="_blank">2-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=tn8_uxhwTbc" target="_blank">3-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=PTKwx9lVQyo" target="_blank">4-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=Wvs9g71uYcQ" target="_blank">5-6 сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=s_K3m-Y6fXs" target="_blank">7-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=JBalQbgXqyk" target="_blank">8-сабақ.</a></li>
-        <li><a href="https://www.youtube.com/watch?v=y_P0qn4Q1Go" target="_blank">9-сабақ.</a></li>
+        <li><a href="https://www.youtube.com/watch?v=KDoEtMxOCRs" target="_blank">3-тоқсан. Python орнату</a></li>
+        <li><a href="https://www.youtube.com/watch?v=jj12O9Wd0qE" target="_blank">3.1 IDE-мен танысу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=1NtrhEHJNJc" target="_blank">3.2 Тіл алфавиті. Синтаксис.</a></li>
+        <li><a href="https://www.youtube.com/watch?v=tn8_uxhwTbc" target="_blank">3.3 Деректердің типтері</a></li>
+        <li><a href="https://www.youtube.com/watch?v=tn8_uxhwTbc" target="_blank">3.3 Деректердің типтері</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PTKwx9lVQyo" target="_blank">3.4 </a></li>
+        <li><a href="https://www.youtube.com/watch?v=Wvs9g71uYcQ" target="_blank">3.5-3.6 Практикалық тапсырмалар</a></li>
+        <li><a href="https://www.youtube.com/watch?v=s_K3m-Y6fXs" target="_blank">3.7 Санды енгізу және шығару</a></li>
+        <li><a href="https://www.youtube.com/watch?v=JBalQbgXqyk" target="_blank">3.8 Сызықтық алгоритмдерді программалау</a></li>
+        <li><a href="https://www.youtube.com/watch?v=y_P0qn4Q1Go" target="_blank">3.9 Практикалық жұмыс</a></li>
     </ul>
 </div>
 <hr>
