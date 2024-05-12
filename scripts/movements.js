@@ -36,6 +36,14 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     cloud.textContent = idea;
     document.body.appendChild(cloud);
 
+    // Move ideas from center to position
+    setTimeout(() => {
+      const time = Date.now();
+      const { x, y } = calculateIdeaPosition(index, time);
+      cloud.style.left = x + 'px';
+      cloud.style.top = y + 'px';
+    }, 1000); // Delay moving ideas by 1 second
+
     // Rotate clouds around the user
     const rotateCloud = () => {
       const time = Date.now();
@@ -47,27 +55,14 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
     rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
-    let mouseIsOver = false;
-
-    // Stop rotation when mouse is over an idea or center user
+    // Stop rotation when mouse is over an idea
     cloud.addEventListener('mouseenter', () => {
       clearInterval(rotationInterval);
-      mouseIsOver = true;
     });
 
+    // Resume rotation when mouse leaves an idea
     cloud.addEventListener('mouseleave', () => {
       rotationInterval = setInterval(rotateCloud, 50);
-      mouseIsOver = false;
-    });
-
-    centerUser.addEventListener('mouseenter', () => {
-      clearInterval(rotationInterval);
-      mouseIsOver = true;
-    });
-
-    centerUser.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateCloud, 50);
-      mouseIsOver = false;
     });
   });
 
