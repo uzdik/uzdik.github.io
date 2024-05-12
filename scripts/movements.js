@@ -25,7 +25,7 @@ function calculateIdeaPosition(index, time) {
   const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
   const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
   // Adjust radius for distance from center
-  const radius = ovalWidth / 2 + 250; // 50 pixels further from the center
+  const radius = ovalWidth / 2 + 500; // 50 pixels further from the center
   // Calculate x and y positions
   const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
   const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
@@ -57,7 +57,7 @@ function calculateIdeaPosition(index, time) {
       cloud.style.top = y + 'px';
     };
 
-    let rotationInterval = setInterval(rotateCloud, 30); // Rotate the cloud
+    let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
     rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
     // Stop rotation when mouse is over an idea
@@ -67,7 +67,7 @@ function calculateIdeaPosition(index, time) {
 
     // Resume rotation when mouse leaves an idea
     cloud.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateCloud, 30);
+      rotationInterval = setInterval(rotateCloud, 50);
     });
   });
 
