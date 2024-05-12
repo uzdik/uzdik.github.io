@@ -733,7 +733,7 @@ details {
   /* You may need to fine-tune these values based on your design */
   left: 50%; /* Adjust left position */
   top: 45%; /* Adjust top position */
-  transform: translate(-50%, -50%); /* Center the idea */
+  transform: translate(-50%, -45%); /* Center the idea */
 }
 
 .center-user {
