@@ -63,5 +63,5 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=wpTdNpFRwNE" target="_blank">5-сабақ. Codeforces группа мен домендік қолданушылар құру. (2)</a></li>
     </ul>
 </div>
-<a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a>
+<a href="https://polygon.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">polygon.codeforces.com</a><br>
 <hr>
