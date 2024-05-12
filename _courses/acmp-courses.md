@@ -3,10 +3,11 @@ layout: course
 title: ACMP платформасындағы курстар (37-сабақ)
 ---
 
+<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a>
+
 <div class="youtube-spoilers">
     <h3>Информатика олимпиадасын 0-ден үйрену (20-сабақ)</h3>
     <ul>
-        <li><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=1" style="float: left; color: red; font-style:italic;">АСМР курс &mdash; “Язык программирования” тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=o3cN2QJsIVw" target="_blank">1-сабақ. Арифметика: 1, 108, 903;</a></li>
         <li><a href="https://www.youtube.com/watch?v=dJQMboE0fW4" target="_blank">2-сабақ. Арифметика: 195, 1109, 33; Целые числа: 3, 1110, 1111, 1112;</a></li>
         <li><a href="https://www.youtube.com/watch?v=eGTNwT2xttc" target="_blank">3-сабақ. Целые числа: 1038, 1113, 1115, 1114, 1479;</a></li>
@@ -30,10 +31,11 @@ title: ACMP платформасындағы курстар (37-сабақ)
     </ul>
 </div>
 
+<a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a>
+
 <div class="youtube-spoilers">
     <h3>Алгоритмдер курсы (17-сабақ)</h3>
     <ul>
-        <li><a href="https://acmp.ru/asp/do/index.asp?main=course&id_course=2" style="float: left; color: red; font-style:italic;">АСМР курс — "Решение олимпиадных задач" тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=FQdte4sPf3Y" target="_blank">1-сабақ. Big O. Функция. Python.</a></li>
         <li><a href="https://www.youtube.com/watch?v=RVMcO8BfjTs" target="_blank">2-сабақ. Тізім, Кортеж, Жиын, Сөздік. Көпіршік пен таңдау сорттау түрлері.</a></li>
         <li><a href="https://www.youtube.com/watch?v=ZKppYeEBUc0" target="_blank">3-сабақ. Санау сорттау түрі.</a></li>
