@@ -22,15 +22,15 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>YouTube Live: Алматыкітап: 7-сынып (10-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=SIqvyQlVVvY" target="_blank">0-сабақ. Файлмен жұмыс (1)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=trapGb995OA" target="_blank">1-сабақ. Файлмен жұмыс (2)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=noMQfnJgH0k" target="_blank">2-сабақ. Файлдық функциялар</a></li>
-        <li><a href="https://www.youtube.com/watch?v=tDvvRfPNAR4" target="_blank">3-4 сабақ. Тармақталған алгоритмдерді программалау</a></li>
-        <li><a href="https://www.youtube.com/watch?v=tw79yTAW8u0" target="_blank">5-сабақ. Кірістірілген шарттарды программалау</a></li>
-        <li><a href="https://www.youtube.com/watch?v=H17vQvgXS1Q" target="_blank">6-сабақ. Құрамды шарттарды программалау</a></li>
-        <li><a href="https://www.youtube.com/watch?v=CIB4XMsVRgg" target="_blank">7-сабақ. Практикалық жұмыс</a></li>
-        <li><a href="https://www.youtube.com/watch?v=nBjlx1W2Ako" target="_blank">8-сабақ. Таңдауды ұйымдастыру</a></li>
-        <li><a href="https://www.youtube.com/watch?v=6UyNnrUbqsE" target="_blank">9-10 сабақ. Практикалық жұмыс</a></li>
+        <li><a href="https://www.youtube.com/watch?v=SIqvyQlVVvY" target="_blank">3-тоқсан. Файлмен жұмыс (1)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=trapGb995OA" target="_blank">4.1 Файлмен жұмыс (2)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=noMQfnJgH0k" target="_blank">4.2 Файлдық функциялар</a></li>
+        <li><a href="https://www.youtube.com/watch?v=tDvvRfPNAR4" target="_blank">4.3-4.4 Тармақталған алгоритмдерді программалау</a></li>
+        <li><a href="https://www.youtube.com/watch?v=tw79yTAW8u0" target="_blank">4.5 Кірістірілген шарттарды программалау</a></li>
+        <li><a href="https://www.youtube.com/watch?v=H17vQvgXS1Q" target="_blank">4.6 Құрамды шарттарды программалау</a></li>
+        <li><a href="https://www.youtube.com/watch?v=CIB4XMsVRgg" target="_blank">4.7 Практикалық жұмыс</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nBjlx1W2Ako" target="_blank">4.8 Таңдауды ұйымдастыру</a></li>
+        <li><a href="https://www.youtube.com/watch?v=6UyNnrUbqsE" target="_blank">4.9-4.10 Практикалық жұмыс</a></li>
     </ul>
 </div>
 <hr>
@@ -38,31 +38,31 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>YouTube Live: Алматыкітап: 8-сынып (9-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=yRYO0519Cjs" target="_blank">1-сабақ. FOR циклі</a></li>
-        <li><a href="https://www.youtube.com/watch?v=0VQfSrSbzSM" target="_blank">1-сабақ. FOR циклі (Жалғасы)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pcC52KRFpxk" target="_blank">2-сабақ. Кірістірілген циклдер</a></li>
-        <li><a href="https://www.youtube.com/watch?v=eAYbsFJRZsY" target="_blank">3-сабақ. WHILE циклі</a></li>
-        <li><a href="https://www.youtube.com/watch?v=ybbXzr_wNAs" target="_blank">4-сабақ. CONTINUE циклін басқару</a></li>
-        <li><a href="https://www.youtube.com/watch?v=qeOz414IAOQ" target="_blank">5-сабақ. BREAK циклін басқару</a></li>
-        <li><a href="https://www.youtube.com/watch?v=7Jpgn81SJjQ" target="_blank">6-сабақ. ELSE циклін басқару</a></li>
-        <li><a href="https://www.youtube.com/watch?v=F5tRtEz7b20" target="_blank">7-сабақ. Алгоритмнің трассировкасы</a></li>
-        <li><a href="https://www.youtube.com/watch?v=twOLAACMWuI" target="_blank">8-9 сабақтар. Программалауды үйренейік.</a></li>
+        <li><a href="https://www.youtube.com/watch?v=yRYO0519Cjs" target="_blank">4.1 FOR циклі</a></li>
+        <li><a href="https://www.youtube.com/watch?v=0VQfSrSbzSM" target="_blank">4.1 FOR циклі (Жалғасы)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pcC52KRFpxk" target="_blank">4.2 Кірістірілген циклдер</a></li>
+        <li><a href="https://www.youtube.com/watch?v=eAYbsFJRZsY" target="_blank">4.3 WHILE циклі</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ybbXzr_wNAs" target="_blank">4.4 CONTINUE циклін басқару</a></li>
+        <li><a href="https://www.youtube.com/watch?v=qeOz414IAOQ" target="_blank">4.5 BREAK циклін басқару</a></li>
+        <li><a href="https://www.youtube.com/watch?v=7Jpgn81SJjQ" target="_blank">4.6 ELSE циклін басқару</a></li>
+        <li><a href="https://www.youtube.com/watch?v=F5tRtEz7b20" target="_blank">4.7 Алгоритмнің трассировкасы</a></li>
+        <li><a href="https://www.youtube.com/watch?v=twOLAACMWuI" target="_blank">4.8-4.9 Программалауды үйренейік.</a></li>
     </ul>
 </div>
 <hr>
 <div class="youtube-spoilers">
     <h3>YouTube Live: Алматыкітап: 9-сынып (10-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=kDLPkJjfOF8" target="_blank">1-сабақ. Бірөлшемді массив</a></li>
-        <li><a href="https://www.youtube.com/watch?v=nO1EU72CBAM" target="_blank">2-сабақ. Бірөлшемді массивтерге деректер енгізу</a></li>
-        <li><a href="https://www.youtube.com/watch?v=7bQAIrapfMs" target="_blank">3-сабақ. Берілген сипаттары бар элементтерді іздеу</a></li>
-        <li><a href="https://www.youtube.com/watch?v=0fuYjIZ94eA" target="_blank">3-сабақ.(Жалғасы) Берілген сипаттары бар элементтерді іздеу</a></li>
-        <li><a href="https://www.youtube.com/watch?v=UhbfhvOWiiM" target="_blank">4-сабақ. Бірөлшемді массивтер. Практикалық жұмыс</a></li>
-        <li><a href="https://www.youtube.com/watch?v=weUWU0Lm4mU" target="_blank">5-сабақ. Элементтердің орнын ауыстыру</a></li>
-        <li><a href="https://www.youtube.com/watch?v=vbpMWCstqhI" target="_blank">6-сабақ. Массивтерді сорттау. Сұрыптау</a></li>
-        <li><a href="https://www.youtube.com/watch?v=q1WPmZ-nxuw" target="_blank">7-сабақ. Элементті өшіру және кірістіру</a></li>
-        <li><a href="https://www.youtube.com/watch?v=lOW2uhKo8u8" target="_blank">8-сабақ. Екіөлшемді массив</a></li>
-        <li><a href="https://www.youtube.com/watch?v=hsDE2zdRhPQ" target="_blank">9-сабақ. Екіөлшемді массивті сұрыптау, жолды өшіру</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kDLPkJjfOF8" target="_blank">4.1 Бірөлшемді массив</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nO1EU72CBAM" target="_blank">4.2 Бірөлшемді массивтерге деректер енгізу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=7bQAIrapfMs" target="_blank">4.3 Берілген сипаттары бар элементтерді іздеу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=0fuYjIZ94eA" target="_blank">4.3 (Жалғасы) Берілген сипаттары бар элементтерді іздеу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=UhbfhvOWiiM" target="_blank">4.4 Бірөлшемді массивтер. Практикалық жұмыс</a></li>
+        <li><a href="https://www.youtube.com/watch?v=weUWU0Lm4mU" target="_blank">4.5 Элементтердің орнын ауыстыру</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vbpMWCstqhI" target="_blank">4.6 Массивтерді сорттау. Сұрыптау</a></li>
+        <li><a href="https://www.youtube.com/watch?v=q1WPmZ-nxuw" target="_blank">4.7 Элементті өшіру және кірістіру</a></li>
+        <li><a href="https://www.youtube.com/watch?v=lOW2uhKo8u8" target="_blank">4.8 Екіөлшемді массив</a></li>
+        <li><a href="https://www.youtube.com/watch?v=hsDE2zdRhPQ" target="_blank">4.9 Екіөлшемді массивті сұрыптау, жолды өшіру</a></li>
         <li><a href="https://www.youtube.com/watch?v=u3vkjSDM9BQ" target="_blank">Pygame (пайгейм) кітапханасы</a></li>
     </ul>
 </div>
