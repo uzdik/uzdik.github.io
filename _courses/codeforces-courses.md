@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Codeforces платформасындағы курстар (30-сабақ)
+title: 5. Codeforces платформасындағы курстар (30-сабақ)
 ---
 <hr>
 <div class="youtube-spoilers">
