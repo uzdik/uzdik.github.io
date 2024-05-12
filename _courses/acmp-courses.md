@@ -1,6 +1,6 @@
 ---
 layout: course
-title: ACMP платформасындағы курстар 
+title: ACMP платформасындағы курстар (37-сабақ)
 ---
 
 <div class="youtube-spoilers">
