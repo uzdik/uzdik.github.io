@@ -33,7 +33,7 @@ title: Codeforces платформасындағы курстар (30-сабақ
         <li><a href="https://www.youtube.com/watch?v=nclcVkbq2wo" target="_blank">Сабақ 8. 7-контест талдау</a></li>
     </ul>
 </div>
-<a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a>
+<a href="https://algo.contest.codeforces.com" target="_blank" style="float: left; color: red; font-style:italic;">algo.contest.codeforces.com тапсырмалары</a><br>
 <hr>
 
 <div class="youtube-spoilers">
