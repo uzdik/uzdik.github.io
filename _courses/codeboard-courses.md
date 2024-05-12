@@ -2,7 +2,7 @@
 layout: course
 title: Codeboard платформасындағы курстар (16-сабақ)
 ---
-
+<hr>
 <div class="youtube-spoilers">
     <h3>Python - мамыр курсы (8-сабақ)</h3>
     <ul>
@@ -16,9 +16,7 @@ title: Codeboard платформасындағы курстар (16-сабақ)
         <li><a href="https://www.youtube.com/watch?v=q-gGzMx9Z7Q" target="_blank">8-сабақ. for, while, файлдан оқу-жазу</a></li>
     </ul>
 </div>
-<p><a href="https://codeboard.io/users/uzdik" target="_blank" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a></p>
-
-<hr>
+<a href="https://codeboard.io/users/uzdik" target="_blank" style="float: left; color: red; font-style:italic;">Codeboard.io тапсырмалары</a><br><hr>
 
 <div class="youtube-spoilers">
     <h3>Массивтер - маусым курсы (8-сабақ)</h3>
@@ -33,4 +31,4 @@ title: Codeboard платформасындағы курстар (16-сабақ)
         <li><a href="https://www.youtube.com/watch?v=CkktYB5TsiY" target="_blank">8-сабақ. ACMP, Матрицаларды көбейту</a></li>
     </ul>
 </div>
-
+<hr>
