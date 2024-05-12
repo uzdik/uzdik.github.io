@@ -687,6 +687,36 @@ table td {
     color: #099
 }
 
-.yereke .il{
-  color: #384
+.idea {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #90CAF9;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4;
+  transition: all 0.5s ease-in-out; /* Slower transition */
+  cursor: pointer; /* Change cursor to pointer */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.center-user {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('/assets/img/uzdik-logo.png');
+  background-size: cover;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure center user is on top */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.idea:hover, .center-user:hover {
+  transform: scale(1.1); /* Make the hovered element slightly bigger */
 }
