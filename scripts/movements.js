@@ -1,14 +1,14 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['Idea A', 'Idea B', 'Idea C', 'Idea D'];
+  const ideas = ['Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
 
   // Define oval parameters
-  const ovalWidth = 300; // Width of the oval
-  const ovalHeight = 200; // Height of the oval
+  const ovalWidth = 500; // Width of the oval
+  const ovalHeight = 250; // Height of the oval
   const angleOffset = Math.PI / 8; // Offset for starting angle
 
   // Array to store rotation intervals
