@@ -2,7 +2,7 @@
 layout: course
 title: Informatics платформасындағы курстар (9-сабақ)
 ---
-
+<hr>
 <div class="youtube-spoilers">
     <h3>Python 0-ден бастау (9-сабақ)</h3>
     <ul>
@@ -18,5 +18,4 @@ title: Informatics платформасындағы курстар (9-сабақ
         <li><a href="https://www.youtube.com/watch?v=aa5YwNRpFwg" target="_blank">Сабақ 9. Екі өлшемді массив тапсырмалары</a></li>
     </ul>
 </div>
-<p><a href="https://informatics.msk.ru/course/view.php?id=5394" target="_blank" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a></p>
-<hr>
+<a href="https://informatics.msk.ru/course/view.php?id=5394" target="_blank" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a><br><hr>
