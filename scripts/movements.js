@@ -1,7 +1,7 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
+  const ideas = ['YouTube', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
