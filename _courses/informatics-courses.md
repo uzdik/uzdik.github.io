@@ -3,10 +3,11 @@ layout: course
 title: Informatics платформасындағы курстар (9-сабақ)
 ---
 
+<a href="https://informatics.msk.ru/course/view.php?id=5394" style="float: left; color: red; font-style:italic;">Informatics - Үздік Білім Курсы тапсырмалары</a>
+
 <div class="youtube-spoilers">
     <h3>Python 0-ден бастау (9-сабақ)</h3>
     <ul>
-        <li><a href="https://informatics.msk.ru/course/view.php?id=5394" style="float: left; color: red; font-style:italic;">Үздік Білім Курсы тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=a8eDvEuz7vc" target="_blank">Сабақ 1. Div. Mod. Print. Input. Int. Str. Float</a></li>
         <li><a href="https://www.youtube.com/watch?v=5G7qDieTeBw" target="_blank">Сабақ 2. Div. Mod. тапсырмалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=Rml8uAHEn_c" target="_blank">Сабақ 2.1 Div. Mod. тапсырмалары (жалғасы)</a></li>
