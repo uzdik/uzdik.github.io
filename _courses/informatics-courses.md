@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Informatics платформасындағы курстар (9-сабақ)
+title: 3. Informatics платформасындағы курстар (9-сабақ)
 ---
 <hr>
 <div class="youtube-spoilers">
