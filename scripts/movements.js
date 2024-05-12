@@ -19,16 +19,23 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.forEach(interval => clearInterval(interval));
   }
 
-  // Function to calculate idea position
-  function calculateIdeaPosition(index, time) {
-    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2;
-    const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
-    const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
-    const x = centerX + ovalWidth / 2 * Math.cos(angle + time / 1000 + index * 0.1);
-    const y = centerY + ovalHeight / 2 * Math.sin(angle + time / 1000 + index * 0.1);
-    return { x, y };
-  }
 
+
+// Function to calculate idea position
+function calculateIdeaPosition(index, time) {
+  const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2;
+  const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
+  const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
+  // Adjust radius for distance from center
+  const radius = ovalWidth / 2 + 50; // 50 pixels further from the center
+  // Calculate x and y positions
+  const x = centerX + radius * Math.cos(angle + time / 1000 + index * 0.1);
+  const y = centerY + (ovalHeight / 2) * Math.sin(angle + time / 1000 + index * 0.1);
+  
+  return { x, y };
+}
+
+  
   // Create ideas clouds rotating around the user in an oval shape
   ideas.forEach((idea, index) => {
     const cloud = document.createElement('div');
