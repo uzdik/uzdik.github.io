@@ -78,9 +78,9 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
   });
 
   // Stop rotation when mouse is over the center user
-  centerUser.addEventListener('mouseenter', () => {
-    rotationIntervals.forEach(interval => clearInterval(interval));
-  });
+  //centerUser.addEventListener('mouseenter', () => {
+    //rotationIntervals.forEach(interval => clearInterval(interval));
+  //});
 
 centerUser.addEventListener('mouseleave', () => {
   rotationIntervals.forEach((interval, index) => {
