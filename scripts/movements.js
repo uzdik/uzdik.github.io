@@ -1,7 +1,7 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['Yergali', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
+  const ideas = ['CEO', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
   const links = ['author', 'courses', 'posts', 'courses/1-python-base-courses', 'personal/uzdikter-jobasy-turaly', 'courses/5-codeforces-courses'];
 
   // Create the center user
