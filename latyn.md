@@ -5,6 +5,7 @@ permalink: /latyn/
 ---
 
 <main>
+	
     <div class="container">
     <div class="result-container">
         <h2>Қазақша жазу:</h2>
@@ -49,8 +50,11 @@ permalink: /latyn/
             'W': 'Ш', 'X': 'Х', 'Y': 'Ы', 'w': 'ш', 'x': 'х', 'y': 'ы', 
         };
 
-        $('#latin-input').on('input', function() {
-            const latinText = $(this).val();
+       const latinInput = document.getElementById('latin-input');
+       const cyrillicOutput = document.getElementById('cyrillic-output');
+
+        latinInput.addEventListener('input', function() {
+            const latinText = latinInput.value;
             let cyrillicText = '';
 
             for (let i = 0; i < latinText.length; i++) {
@@ -163,24 +167,26 @@ permalink: /latyn/
                 }
             }
 
-            $('#cyrillic-output').text(cyrillicText);
-        });
-
-$('#latin-input').on('keydown', function(event) {
-    if (event.key === 'Enter' && !event.shiftKey) {
-        event.preventDefault();
-        const input = $(this);
-        const inputValue = input.val();
-
-        // Append the input value with a new line to the existing content
-        input.val(inputValue + '\n');
-    }
-});
-
+            cyrillicOutput.textContent = cyrillicText;
     });
-function copyText() {
-        const outputTextarea = document.getElementById('cyrillic-output');
-        outputTextarea.select();
+
+    latinInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' && !event.shiftKey) {
+            event.preventDefault();
+            const inputValue = latinInput.value;
+
+            // Append the input value with a new line to the existing content
+            latinInput.value = inputValue + '\n';
+        }
+    });
+
+    function copyText() {
+        cyrillicOutput.select();
         document.execCommand('copy');
     }
+
+    // Attach copyText function to the button
+    const copyButton = document.querySelector('.copy-button');
+    copyButton.addEventListener('click', copyText);
+});
 </script>
