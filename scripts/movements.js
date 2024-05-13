@@ -82,20 +82,22 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.forEach(interval => clearInterval(interval));
   });
 
-  // Resume rotation when mouse leaves the center user
-  centerUser.addEventListener('mouseleave', () => {
-    rotationIntervals.forEach((interval, index) => {
-      const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
-      const rotationInterval = setInterval(() => {
-        const time = Date.now();
-        const { x, y } = calculateIdeaPosition(index, time);
-        cloud.style.left = x + 'px';
-        cloud.style.top = y + 'px';
-      }, 50);
-      rotationIntervals[index] = rotationInterval;
-    });
+ // Resume rotation when mouse leaves the center user
+centerUser.addEventListener('mouseleave', () => {
+  rotationIntervals.forEach((interval, index) => {
+    clearInterval(interval); // Clear the existing interval
+    const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
+    rotationIntervals[index] = setInterval(() => {
+      const time = Date.now();
+      const { x, y } = calculateIdeaPosition(index, time);
+      cloud.style.left = x + 'px';
+      cloud.style.top = y + 'px';
+    }, 50);
   });
+});
 
+
+  
   // Remove rotation intervals before unloading the page
   window.addEventListener('beforeunload', removeRotationIntervals);
 }
