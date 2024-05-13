@@ -1,7 +1,7 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
+  const ideas = ['YouTube', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
@@ -65,15 +65,34 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
     rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
-    // Stop rotation when mouse is over an idea
+    // Stop rotation when mouse is over this idea
     cloud.addEventListener('mouseenter', () => {
       clearInterval(rotationInterval);
     });
 
-    // Resume rotation when mouse leaves an idea
+    // Resume rotation when mouse leaves this idea
     cloud.addEventListener('mouseleave', () => {
       rotationInterval = setInterval(rotateCloud, 50);
       rotationIntervals.push(rotationInterval); // Push rotation interval to the array
+    });
+  });
+
+  // Stop rotation when mouse is over the center user
+  centerUser.addEventListener('mouseenter', () => {
+    rotationIntervals.forEach(interval => clearInterval(interval));
+  });
+
+  // Resume rotation when mouse leaves the center user
+  centerUser.addEventListener('mouseleave', () => {
+    rotationIntervals.forEach((interval, index) => {
+      const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
+      const rotationInterval = setInterval(() => {
+        const time = Date.now();
+        const { x, y } = calculateIdeaPosition(index, time);
+        cloud.style.left = x + 'px';
+        cloud.style.top = y + 'px';
+      }, 50);
+      rotationIntervals[index] = rotationInterval;
     });
   });
 
