@@ -9,6 +9,7 @@ header_pages:
   - author.md
   - kurstar.md
   - jazbalar.md
+  - latyn.md
   
 permalink: /:categories/:title
 
