@@ -1,8 +1,8 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
-  const ideas = ['YouTube', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
-  const links = ['www.youtube.com', 'www.courses.com', 'www.posts.com', 'www.python.com', 'uzdik.kz', 'www.codeforces.com'];
+  const ideas = ['Yergali', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
+  const links = ['author', 'courses', 'posts', 'courses/1-python-base-courses', 'personal/uzdikter-jobasy-turaly', 'courses/5-codeforces-courses'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
