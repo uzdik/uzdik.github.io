@@ -66,21 +66,21 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
     // Stop rotation when mouse is over this idea
-    //cloud.addEventListener('mouseenter', () => {
-      //clearInterval(rotationInterval);
-    //});
+    cloud.addEventListener('mouseenter', () => {
+      clearInterval(rotationInterval);
+    });
 
     // Resume rotation when mouse leaves this idea
-    //cloud.addEventListener('mouseleave', () => {
-      //rotationInterval = setInterval(rotateCloud, 50);
-      //rotationIntervals.push(rotationInterval); // Push rotation interval to the array
-    //});
-  //});
+    cloud.addEventListener('mouseleave', () => {
+      rotationInterval = setInterval(rotateCloud, 50);
+      rotationIntervals.push(rotationInterval); // Push rotation interval to the array
+    });
+  });
 
   // Stop rotation when mouse is over the center user
-  //centerUser.addEventListener('mouseenter', () => {
-    //rotationIntervals.forEach(interval => clearInterval(interval));
-  //});
+  centerUser.addEventListener('mouseenter', () => {
+    rotationIntervals.forEach(interval => clearInterval(interval));
+  });
 
 centerUser.addEventListener('mouseleave', () => {
   rotationIntervals.forEach((interval, index) => {
@@ -95,8 +95,6 @@ centerUser.addEventListener('mouseleave', () => {
   });
 });
 
-
-  
   // Remove rotation intervals before unloading the page
   window.addEventListener('beforeunload', removeRotationIntervals);
 }
