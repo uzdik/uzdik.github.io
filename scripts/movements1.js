@@ -25,13 +25,13 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2 - 50;
     const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
     // Adjust radius for distance from center
-    let radius = ovalWidth / 2 + 200; // 200 pixels further from the center
+    let radius = ovalWidth / 2 + 100; //100 pixels further from the center
 
     // Gradually reduce radius if close to the center
     radius -= Math.min(time / 1000, 5) * 40; // Reduce radius by up to 40 pixels per second
-    if (radius < 200) {
+    if (radius < 1000) {
       // Start rotation around the center
-      radius = 200; // Maintain a minimum distance from the center
+      radius = 100; // Maintain a minimum distance from the center
     }
     
     // Calculate x and y positions
@@ -95,8 +95,6 @@ centerUser.addEventListener('mouseleave', () => {
   });
 });
 
-
-  
   // Remove rotation intervals before unloading the page
   window.addEventListener('beforeunload', removeRotationIntervals);
 }
