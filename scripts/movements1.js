@@ -21,8 +21,8 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
 
   // Function to calculate idea position
   function calculateIdeaPosition(index, time) {
-    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2;
-    const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2;
+    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2 - 70;
+    const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2 - 50;
     const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
     // Adjust radius for distance from center
     let radius = ovalWidth / 2 + 200; // 200 pixels further from the center
@@ -82,20 +82,21 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.forEach(interval => clearInterval(interval));
   });
 
-  // Resume rotation when mouse leaves the center user
-  centerUser.addEventListener('mouseleave', () => {
-    rotationIntervals.forEach((interval, index) => {
-      const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
-      const rotationInterval = setInterval(() => {
-        const time = Date.now();
-        const { x, y } = calculateIdeaPosition(index, time);
-        cloud.style.left = x + 'px';
-        cloud.style.top = y + 'px';
-      }, 50);
-      rotationIntervals[index] = rotationInterval;
-    });
+centerUser.addEventListener('mouseleave', () => {
+  rotationIntervals.forEach((interval, index) => {
+    const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
+    rotationInterval = setInterval(() => {
+      const time = Date.now();
+      const { x, y } = calculateIdeaPosition(index, time);
+      cloud.style.left = x + 'px';
+      cloud.style.top = y + 'px';
+    }, 50);
+    rotationIntervals[index] = rotationInterval; // Update the rotation interval in the array
   });
+});
 
+
+  
   // Remove rotation intervals before unloading the page
   window.addEventListener('beforeunload', removeRotationIntervals);
 }
