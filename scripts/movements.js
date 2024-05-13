@@ -85,6 +85,9 @@ ideas.forEach((idea, index) => {
   });
 });
 
+centerUser.addEventListener('click', () => {
+  location.reload(); // Refresh the current page
+});
 
   // Stop rotation when mouse is over the center user
   centerUser.addEventListener('mouseenter', () => {
