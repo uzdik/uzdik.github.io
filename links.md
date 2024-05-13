@@ -10,6 +10,7 @@ permalink: /links/
 - [speed up](https://flykiller.github.io/performance%20tricks)
 - [cphof](https://cphof.org/profile/topcoder:nazarbek)
 - [CSES](https://cses.fi/problemset/list/)
+- [Referals](https://docs.google.com/spreadsheets/d/1bl8MU6qe3-UZFLzgqnjUAgIMdUmnB4Dy49Sm3O5J1IU/edit#gid=0)
 
 Жылдам теру:
 - [typeracer](https://play.typeracer.com)
