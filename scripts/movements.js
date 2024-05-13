@@ -2,6 +2,7 @@
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
   const ideas = ['YouTube', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces'];
+  const links = ['www.youtube.com', 'www.courses.com', 'www.posts.com', 'www.python.com', 'uzdik.kz', 'www.codeforces.com'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
@@ -41,41 +42,49 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     return { x, y };
   }
 
-  // Create ideas clouds rotating around the user in an oval shape
-  ideas.forEach((idea, index) => {
-    const cloud = document.createElement('div');
-    cloud.classList.add('idea');
-    cloud.textContent = idea;
-    document.body.appendChild(cloud);
+  /// Create ideas clouds rotating around the user in an oval shape
+ideas.forEach((idea, index) => {
+  const cloud = document.createElement('div');
+  cloud.classList.add('idea');
+  cloud.textContent = idea;
+  cloud.setAttribute('data-link', links[index]); // Store the corresponding link as a data attribute
+  document.body.appendChild(cloud);
 
-    // Set initial position of ideas randomly
-    const randomX = Math.random() * window.innerWidth;
-    const randomY = Math.random() * window.innerHeight;
-    cloud.style.left = randomX + 'px';
-    cloud.style.top = randomY + 'px';
+  // Set initial position of ideas randomly
+  const randomX = Math.random() * window.innerWidth;
+  const randomY = Math.random() * window.innerHeight;
+  cloud.style.left = randomX + 'px';
+  cloud.style.top = randomY + 'px';
 
-    // Rotate clouds around the user
-    const rotateCloud = () => {
-      const time = Date.now();
-      const { x, y } = calculateIdeaPosition(index, time);
-      cloud.style.left = x + 'px';
-      cloud.style.top = y + 'px';
-    };
+  // Rotate clouds around the user
+  const rotateCloud = () => {
+    const time = Date.now();
+    const { x, y } = calculateIdeaPosition(index, time);
+    cloud.style.left = x + 'px';
+    cloud.style.top = y + 'px';
+  };
 
-    let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
-    rotationIntervals.push(rotationInterval); // Push rotation interval to the array
+  let rotationInterval = setInterval(rotateCloud, 50); // Rotate the cloud
+  rotationIntervals.push(rotationInterval); // Push rotation interval to the array
 
-    // Stop rotation when mouse is over this idea
-    cloud.addEventListener('mouseenter', () => {
-      clearInterval(rotationInterval);
-    });
-
-    // Resume rotation when mouse leaves this idea
-    cloud.addEventListener('mouseleave', () => {
-      rotationInterval = setInterval(rotateCloud, 50);
-      rotationIntervals.push(rotationInterval); // Push rotation interval to the array
-    });
+  // Handle click event to navigate to the corresponding link
+  cloud.addEventListener('click', () => {
+    const link = cloud.getAttribute('data-link');
+    window.location.href = link; // Redirect to the specified link
   });
+
+  // Stop rotation when mouse is over this idea
+  cloud.addEventListener('mouseenter', () => {
+    clearInterval(rotationInterval);
+  });
+
+  // Resume rotation when mouse leaves this idea
+  cloud.addEventListener('mouseleave', () => {
+    rotationInterval = setInterval(rotateCloud, 50);
+    rotationIntervals.push(rotationInterval); // Push rotation interval to the array
+  });
+});
+
 
   // Stop rotation when mouse is over the center user
   centerUser.addEventListener('mouseenter', () => {
