@@ -82,17 +82,16 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
     rotationIntervals.forEach(interval => clearInterval(interval));
   });
 
- // Resume rotation when mouse leaves the center user
 centerUser.addEventListener('mouseleave', () => {
   rotationIntervals.forEach((interval, index) => {
-    clearInterval(interval); // Clear the existing interval
     const cloud = document.querySelector('.idea:nth-child(' + (index + 1) + ')');
-    rotationIntervals[index] = setInterval(() => {
+    rotationInterval = setInterval(() => {
       const time = Date.now();
       const { x, y } = calculateIdeaPosition(index, time);
       cloud.style.left = x + 'px';
       cloud.style.top = y + 'px';
     }, 50);
+    rotationIntervals[index] = rotationInterval; // Update the rotation interval in the array
   });
 });
 
