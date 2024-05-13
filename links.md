@@ -31,3 +31,6 @@ import sys
 sys.stdin = open('input.in','r')
 sys.stdout = open('output.out','w')
 ```
+Autiobook
+- [Думай и Богатей](https://ia801602.us.archive.org/16/items/07_20220412/00.mp3) ...15.mp3
+- [Самый богатый человек в Вавилоне](https://s1.knizhin.ru/books/483042/2832091.mp3) ...2832102.mp3
