@@ -9,6 +9,7 @@ permalink: /links/
 - [c2 ladders](https://c2-ladders-juol.onrender.com/)
 - [speed up](https://flykiller.github.io/performance%20tricks)
 - [cphof](https://cphof.org/profile/topcoder:nazarbek)
+- [CSES](https://cses.fi/problemset/list/)
 
 Жылдам теру:
 - [typeracer](https://play.typeracer.com)
