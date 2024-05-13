@@ -21,7 +21,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/index.htm
 
   // Function to calculate idea position
   function calculateIdeaPosition(index, time) {
-    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2 - 100;
+    const centerX = centerUser.offsetLeft + centerUser.offsetWidth / 2 - 80;
     const centerY = centerUser.offsetTop + centerUser.offsetHeight / 2 - 50;
     const angle = angleOffset + (index / ideas.length) * (2 * Math.PI - angleOffset * 2);
     // Adjust radius for distance from center
