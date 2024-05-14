@@ -1,5 +1,5 @@
 ---
-layout: audiobooks
+layout: courses
 title: Аудио-кітаптар
-permalink: /audio-kitaptar/
+permalink: /audiobooks/
 ---
