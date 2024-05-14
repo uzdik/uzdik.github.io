@@ -1,9 +1,9 @@
 ---
 layout: base
 ---
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
 <script src="https://rawgit.com/kolber/audiojs/master/audiojs/audio.min.js"></script>
 <div class="audiocontrols">
     <audio id='audio'></audio>
@@ -23,7 +23,7 @@ layout: base
 <script>
     var as, audio;
     var audiopath = "{{ page.audiopath }}";
-    var startedtrack = parseInt("{{ page.firsttrack }}");
+    var startedtrack = "{{ page.firsttrack }}"; // Treat as string
     var trackCount = parseInt("{{ page.total_tracks }}");
     var listnames = {{ page.listnames | jsonify }};
     var currentTrackIndex = startedtrack;
@@ -54,7 +54,7 @@ layout: base
         }
 
         function playNextTrack() {
-            var nextTrack = currentTrackIndex + 1;
+            var nextTrack = pad(parseInt(currentTrackIndex) + 1, 2); // Padding with leading zeros
             if (nextTrack <= startedtrack + trackCount - 1) {
                 loadTrack(nextTrack);
                 audio.play();
@@ -62,7 +62,7 @@ layout: base
         }
 
         document.getElementById('trackSelector').addEventListener('change', function (e) {
-            var selectedTrack = parseInt(e.target.value);
+            var selectedTrack = e.target.value;
             loadTrack(selectedTrack);
         });
         document.getElementById('play').addEventListener('click', function (e) {
@@ -93,11 +93,19 @@ layout: base
         });
 
         var trackSelector = document.getElementById('trackSelector');
-        for (var i = startedtrack; i <= startedtrack + trackCount - 1; i++) {
+        for (var i = 0; i < trackCount; i++) {
+            var trackNumber = pad(parseInt(startedtrack) + i, 2); // Padding with leading zeros
             var option = document.createElement('option');
-            option.value = i;
-            option.textContent = "Track " + (i - startedtrack + 1) + ": " + listnames[i - startedtrack];
+            option.value = trackNumber;
+            option.textContent = "Track " + (i + 1) + ": " + listnames[i];
             trackSelector.appendChild(option);
         }
     });
+
+    // Function to pad with leading zeros
+    function pad(num, size) {
+        var s = num+"";
+        while (s.length < size) s = "0" + s;
+        return s;
+    }
 </script>
