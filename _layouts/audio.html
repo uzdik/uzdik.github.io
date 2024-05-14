@@ -2,81 +2,7 @@
 layout: base
 ---
 
-<article class="course h-entry" itemscope itemtype="http://schema.org/Course">
-  <header class="course-header">
-    <h1 class="course-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
-  <div class="course-content e-content" itemprop="description">
-    {%- if page.audiopath and page.firsttrack and page.listnames -%}
-    <script>
-        var as, audio;
-        var startedtrack = {{ page.firsttrack }};
-        var trackCount = {{ page.total_tracks }};
-        var listnames = {{ page.listnames | jsonify }};
-
-        audiojs.events.ready(function () {
-            as = audiojs.createAll();
-            audio = as[0];
-            loadTrack(startedtrack);
-
-            document.getElementById('audio').addEventListener('timeupdate', function (e) {
-                console.log(e.target.currentSrc, e.target.currentTime);
-            });
-
-            function relativeSeek(seconds) {
-                audio.skipTo(audio.element.currentTime / audio.duration + seconds / audio.duration);
-            }
-
-            function getAudioURL(trackNumber) {
-                return "{{ page.audiopath }}" + trackNumber + ".mp3";
-            }
-
-            function loadTrack(trackNumber) {
-                audio.load(getAudioURL(trackNumber));
-                document.getElementById('trackSelector').value = trackNumber;
-            }
-
-            document.getElementById('trackSelector').addEventListener('change', function (e) {
-                var selectedTrack = parseInt(e.target.value);
-                loadTrack(selectedTrack);
-            });
-
-            document.getElementById('rewindMore').addEventListener('click', function (e) {
-                relativeSeek(-60);
-            });
-            document.getElementById('rewind').addEventListener('click', function (e) {
-                relativeSeek(-10);
-            });
-            document.getElementById('forward').addEventListener('click', function (e) {
-                relativeSeek(10);
-            });
-            document.getElementById('forwardMore').addEventListener('click', function (e) {
-                relativeSeek(60);
-            });
-
-            document.getElementById('previous').addEventListener('click', function (e) {
-                var currentTrack = parseInt(document.getElementById('trackSelector').value);
-                if (currentTrack > startedtrack) {
-                    loadTrack(currentTrack - 1);
-                }
-            });
-
-            document.getElementById('next').addEventListener('click', function (e) {
-                var currentTrack = parseInt(document.getElementById('trackSelector').value);
-                if (currentTrack < startedtrack + trackCount - 1) {
-                    loadTrack(currentTrack + 1);
-                }
-            });
-
-            var trackSelector = document.getElementById('trackSelector');
-            for (var i = startedtrack; i <= startedtrack + trackCount - 1; i++) {
-                var option = document.createElement('option');
-                option.value = i;
-                option.textContent = "Track " + (i - startedtrack + 1) + ": " + listnames[i - startedtrack];
-                trackSelector.appendChild(option);
-            }
-        });
-    </script>
+<div class="audiocontrols">
     <audio id='audio'></audio>
     <p>
         <input type='button' id='previous' value='Previous'>
@@ -89,10 +15,75 @@ layout: base
     <p>
         <select id="trackSelector"></select>
     </p>
-    {%- endif -%}
-  </div>
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</div>
+
+<script>
+    var as, audio;
+    var audiopath = "{{ page.audiopath }}";
+    var startedtrack = parseInt("{{ page.firsttrack }}");
+    var trackCount = parseInt("{{ page.total_tracks }}");
+    var listnames = {{ page.listnames | jsonify }};
+
+    audiojs.events.ready(function () {
+        as = audiojs.createAll();
+        audio = as[0];
+        loadTrack(startedtrack);
+
+        document.getElementById('audio').addEventListener('timeupdate', function (e) {
+            console.log(e.target.currentSrc, e.target.currentTime);
+        });
+
+        function relativeSeek(seconds) {
+            audio.skipTo(audio.element.currentTime / audio.duration + seconds / audio.duration);
+        }
+
+        function getAudioURL(trackNumber) {
+            return audiopath + trackNumber + ".mp3";
+        }
+
+        function loadTrack(trackNumber) {
+            audio.load(getAudioURL(trackNumber));
+            document.getElementById('trackSelector').value = trackNumber;
+        }
+
+        document.getElementById('trackSelector').addEventListener('change', function (e) {
+            var selectedTrack = parseInt(e.target.value);
+            loadTrack(selectedTrack);
+        });
+
+        document.getElementById('rewindMore').addEventListener('click', function (e) {
+            relativeSeek(-60);
+        });
+        document.getElementById('rewind').addEventListener('click', function (e) {
+            relativeSeek(-10);
+        });
+        document.getElementById('forward').addEventListener('click', function (e) {
+            relativeSeek(10);
+        });
+        document.getElementById('forwardMore').addEventListener('click', function (e) {
+            relativeSeek(60);
+        });
+
+        document.getElementById('previous').addEventListener('click', function (e) {
+            var currentTrack = parseInt(document.getElementById('trackSelector').value);
+            if (currentTrack > startedtrack) {
+                loadTrack(currentTrack - 1);
+            }
+        });
+
+        document.getElementById('next').addEventListener('click', function (e) {
+            var currentTrack = parseInt(document.getElementById('trackSelector').value);
+            if (currentTrack < startedtrack + trackCount) {
+                loadTrack(currentTrack + 1);
+            }
+        });
+
+        var trackSelector = document.getElementById('trackSelector');
+        for (var i = startedtrack; i <= startedtrack + trackCount - 1; i++) {
+            var option = document.createElement('option');
+            option.value = i;
+            option.textContent = "Track " + (i - startedtrack + 1) + ": " + listnames[i - startedtrack];
+            trackSelector.appendChild(option);
+        }
+    });
+</script>
