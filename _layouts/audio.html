@@ -8,12 +8,12 @@ layout: base
 <div class="audiocontrols">
     <audio id='audio'></audio>
     <p>
-        <input type='button' id='play' value='▶️'>
-        <input type='button' id='pause' value='⏸'> 
-        <input type='button' id='previous' value='⏮'>
-        <input type='button' id='rewind' value='⏪'>
-        <input type='button' id='forward' value='⏩'>
-        <input type='button' id='next' value='⏭'>
+        <input type='button' id='play' value='▶'>
+        <input type='button' id='pause' value='❚❚'> 
+        <input type='button' id='previous' value='❚◀◀'>
+        <input type='button' id='rewind' value='◀◀'>
+        <input type='button' id='forward' value='▶▶'>
+        <input type='button' id='next' value='▶▶❚'>
     </p>
     <p>
         <select id="trackSelector"></select>
@@ -61,18 +61,15 @@ layout: base
             audio.pause(); 
         });
 
-        document.getElementById('rewindMore').addEventListener('click', function (e) {
-            relativeSeek(-60);
-        });
+        //document.getElementById('rewindMore').addEventListener('click', function (e) {relativeSeek(-60);});
+        
         document.getElementById('rewind').addEventListener('click', function (e) {
             relativeSeek(-15);
         });
         document.getElementById('forward').addEventListener('click', function (e) {
             relativeSeek(15);
         });
-        document.getElementById('forwardMore').addEventListener('click', function (e) {
-            relativeSeek(60);
-        });
+        //document.getElementById('forwardMore').addEventListener('click', function (e) {relativeSeek(60);});
 
         document.getElementById('previous').addEventListener('click', function (e) {
             var currentTrack = parseInt(document.getElementById('trackSelector').value);
