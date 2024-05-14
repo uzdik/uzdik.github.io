@@ -7,11 +7,7 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   {{ content }}
-  {% assign audiobooks = site.courses %}
-<script>
-  console.log({{ site.audiobooks | where: "title", "My thinks" | first | jsonify }});
-</script>
-
+  {% assign audiobooks = site.audiobooks %}
   {%- if audiobooks.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="course-list-heading">{{ page.list_title }}</h2>
