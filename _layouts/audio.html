@@ -8,6 +8,8 @@ layout: base
 <div class="audiocontrols">
     <audio id='audio'></audio>
     <p>
+        <input type='button' id='play' value='▶'>
+        <input type='button' id='pause' value='⏸'> 
         <input type='button' id='previous' value='Previous'>
         <input type='button' id='rewindMore' value='<< 60'>
         <input type='button' id='rewind' value='< 10'>
@@ -52,6 +54,13 @@ layout: base
         document.getElementById('trackSelector').addEventListener('change', function (e) {
             var selectedTrack = parseInt(e.target.value);
             loadTrack(selectedTrack);
+        });
+        document.getElementById('play').addEventListener('click', function (e) {
+            audio.play(); 
+        });
+        
+        document.getElementById('pause').addEventListener('click', function (e) {
+            audio.pause(); 
         });
 
         document.getElementById('rewindMore').addEventListener('click', function (e) {
