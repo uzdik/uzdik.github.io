@@ -3,18 +3,14 @@ layout: base
 ---
 
 <article class="course h-entry" itemscope itemtype="http://schema.org/Audio">
-
   <header class="course-header">
     <h1 class="course-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
-
   <div class="course-content e-content" itemprop="description">
     {{ content }}
   </div>
-
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
