@@ -808,3 +808,7 @@ details {
         border-radius: 5px;
         cursor: pointer;
     }
+.audiocontrols {
+            text-align: center;
+            margin-bottom: 20px;
+        }
