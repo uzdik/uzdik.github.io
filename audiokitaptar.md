@@ -1,5 +1,5 @@
 ---
-layout: courses
+layout: audiobooks
 title: Аудио-кітаптар
 permalink: /audiobooks/
 ---
