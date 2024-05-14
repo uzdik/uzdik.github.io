@@ -5,7 +5,7 @@ categories: business
 author:
   - Наполеон Хилл
 audiopath: "https://ia801602.us.archive.org/16/items/07_20220412/"
-firsttrack: 00
+firsttrack: "00"
 total_tracks: 12
 listnames: 
   - "Предисловие (4:55)"
