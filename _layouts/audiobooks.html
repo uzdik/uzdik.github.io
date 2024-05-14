@@ -6,22 +6,17 @@ layout: base
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
-  <p>Reading audiobooks from <strong>_audiobooks/</strong> directory.</p> <!-- Added line to display the directory path -->
-
   {{ content }}
-
   {% assign audiobooks = site.audiobooks %}
-
   {%- if audiobooks.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="audio-list-heading">{{ page.list_title }}</h2>
+      <h2 class="course-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="audio-list">
+    <ul class="course-list">
       {%- for audio in audiobooks -%}
       <li>
         <h3>
-          <a class="audio-link" href="{{ audio.url | relative_url }}">
+          <a class="course-link" href="{{ course.url | relative_url }}">
             {{ audio.title | escape }}
           </a>
         </h3>
