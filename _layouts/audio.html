@@ -44,7 +44,7 @@ layout: base
         }
 
         function getAudioURL(trackNumber) {
-            return audiopath + trackNumber + ".mp3";
+            return audiopath + pad(trackNumber, startedtrack.length) + ".mp3"; // Zero-padding based on the length of startedtrack
         }
 
         function loadTrack(trackNumber) {
@@ -54,7 +54,7 @@ layout: base
         }
 
         function playNextTrack() {
-            var nextTrack = pad(parseInt(currentTrackIndex) + 1, 2); // Padding with leading zeros
+            var nextTrack = pad(parseInt(currentTrackIndex) + 1, startedtrack.length); // Padding based on the length of startedtrack
             if (nextTrack <= startedtrack + trackCount - 1) {
                 loadTrack(nextTrack);
                 audio.play();
@@ -94,7 +94,7 @@ layout: base
 
         var trackSelector = document.getElementById('trackSelector');
         for (var i = 0; i < trackCount; i++) {
-            var trackNumber = pad(parseInt(startedtrack) + i, 2); // Padding with leading zeros
+            var trackNumber = pad(parseInt(startedtrack) + i, startedtrack.length); // Padding based on the length of startedtrack
             var option = document.createElement('option');
             option.value = trackNumber;
             option.textContent = "Track " + (i + 1) + ": " + listnames[i];
