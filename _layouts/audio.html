@@ -8,13 +8,11 @@ layout: base
 <div class="audiocontrols">
     <audio id='audio'></audio>
     <p>
-        <input type='button' id='play' value='▶'>
+        <input type='button' id='play' value='▶️'>
         <input type='button' id='pause' value='⏸'> 
         <input type='button' id='previous' value='⏮'>
-        <input type='button' id='rewindMore' value='<<60'>
-        <input type='button' id='rewind' value='<10'>
-        <input type='button' id='forward' value='10>'>
-        <input type='button' id='forwardMore' value='60>>'>
+        <input type='button' id='rewind' value='⏪'>
+        <input type='button' id='forward' value='⏩'>
         <input type='button' id='next' value='⏭'>
     </p>
     <p>
@@ -67,10 +65,10 @@ layout: base
             relativeSeek(-60);
         });
         document.getElementById('rewind').addEventListener('click', function (e) {
-            relativeSeek(-10);
+            relativeSeek(-15);
         });
         document.getElementById('forward').addEventListener('click', function (e) {
-            relativeSeek(10);
+            relativeSeek(15);
         });
         document.getElementById('forwardMore').addEventListener('click', function (e) {
             relativeSeek(60);
