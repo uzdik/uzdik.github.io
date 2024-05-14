@@ -1,7 +1,6 @@
 ---
 layout: audio
 title: My thinks
-author: Yergali
 audiopath: "https://s1.knizhin.ru/books/483042/"
 firsttrack: 2832091
 total_tracks: 12
@@ -18,5 +17,7 @@ listnames:
   - "TrackName 10"
   - "TrackName 11"
   - "TrackName 12"
+author: Ерғали Тұрарбекұлы Бердібаев
+categories: business
 ---
 
