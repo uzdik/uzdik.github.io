@@ -27,11 +27,6 @@ permalink: /links/
 - [CP Guide](https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf)
 - [CSES book](https://cses.fi/book/book.pdf)
 
-### Аудиокітаптар:
-- [Самый богатый человек в Вавилоне - Джордж Клейсон (1926)](https://s1.knizhin.ru/books/483042/2832091.mp3) -../2832102.mp3
-- [Думай и Богатей - Наполеон Хилл (1937)](https://ia801602.us.archive.org/16/items/07_20220412/00.mp3) - ../15.mp3
-- [Разумный инвестор - Бенджамин Грэхем (1949)](https://s1.knizhin.ru/books/440062/1710293.mp3) - ../1710312.mp3
-- [Богатый папа, бедный папа - Роберт Кийосаки (1997)](https://ia601806.us.archive.org/20/items/01_20210330_20210330_1738/00.mp3) - ../11.mp3
 
 ### Useful code
 ```
