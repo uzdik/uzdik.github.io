@@ -97,7 +97,8 @@ layout: base
             var trackNumber = pad(parseInt(startedtrack) + i, startedtrack.length); // Padding based on the length of startedtrack
             var option = document.createElement('option');
             option.value = trackNumber;
-            option.textContent = "Track " + (i + 1) + ": " + listnames[i];
+            // option.textContent = "Track " + (i + 1) + ": " + listnames[i];
+            option.textContent = listnames[i];
             trackSelector.appendChild(option);
         }
     });
