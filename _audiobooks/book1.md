@@ -1,5 +1,5 @@
 ---
-layout: audio
+layout: audiobooks
 title: My thinks
 author: Yergali
 audiopath: "https://s1.knizhin.ru/books/483042/"
