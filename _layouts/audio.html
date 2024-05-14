@@ -26,14 +26,17 @@ layout: base
     var startedtrack = parseInt("{{ page.firsttrack }}");
     var trackCount = parseInt("{{ page.total_tracks }}");
     var listnames = {{ page.listnames | jsonify }};
+    var currentTrackIndex = startedtrack;
 
     audiojs.events.ready(function () {
         as = audiojs.createAll();
         audio = as[0];
         loadTrack(startedtrack);
 
-        document.getElementById('audio').addEventListener('timeupdate', function (e) {
-            console.log(e.target.currentSrc, e.target.currentTime);
+        // Event listener for when the current track ends
+        audio.element.addEventListener('ended', function() {
+            // Play the next track
+            playNextTrack();
         });
 
         function relativeSeek(seconds) {
@@ -47,6 +50,15 @@ layout: base
         function loadTrack(trackNumber) {
             audio.load(getAudioURL(trackNumber));
             document.getElementById('trackSelector').value = trackNumber;
+            currentTrackIndex = trackNumber;
+        }
+
+        function playNextTrack() {
+            var nextTrack = currentTrackIndex + 1;
+            if (nextTrack <= startedtrack + trackCount - 1) {
+                loadTrack(nextTrack);
+                audio.play();
+            }
         }
 
         document.getElementById('trackSelector').addEventListener('change', function (e) {
@@ -60,8 +72,6 @@ layout: base
         document.getElementById('pause').addEventListener('click', function (e) {
             audio.pause(); 
         });
-
-        //document.getElementById('rewindMore').addEventListener('click', function (e) {relativeSeek(-60);});
         
         document.getElementById('rewind').addEventListener('click', function (e) {
             relativeSeek(-15);
@@ -69,20 +79,17 @@ layout: base
         document.getElementById('forward').addEventListener('click', function (e) {
             relativeSeek(15);
         });
-        //document.getElementById('forwardMore').addEventListener('click', function (e) {relativeSeek(60);});
 
         document.getElementById('previous').addEventListener('click', function (e) {
             var currentTrack = parseInt(document.getElementById('trackSelector').value);
             if (currentTrack > startedtrack) {
                 loadTrack(currentTrack - 1);
+                audio.play();
             }
         });
 
         document.getElementById('next').addEventListener('click', function (e) {
-            var currentTrack = parseInt(document.getElementById('trackSelector').value);
-            if (currentTrack < startedtrack + trackCount) {
-                loadTrack(currentTrack + 1);
-            }
+            playNextTrack();
         });
 
         var trackSelector = document.getElementById('trackSelector');
