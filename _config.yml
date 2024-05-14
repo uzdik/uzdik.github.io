@@ -17,6 +17,8 @@ permalink: /:categories/:title
 collections:
   courses:
     output: true
+  audiobooks:
+    output: true
     
 minima:
   # Minima skin selection.
