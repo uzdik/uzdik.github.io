@@ -8,6 +8,9 @@ layout: base
   {%- endif -%}
   {{ content }}
   {% assign audiobooks = site.audiobooks %}
+  <script>
+  console.log({{ audiobooks | jsonify }});
+</script>
   {%- if audiobooks.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="course-list-heading">{{ page.list_title }}</h2>
