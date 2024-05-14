@@ -4,7 +4,6 @@ title: Самый богатый человек в Вавилоне - Джорд
 author:
   - Джордж Клейсон
   - Дмитрий Бужинский
-  - 
 audiopath: "https://s1.knizhin.ru/books/483042/"
 firsttrack: 2832091
 total_tracks: 12
