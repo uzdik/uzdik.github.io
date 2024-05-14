@@ -809,6 +809,20 @@ details {
         cursor: pointer;
     }
 .audiocontrols {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.audiocontrols input[type='button'] {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.audiocontrols input[type='button']:hover {
+    background-color: #555; /* Darker background color on hover */
+}
