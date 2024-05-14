@@ -1,5 +1,5 @@
 ---
 layout: audiobooks
 title: Аудио-кітаптар
-permalink: /audiobooks/
+permalink: /audio-kitaptar/
 ---
