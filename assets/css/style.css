@@ -696,7 +696,7 @@ details {
   }
 
   details[open] {
-    background-color: #fff; /* Change background color when details are open */
+    background-color: #fdfdfd; /* Change background color when details are open */
   }
 
   summary {
