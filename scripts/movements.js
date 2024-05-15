@@ -2,7 +2,7 @@
 if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
   // Define topics (ideas)
   const ideas = ['Пікірлер','Аудиокітаптар','CEO', 'Курстар', 'Ой-жазбалар', 'Python', 'Үздіктер', 'Codeforces','Латынша жазу','Cілтемелер'];
-  const links = ['feedbacks','author', 'courses', 'posts', 'courses/1-python-base-courses', 'personal/uzdikter-jobasy-turaly', 'courses/5-codeforces-courses','latyn','links'];
+  const links = ['feedbacks','audiobooks','author', 'courses', 'posts', 'courses/1-python-base-courses', 'personal/uzdikter-jobasy-turaly', 'courses/5-codeforces-courses','latyn','links'];
 
   // Create the center user
   const centerUser = document.querySelector('.center-user');
