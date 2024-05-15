@@ -7,7 +7,7 @@ permalink: /feedbacks/
   <summary>Пікір қалдыру, бағалау</summary>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDLxah6fmeC2qXnN47bSCWKHb1ovvCcKKYPpi8Gas_XSZQYw/viewform?embedded=true" 
         width="100%" 
-        height="500" 
+        height="450" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
