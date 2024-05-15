@@ -43,6 +43,6 @@ sys.stdout = open('output.out','w')
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
-        style="border: 1px solid #ccc; border-radius: 5px;">
+        style="border: 0">
     Loading…
 </iframe>
