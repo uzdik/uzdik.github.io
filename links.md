@@ -38,4 +38,5 @@ sys.stdout = open('output.out','w')
 ```
 
 ### SenderMail:
--[GoogleSheet send emails](https://www.youtube.com/watch?v=ZcNmur6xiX4)
+- [GoogleSheet send emails](https://www.youtube.com/watch?v=ZcNmur6xiX4)
+- [Jalgasy](https://www.youtube.com/watch?v=3dGQ4d7JF1U)
