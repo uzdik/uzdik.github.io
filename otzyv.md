@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Отзывтар
 permalink: /feedback/
 ---
 <details>
-  <summary style="font-size: 24px;">Отзыв қалдыру</summary>
+  <summary style="font-size: 24px;">Пікір қалдырып, бағалау</summary>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDLxah6fmeC2qXnN47bSCWKHb1ovvCcKKYPpi8Gas_XSZQYw/viewform?embedded=true" 
         width="100%" 
         height="800" 
