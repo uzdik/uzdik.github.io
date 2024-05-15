@@ -36,3 +36,6 @@ import sys
 sys.stdin = open('input.in','r')
 sys.stdout = open('output.out','w')
 ```
+
+### SenderMail:
+-[GoogleSheet send emails](https://www.youtube.com/watch?v=ZcNmur6xiX4)
