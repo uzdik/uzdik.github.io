@@ -10,7 +10,7 @@ header_pages:
   - kurstar.md
   - jazbalar.md
   - audiokitaptar.md
-  - otzyv.md
+  - pikirler.md
   
 permalink: /:categories/:title
 
