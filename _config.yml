@@ -11,6 +11,7 @@ header_pages:
   - jazbalar.md
   - audiokitaptar.md
   - pikirler.md
+  - policy.md
   
 permalink: /:categories/:title
 
