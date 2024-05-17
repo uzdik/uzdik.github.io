@@ -15,3 +15,14 @@ permalink: /feedbacks/
     Жүктелуде…
 </iframe>
 </details>
+
+
+<iframe src="https://script.google.com/macros/s/AKfycbxlkWsO8kzdOt9bNzVk4bp8wL4befhAwAa5zZjjnQXuLV1HrBHtdD3iTuBpPok8BGIk/exec" 
+        width="100%" 
+        height="800" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0" 
+        style="border: 0">
+    Your browser does not support iframes.
+</iframe>
