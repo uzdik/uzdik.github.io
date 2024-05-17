@@ -17,7 +17,7 @@ permalink: /feedbacks/
   </iframe>
 </details>
 
-<iframe src="https://script.google.com/macros/s/AKfycbzAu9WAsIEdUjei2kcSNwEV0r_tqTNcbi1tYuw94smZZlu1NtwGlhqdhw4tvECU68ZO/exec" 
+<iframe src="https://script.google.com/macros/s/AKfycbzAu9WAsIEdUjei2kcSNwEV0r_tqTNcbi1tYuw94smZZlu1NtwGlhqdhw4tvECU68ZO/dev" 
         width="100%" 
         height="800" 
         frameborder="0" 
