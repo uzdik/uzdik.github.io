@@ -4,9 +4,9 @@ title: "Пікірлер"
 permalink: /feedbacks/
 ---
 
-<iframe src="https://script.google.com/macros/s/AKfycbxlkWsO8kzdOt9bNzVk4bp8wL4befhAwAa5zZjjnQXuLV1HrBHtdD3iTuBpPok8BGIk/dev" 
+<iframe src="https://script.google.com/macros/s/AKfycbzAu9WAsIEdUjei2kcSNwEV0r_tqTNcbi1tYuw94smZZlu1NtwGlhqdhw4tvECU68ZO/exec" 
         width="100%" 
-        height="800" 
+        height="400" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
