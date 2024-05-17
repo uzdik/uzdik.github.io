@@ -3,6 +3,7 @@ layout: page
 title: "Пікірлер"
 permalink: /feedbacks/
 ---
+
 <details>
   <summary>Пікір қалдыру, бағалау</summary>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDLxah6fmeC2qXnN47bSCWKHb1ovvCcKKYPpi8Gas_XSZQYw/viewform?embedded=true" 
@@ -13,9 +14,8 @@ permalink: /feedbacks/
         marginwidth="0" 
         style="border: 0">
     Жүктелуде…
-</iframe>
+  </iframe>
 </details>
-
 
 <iframe src="https://script.google.com/macros/s/AKfycbzAu9WAsIEdUjei2kcSNwEV0r_tqTNcbi1tYuw94smZZlu1NtwGlhqdhw4tvECU68ZO/exec" 
         width="100%" 
