@@ -3,7 +3,6 @@ layout: page
 title: "Пікірлер"
 permalink: /feedbacks/
 ---
-
 <iframe src="https://script.google.com/macros/s/AKfycbxhCCmE-W06hwzpCZyst4EkDTsKVWBYgW_KC8DMdzep0VEfkCrk25B_HbvX4snOklJ8/exec" 
         width="100%" 
         height="800" 
@@ -12,6 +11,7 @@ permalink: /feedbacks/
         marginwidth="0" 
         style="border: 0">
 </iframe>
+
 
 
 <details>
