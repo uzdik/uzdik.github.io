@@ -11,6 +11,7 @@ header_pages:
   - kurstar.md
   - jazbalar.md
   - audiokitaptar.md
+  - _esepter/A+B
 
 permalink: /:categories/:title
 
