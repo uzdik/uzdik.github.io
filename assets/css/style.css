@@ -688,7 +688,7 @@ table td {
 }
 
 details {
-    background-color: #fdfdfd; /* Set background color for the details */
+    background-color: #e8e8e8; /* Set background color for the details */
     /* border: 1px solid #ccc;  Add border */
     border-radius: 5px; /* Add border radius for rounded corners */
     /* margin-bottom: 10px;  Add some margin */
