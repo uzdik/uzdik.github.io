@@ -3,6 +3,8 @@ layout: page
 title: "Пікірлер"
 permalink: /feedbacks/
 ---
+<details>
+  <summary>Бүкіл пікір жазбаларды көру</summary>
 <iframe src="https://script.google.com/macros/s/AKfycbw9-1KyTktxS7Zpy8UuHrCGg9JcswyM9BPuoPmA7CFxJE8komHfIkZyteKIqHlkEJC7aw/exec" 
         width="100%" 
         height="500" 
@@ -12,9 +14,11 @@ permalink: /feedbacks/
         style="border: 0">
     Жүктелуде…
   </iframe>
-
+  </iframe>
+</details>
+          
 <details>
-  <summary>Жаңа пікір қалдыру үшін</summary>
+  <summary>Жаңа пікір қалдыру</summary>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDLxah6fmeC2qXnN47bSCWKHb1ovvCcKKYPpi8Gas_XSZQYw/viewform?embedded=true" 
         width="100%" 
         height="430" 
