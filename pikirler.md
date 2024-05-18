@@ -3,9 +3,9 @@ layout: page
 title: "Пікірлер"
 permalink: /feedbacks/
 ---
-<iframe src="https://script.google.com/macros/s/AKfycbzkcOB5AurCgEj2KiKKn50zCm754WdEweb4BOeilk7XU0puGi2rS7VNxuuFWrX292kMAw/exec" 
+<iframe src="https://script.google.com/macros/s/AKfycbw9-1KyTktxS7Zpy8UuHrCGg9JcswyM9BPuoPmA7CFxJE8komHfIkZyteKIqHlkEJC7aw/exec" 
         width="100%" 
-        height="430" 
+        height="500" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
