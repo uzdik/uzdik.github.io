@@ -4,7 +4,7 @@ title: "Пікірлер"
 permalink: /feedbacks/
 ---
 
-<h3><a href = "https://script.google.com/macros/s/AKfycbxFf4XR0lpHR06oTEzE-Zd8teBmDTog4OCl8ShmNbY2lNGH_Um05kFS6vPwIk-YD-XRxQ/exec" target="_blank">Бүкіл пікірлерді оқу үшін</a></h3>
+<h3><a href = "https://script.google.com/macros/s/AKfycbwgjNJa_rUjo5RQXbP9VUtXNX7Xf3_wbzY9uMb8thQC6l09IGc8Ypv5chDz2Ai0Q0raNg/exec" target="_blank">Бүкіл пікірлерді оқу үшін</a></h3>
 
 <p></p>
 <details>
