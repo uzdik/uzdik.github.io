@@ -14,7 +14,6 @@ permalink: /feedbacks/
         style="border: 0">
     Жүктелуде…
   </iframe>
-  </iframe>
 </details>
           
 <details>
