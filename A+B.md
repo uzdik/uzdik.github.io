@@ -1,6 +1,6 @@
 ---
 layout: esep
-title: "A + B"
+title: "Есеп шығару"
 link: "https://codeforces.com/gym/515622/problem/A"
 ---
 <div class="problem-statement">
@@ -69,7 +69,7 @@ link: "https://codeforces.com/gym/515622/problem/A"
       <input type="hidden" name="ftaa" value="uydp03ie9n4emqmq0a">
       <input type="hidden" name="bfaa" value="597a1b035924636765919e85498832b6">
       <input type="hidden" name="action" value="submitSolutionFormSubmitted">
-      <label for="sourceFile">Таңдалған файл:</label>
+      <label for="sourceFile">Файлды жүктеу:</label>
       <input id="sourceFile" name="sourceFile" type="file" value="">
       <input class="submit" type="submit" id="submitSolutionForm" value="Жіберу">
     </form>
