@@ -61,11 +61,10 @@ link: "https://codeforces.com/gym/515622/problem/A"
   </div>
 </div>
 
-
 <details>
   <summary style="font-size: 24px;">SUBMIT CODE</summary>
   <div class="content">
-    <form class="submit-form" method="post" action="?csrf_token=254d3535d1759ddb110915c932649d6e" enctype="multipart/form-data">
+    <form class="submit-form" method="post" action="https://codeforces.com/gym/515622/submit?csrf_token=254d3535d1759ddb110915c932649d6e" enctype="multipart/form-data">
       <input type="hidden" name="csrf_token" value="254d3535d1759ddb110915c932649d6e">
       <input type="hidden" name="ftaa" value="">
       <input type="hidden" name="bfaa" value="">
@@ -231,19 +230,10 @@ link: "https://codeforces.com/gym/515622/problem/A"
 
 <script type="text/javascript">
   $(document).ready(function () {
-    $("select[name=submittedProblemIndex]").change(function () {
-      let problemIndex = $(this).val();
-      $(".next-available-submission-time").hide();
-      if (problemIndex !== "") {
-        $(".next-available-submission-time.for-problem-" + problemIndex).show();
-      }
-    });
-
+    $("select[name=submittedProblemIndex]").val("A");
+    $("select[name=programTypeId]").val("70");
+    
     function updateFilesAndLimits() {
-      if ("false" === "true") {
-        return;
-      }
-
       var problemFiles = $("#submittedProblemFiles");
       var problemLimits = $("#submittedProblemLimits");
 
