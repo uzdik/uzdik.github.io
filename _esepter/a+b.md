@@ -61,6 +61,7 @@ link: "https://codeforces.com/gym/515622/problem/A"
   </div>
 </div>
 
+
 <details>
   <summary style="font-size: 24px;">SUBMIT CODE</summary>
   <div class="content">
@@ -77,7 +78,7 @@ link: "https://codeforces.com/gym/515622/problem/A"
             <td>
               <label style="width: 300px; margin: 0;padding: 0;">
                 <select style="width: 300px;" name="submittedProblemIndex">
-                  <option value="A" data-memory-limit="100" data-time-limit="0,25" data-input-file="" data-output-file="">
+                  <option value="A" data-memory-limit="100" data-time-limit="0,25" data-input-file="" data-output-file="" selected>
                     A - Ал, бастадық!
                   </option>
                 </select>
@@ -90,9 +91,6 @@ link: "https://codeforces.com/gym/515622/problem/A"
             <td>
               <div class="shiftUp error__submittedProblemIndex" style="width: 300px;">
                 <span class="error for__submittedProblemIndex" style="display: none;">&nbsp;</span>
-                <span class="notice for__submittedProblemIndex">&nbsp;</span>
-                <span id="submittedProblemFiles" class="" style="float: left;">стандартный ввод/вывод</span>
-                <span id="submittedProblemLimits" class="" style="float: right;">0,25 с, 100 МБ</span>
               </div>
             </td>
           </tr>
@@ -105,8 +103,6 @@ link: "https://codeforces.com/gym/515622/problem/A"
                 <option value="41">PyPy 3.6.9 (7.3.0)</option>
                 <option value="70" selected="selected">PyPy 3.10 (7.3.15, 64bit)</option>
               </select>
-              <div><span class="programTypeNotice notice smaller"></span></div>
-              <div class="outputOnlyProgramTypeIdNotice">ZIP</div>
             </td>
           </tr>
           
@@ -155,3 +151,220 @@ link: "https://codeforces.com/gym/515622/problem/A"
     </form>
   </div>
 </details>
+
+<script type="text/javascript">
+  var extensionMap = {
+    "7": "program.py",
+    "31": "a.py",
+    "40": "a.py",
+    "41": "a.py",
+    "70": "a.py",
+  };
+
+  $(function() {
+    $("#editor").css("display", "block");
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/chrome");
+    editor.setShowPrintMargin(false);
+    editor.setOptions({
+      enableBasicAutocompletion: true,
+      tabSize: parseInt($("#tabSizeInput").val())
+    });
+
+    var modelist = ace.require("ace/ext/modelist");
+    function setAceMode() {
+      var filePath = extensionMap[$("select[name=programTypeId]").val()];
+      var mode = modelist.getModeForPath(filePath).mode;
+      editor.session.setMode(mode);
+    }
+    setAceMode();
+    $("select[name=programTypeId]").change(function() {
+      setAceMode();
+    });
+
+    editor.getSession().on('change', function() {
+      $("#sourceCodeTextarea").val(editor.getValue());
+    });
+
+    $("#sourceCodeTextarea").change(function() {
+      editor.setValue($(this).val(), 1);
+    });
+
+    function hideShowEditor() {
+      if ($("#toggleEditorCheckbox").is(":checked")) {
+        $("#editor").hide();
+        $("#sourceCodeTextarea").show();
+        $(".tabSizeDiv").hide();
+      } else {
+        $("#editor").show();
+        editor.setValue(editor.getValue());
+        $("#sourceCodeTextarea").hide();
+        $(".tabSizeDiv").show();
+      }
+    }
+
+    $("#toggleEditorCheckbox").change(function () {
+      hideShowEditor();
+      var editorEnabled = !$(this).is(":checked");
+
+      $.post("/data/customtest", { communityCode: "", action: "setEditorEnabled", editorEnabled: editorEnabled }, function(response) {
+        // No operations.
+      });
+
+      return false;
+    });
+
+    $("#tabSizeInput").change(function () {
+      var tabSize = $(this).val();
+      editor.setOptions({
+        tabSize: tabSize
+      });
+
+      $.post("/data/customtest", { communityCode: "", action: "setTabSize", tabSize: tabSize }, function(response) {
+        // No operations.
+      });
+    });
+
+    hideShowEditor();
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("select[name=submittedProblemIndex]").change(function () {
+      let problemIndex = $(this).val();
+      $(".next-available-submission-time").hide();
+      if (problemIndex !== "") {
+        $(".next-available-submission-time.for-problem-" + problemIndex).show();
+      }
+    });
+
+    function updateFilesAndLimits() {
+      if ("false" === "true") {
+        return;
+      }
+
+      var problemFiles = $("#submittedProblemFiles");
+      var problemLimits = $("#submittedProblemLimits");
+
+      var problemIndex = $("select[name=submittedProblemIndex]").val();
+      var option = $("select[name=submittedProblemIndex] option:selected");
+
+      var timeLimit = option.attr("data-time-limit");
+      var memoryLimit = option.attr("data-memory-limit");
+      var inputFile = option.attr("data-input-file");
+      var outputFile = option.attr("data-output-file");
+
+      if (problemIndex == "") {
+        problemFiles.text("");
+        problemLimits.text("");
+      } else {
+        var filesStyle = "float: left; font-weight: bold";
+        if (inputFile == "") {
+          if (outputFile == "") {
+            filesStyle = "float: left;";
+            problemFiles.text("стандартный ввод/вывод");
+          } else {
+            problemFiles.text("стандартный ввод / " + outputFile);
+          }
+        } else {
+          if (outputFile == "") {
+            problemFiles.text(inputFile + " / стандартный вывод")
+          } else {
+            problemFiles.text(inputFile + " / " + outputFile);
+          }
+        }
+
+        problemFiles.attr("style", filesStyle);
+        problemLimits.text(timeLimit + " с, " + memoryLimit + " МБ");
+      }
+    }
+
+    function updateSubmitButtonState() {
+      var problemIndex = $("select[name=submittedProblemIndex]").val();
+
+      updateFilesAndLimits();
+      if (problemIndex == "") {
+        $(".submit-form :submit").attr("disabled", "disabled");
+      } else {
+        $(".submit-form :submit").removeAttr("disabled");
+      }
+    }
+
+    $("select[name=submittedProblemIndex]").bind('change', updateSubmitButtonState);
+    $("select[name=submittedProblemIndex]").bind('keypress', updateSubmitButtonState);
+    $("select[name=submittedProblemIndex]").bind('blur', updateSubmitButtonState);
+    $("select[name=submittedProblemIndex]").bind('input', updateSubmitButtonState);
+    updateSubmitButtonState();
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    window._ftaa = "f4jhs2j1sy2uakeovi";
+  })
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    window._bfaa = "a30d473fd410d93f2bd818a2fe00adb9";
+  });
+</script>
+
+<script>
+  $(function () {
+    function adjustNotice(programTypeId) {
+      var $programTypeNotice = $(".programTypeNotice");
+      $programTypeNotice.text("");
+      if (programTypeId === 7 || programTypeId === 31) {
+        $programTypeNotice.text("Почти всегда, если отсылать решения на PyPy, то они работают значительно быстрее");
+      }
+    }
+
+    adjustNotice(31);
+
+    const $submittedProblemIndex = $("select[name='submittedProblemIndex']");
+
+    function adjustSubmittedProblemIndex() {
+      const index = $submittedProblemIndex.val();
+      const outputOnlyIndices = [];
+      const outputOnly = outputOnlyIndices.indexOf(index) >= 0;
+      if (outputOnly) {
+        $submittedProblemIndex.closest(".submit-form").addClass("output-only");
+      } else {
+        $submittedProblemIndex.closest(".submit-form").removeClass("output-only");
+      }
+    }
+
+    $submittedProblemIndex.change(function () {
+      adjustSubmittedProblemIndex();
+    });
+
+    adjustSubmittedProblemIndex();
+
+    $("select[name='programTypeId']").change(function () {
+      adjustNotice(parseInt($(this).val()));
+    });
+
+    $(".submit-form, .submitForm").submitOnce(function () {
+      var form = $(this);
+      var $ftaa = form.find("input[name='ftaa']");
+      var $bfaa = form.find("input[name='bfaa']");
+
+      if (window._ftaa && window._bfaa) {
+        $ftaa.val(window._ftaa);
+        $bfaa.val(window._bfaa);
+      }
+
+      if (form.attr("enctype") === "multipart/form-data") {
+        var sourceFiles = form.find(".table-form input[name=sourceFile]");
+
+        if (sourceFiles.length === 1 && sourceFiles[0].files && sourceFiles[0].files.length === 0) {
+          form.removeAttr("enctype");
+        }
+      }
+
+      return true;
+    });
+  });
+</script>
