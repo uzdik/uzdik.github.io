@@ -71,11 +71,11 @@ link: "https://codeforces.com/gym/515622/problem/A"
       <input type="hidden" name="action" value="submitSolutionFormSubmitted">
       <label for="sourceFile">Исходный код:</label>
       <input id="sourceFile" name="sourceFile" type="file" value="">
-      <input class="submit" type="submit" id="singlePageSubmitButton" value="Отослать">
+      <input class="submit" type="submit" id="submitSolutionForm" value="Отослать">
     </form>
   </div>
 </details>
-"document.getElementById('submitSolutionForm').submit();")
+
 <script type="text/javascript">
 $(document).ready(function () {
     $("select[name=submittedProblemIndex]").val("A");
