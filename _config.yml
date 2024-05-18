@@ -19,6 +19,8 @@ collections:
     output: true
   audiobooks:
     output: true
+  esepter:
+    output: true
     
 minima:
   # Minima skin selection.
