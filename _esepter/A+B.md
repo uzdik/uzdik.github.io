@@ -66,8 +66,8 @@ link: "https://codeforces.com/gym/515622/problem/A"
   <div class="content">
     <form class="submit-form" method="post" action="https://codeforces.com/gym/515622/submit?csrf_token=254d3535d1759ddb110915c932649d6e" enctype="multipart/form-data">
       <input type="hidden" name="csrf_token" value="254d3535d1759ddb110915c932649d6e">
-      <input type="hidden" name="ftaa" value="">
-      <input type="hidden" name="bfaa" value="">
+      <input type="hidden" name="ftaa" value="uydp03ie9n4emqmq0a">
+      <input type="hidden" name="bfaa" value="597a1b035924636765919e85498832b6">
       <input type="hidden" name="action" value="submitSolutionFormSubmitted">
       <label for="sourceFile">Исходный код:</label>
       <input id="sourceFile" name="sourceFile" type="file" value="">
@@ -75,10 +75,59 @@ link: "https://codeforces.com/gym/515622/problem/A"
     </form>
   </div>
 </details>
-
+"document.getElementById('submitSolutionForm').submit();")
 <script type="text/javascript">
 $(document).ready(function () {
     $("select[name=submittedProblemIndex]").val("A");
     $("select[name=programTypeId]").val("70");
 });
 </script>
+
+<script>
+        $(function () {
+            const $submittedProblemIndex = $("select[name='submittedProblemIndex']");
+
+            function adjustSubmittedProblemIndex() {
+                const index = $submittedProblemIndex.val();
+                const outputOnlyIndices = [];
+                const outputOnly = outputOnlyIndices.indexOf(index) >= 0;
+                if (outputOnly) {
+                    $submittedProblemIndex.closest(".submit-form").addClass("output-only");
+                } else {
+                    $submittedProblemIndex.closest(".submit-form").removeClass("output-only");
+                }
+            }
+
+
+            $submittedProblemIndex.change(function () {
+                adjustSubmittedProblemIndex();
+            });
+
+            adjustSubmittedProblemIndex();
+
+            $("select[name='programTypeId']").change(function () {
+                adjustNotice(parseInt($(this).val()));
+            });
+
+            $(".submit-form, .submitForm").submitOnce(function () {
+                var form = $(this);
+                var $ftaa = form.find("input[name='ftaa']");
+                var $bfaa = form.find("input[name='bfaa']");
+
+                if (window._ftaa && window._bfaa) {
+                    $ftaa.val(window._ftaa);
+                    $bfaa.val(window._bfaa);
+                }
+
+                if (form.attr("enctype") === "multipart/form-data") {
+                    var sourceFiles = form.find(".table-form input[name=sourceFile]");
+
+                    if (sourceFiles.length === 1 && sourceFiles[0].files && sourceFiles[0].files.length === 0) {
+                        form.removeAttr("enctype");
+                    }
+                }
+
+                return true;
+            });
+        });
+    </script>
