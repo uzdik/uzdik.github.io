@@ -1,6 +1,6 @@
 ---
 layout: esep
-title: "Ал, бастадық!"
+title: "A + B"
 link: "https://codeforces.com/gym/515622/problem/A"
 ---
 <div class="problem-statement">
