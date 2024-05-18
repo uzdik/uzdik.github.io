@@ -80,24 +80,5 @@ link: "https://codeforces.com/gym/515622/problem/A"
 $(document).ready(function () {
     $("select[name=submittedProblemIndex]").val("A");
     $("select[name=programTypeId]").val("70");
-  function updateForm() {
-    var problemIndex = $("select[name=submittedProblemIndex]").val();
-
-    // Update the visibility of elements based on problem index selection
-    if (problemIndex == "") {
-      $(".submit-form :submit").attr("disabled", "disabled");
-    } else {
-      $(".submit-form :submit").removeAttr("disabled");
-    }
-  }
-
-  // Bind the updateForm function to various events
-  $("select[name=submittedProblemIndex]").bind('change', updateForm);
-  $("select[name=submittedProblemIndex]").bind('keypress', updateForm);
-  $("select[name=submittedProblemIndex]").bind('blur', updateForm);
-  $("select[name=submittedProblemIndex]").bind('input', updateForm);
-
-  // Call the updateForm function initially
-  updateForm();
 });
 </script>
