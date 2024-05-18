@@ -62,16 +62,16 @@ link: "https://codeforces.com/gym/515622/problem/A"
 </div>
 
 <details>
-  <summary style="font-size: 24px;">SUBMIT CODE</summary>
+  <summary style="font-size: 24px;">КОД ЖІБЕРУ</summary>
   <div class="content">
     <form class="submit-form" method="post" action="https://codeforces.com/gym/515622/submit?csrf_token=254d3535d1759ddb110915c932649d6e" enctype="multipart/form-data">
       <input type="hidden" name="csrf_token" value="254d3535d1759ddb110915c932649d6e">
       <input type="hidden" name="ftaa" value="uydp03ie9n4emqmq0a">
       <input type="hidden" name="bfaa" value="597a1b035924636765919e85498832b6">
       <input type="hidden" name="action" value="submitSolutionFormSubmitted">
-      <label for="sourceFile">Исходный код:</label>
+      <label for="sourceFile">Таңдалған файл:</label>
       <input id="sourceFile" name="sourceFile" type="file" value="">
-      <input class="submit" type="submit" id="submitSolutionForm" value="Отослать">
+      <input class="submit" type="submit" id="submitSolutionForm" value="Жіберу">
     </form>
   </div>
 </details>
