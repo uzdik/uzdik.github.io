@@ -7,13 +7,9 @@ plugins:
   
 header_pages:
   - author.md
-  - esepter/A+B.md
   - pikirler.md
-  - _esepter/A+B.md
   - kurstar.md
-  - /_esepter/A+B.md
   - jazbalar.md
-  - /esepter/A+B.md
   - audiokitaptar.md
   - A+B.md
 
