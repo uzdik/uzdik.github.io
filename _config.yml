@@ -11,7 +11,7 @@ header_pages:
   - kurstar.md
   - jazbalar.md
   - audiokitaptar.md
-  - esepter.md
+  - problems.md
 
 permalink: /:categories/:title
 
@@ -20,7 +20,7 @@ collections:
     output: true
   audiobooks:
     output: true
-  problems:
+  esepter:
     output: true
     
 minima:
