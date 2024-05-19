@@ -7,7 +7,7 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   {{ content }}
-  {% assign esepter = site.esepter -%}
+  {%- assign esepter = site.esepter -%}
   {%- if esepter > 0 -%}
     {%- if page.list_title -%}
       <h2 class="esep-list-heading">{{ page.list_title }}</h2>
