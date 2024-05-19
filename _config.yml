@@ -7,12 +7,11 @@ plugins:
   
 header_pages:
   - author.md
-    - pikirler.md
+  - pikirler.md
   - kurstar.md
   - jazbalar.md
   - audiokitaptar.md
   - problems.md
-  - latyn.md
 
 permalink: /:categories/:title
 
