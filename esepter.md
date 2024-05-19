@@ -1,5 +1,5 @@
 ---
 layout: esepter
 title: Есептер
-permalink: /esepter/
+permalink: /problems/
 ---
