@@ -2,26 +2,26 @@
 layout: base
 ---
 
-<div class="problems">
+<div class="esepter">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   {{ content }}
-  {% assign problems = site.esepter %}
-  {%- if problems > 0 -%}
+  {% assign esepter = site.esepter %}
+  {%- if esepter > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="problem-list-heading">{{ page.list_title }}</h2>
+      <h2 class="esep-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="problem-list">
-      {%- for problem in problems -%}
+    <ul class="esep-list">
+      {%- for esep in esepter -%}
       <li>
         <h3>
-          <a class="problem-link" href="{{ problem.url | relative_url }}">
-            {{ problem.title | escape }}
+          <a class="esep-link" href="{{ esep.url | relative_url }}">
+            {{ esep.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ problem.excerpt }}
+          {{ esep.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
