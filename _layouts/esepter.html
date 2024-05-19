@@ -8,7 +8,7 @@ layout: base
   {%- endif -%}
   {{ content }}
   {%- assign esepter = site.esepter -%}
-  {%- if esepter > 0 -%}
+  {%- if esepter.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="esep-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
