@@ -1,0 +1,18 @@
+<nav>
+  <ul>
+    {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.sub_items %}
+          <ul>
+            {% for sub_item in item.sub_items %}
+              <li>
+                <a href="{{ sub_item.url | relative_url }}">{{ sub_item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
