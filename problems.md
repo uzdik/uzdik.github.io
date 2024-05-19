@@ -1,5 +1,5 @@
 ---
 layout: esepter
-title: Есептер
+title: Есептер жинағы
 permalink: /esepter/
 ---
