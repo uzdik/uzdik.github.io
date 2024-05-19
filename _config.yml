@@ -20,8 +20,6 @@ collections:
     output: true
   audiobooks:
     output: true
-  problems:
-    output: true
     
 minima:
   # Minima skin selection.
