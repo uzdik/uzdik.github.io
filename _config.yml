@@ -5,39 +5,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   
-# header_pages:
- # - author.md
- # - pikirler.md
- # - kurstar.md
- # - jazbalar.md
- # - audiokitaptar.md
- # - problems.md
-
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Авторы"
-    url: "/author/"
-  - title: "Пікірлер"
-    url: "/pikirler/"
-  - title: "Курстар"
-    url: "/kurstar/"
-  - title: "Ой-жазбалар"
-    url: "/jazbalar/"
-  - title: "Аудиокітаптар"
-    url: "/audiokitaptar/"
-  - title: "Есептер жинағы"
-    url: "/esepter/"
-    sub_items:
-      - title: "A + B"
-        url: "/esepter/1"
-      - title: "Қосу мен Көбейту"
-        url: "/esepter/2"
-      - title: "Максималды сан"
-        url: "/esepter/3"
-      - title: "Ондық сан"
-        url: "/esepter/4"
-
+header_pages:
+  - author.md
+  - pikirler.md
+  - kurstar.md
+  - jazbalar.md
+  - audiokitaptar.md
+  - problems.md
 
 permalink: /:categories/:title
 
