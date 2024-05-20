@@ -54,4 +54,8 @@ git remote add origin https://github.com/your_username/flask_project.git
 
 pip show numpy (show version)
 pip freeze > requirements.txt
+git add app.py requirements.txt
+git commit -m "Updated app.py and requirements.txt"
+git push origin master
+
 ```
