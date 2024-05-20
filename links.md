@@ -40,3 +40,18 @@ sys.stdout = open('output.out','w')
 ### SenderMail:
 - [GoogleSheet send emails](https://www.youtube.com/watch?v=ZcNmur6xiX4)
 - [Jalgasy](https://www.youtube.com/watch?v=3dGQ4d7JF1U)
+
+### Useful commands to github
+```
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+git init
+git add .   # Add all files
+git commit -m "Your commit message here"
+git remote add origin <repository_url>
+git push -u origin master
+git remote add origin https://github.com/your_username/flask_project.git
+
+pip show numpy (show version)
+pip freeze > requirements.txt
+```
