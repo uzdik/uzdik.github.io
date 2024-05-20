@@ -26,7 +26,8 @@ layout: base
         <div id="submission-result"></div>
     </details>
 
- const contestId = "{{ page.contest }}";
+<script>
+const contestId = "{{ page.contest }}";
 const problemIndex = "{{ page.problem }}";
 
 document.getElementById('submit-form').addEventListener('submit', async function(event) {
@@ -66,3 +67,4 @@ document.getElementById('submit-form').addEventListener('submit', async function
         document.getElementById('submission-result').innerText = 'Server error';
     }
 });
+</script>
