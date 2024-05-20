@@ -26,42 +26,43 @@ layout: base
         <div id="submission-result"></div>
     </details>
 
-  <script>
-        const contestId =  "{{ page.contest }}";
-        const problemIndex = "{{ page.problem }}";
+ const contestId = "{{ page.contest }}";
+const problemIndex = "{{ page.problem }}";
 
-        document.getElementById('submit-form').addEventListener('submit', async function(event) {
-            event.preventDefault();
-            const formData = new FormData(this);
-            const sourceCode = formData.get('sourceCode');
-            const programTypeId = formData.get('programTypeId');
+document.getElementById('submit-form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+    const formData = new FormData(this);
+    const sourceCode = formData.get('sourceCode');
+    const programTypeId = formData.get('programTypeId');
 
-            const data = {
-                user: 'Uzdik User',
-                problemIndex: problemIndex,
-                programTypeId: programTypeId,
-                contestId: contestId,
-                sourceFileContent: sourceCode,
-            };
+    const data = {
+        user: 'Uzdik User',
+        problemIndex: problemIndex,
+        programTypeId: programTypeId,
+        contestId: contestId,
+        sourceFileContent: sourceCode,
+    };
 
-            try {
-                const response = await fetch('https://codeforces-proxy.onrender.com/submit', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data),
-                });
+    // Log the data to the console before sending the request
+    console.log('Data being sent:', data);
 
-                const resultDiv = document.getElementById('submission-result');
-                if (response.ok) {
-                    resultDiv.innerText = await response.text();
-                } else {
-                    resultDiv.innerText = 'Submission failed!';
-                }
-            } catch (error) {
-                console.error('Error submitting solution:', error);
-                document.getElementById('submission-result').innerText = 'Server error';
-            }
+    try {
+        const response = await fetch('https://codeforces-proxy.onrender.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
         });
-    </script>
+
+        const resultDiv = document.getElementById('submission-result');
+        if (response.ok) {
+            resultDiv.innerText = await response.text();
+        } else {
+            resultDiv.innerText = 'Submission failed!';
+        }
+    } catch (error) {
+        console.error('Error submitting solution:', error);
+        document.getElementById('submission-result').innerText = 'Server error';
+    }
+});
