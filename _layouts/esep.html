@@ -79,7 +79,7 @@ document.getElementById('submit-form').addEventListener('submit', async function
 
         if (response.ok) {
             const responseData = await response.json();
-            resultDiv.innerText = `Шешім қабылданып, нәтижесі: ${JSON.stringify(responseData.data)}`;
+            resultDiv.innerText = `Шешім қабылданып, нәтижесі: ${responseData.data[2]}`; //${JSON.stringify(responseData.data)}`;
         } else {
             resultDiv.innerText = 'Шешім қабылданбады!';
         }
