@@ -29,15 +29,15 @@ layout: base
 <script>
 const contestId = "{{ page.contest }}";
 const problemIndex = "{{ page.problem }}";
+const submitButton = document.getElementById('submit-button');
+const resultDiv = document.getElementById('submission-result');
+const textarea = document.getElementById('sourceCode');
 
 document.getElementById('submit-form').addEventListener('submit', async function(event) {
     event.preventDefault();
     const formData = new FormData(this);
     const sourceCode = formData.get('sourceCode');
     const programTypeId = formData.get('programTypeId');
-    const submitButton = document.getElementById('submit-button');
-    const resultDiv = document.getElementById('submission-result');
-    const textarea = document.getElementById('sourceCode');
 
     const data = {
         user: 'Uzdik-GitHub User',
@@ -57,13 +57,19 @@ document.getElementById('submit-form').addEventListener('submit', async function
         textarea.disabled = true;
 
         let countdown = 200;
+        sessionStorage.setItem('countdown', countdown);
+        sessionStorage.setItem('formData', JSON.stringify(data));
+        sessionStorage.setItem('submitting', 'true');
+
         const timerInterval = setInterval(() => {
             countdown--;
+            sessionStorage.setItem('countdown', countdown);
             if (countdown <= 0) {
                 clearInterval(timerInterval);
                 submitButton.disabled = false;
                 submitButton.innerText = 'Шешімді жіберу';
                 textarea.disabled = false;
+                sessionStorage.removeItem('submitting');
                 return;
             }
             submitButton.innerText = `Сәл күте тұрыңыз... (${countdown}s)`;
@@ -79,7 +85,7 @@ document.getElementById('submit-form').addEventListener('submit', async function
 
         if (response.ok) {
             const responseData = await response.json();
-            resultDiv.innerText = `Шешім қабылданып, нәтижесі: ${responseData.data[2]} балл.`; //${JSON.stringify(responseData.data)}`;
+            resultDiv.innerText = `Шешім қабылданып, нәтижесі: ${responseData.data[2]} балл.`;
         } else {
             resultDiv.innerText = 'Шешім қабылданбады!';
         }
@@ -89,6 +95,38 @@ document.getElementById('submit-form').addEventListener('submit', async function
     } finally {
         submitButton.disabled = false;
         textarea.disabled = false;
+        sessionStorage.removeItem('submitting');
     }
 });
+
+function restoreState() {
+    const isSubmitting = sessionStorage.getItem('submitting');
+    if (isSubmitting) {
+        const savedCountdown = parseInt(sessionStorage.getItem('countdown'), 10);
+        const savedFormData = JSON.parse(sessionStorage.getItem('formData'));
+        if (savedFormData && savedCountdown) {
+            textarea.value = savedFormData.source_code;
+            submitButton.disabled = true;
+            textarea.disabled = true;
+
+            let countdown = savedCountdown;
+            const timerInterval = setInterval(() => {
+                countdown--;
+                sessionStorage.setItem('countdown', countdown);
+                if (countdown <= 0) {
+                    clearInterval(timerInterval);
+                    submitButton.disabled = false;
+                    submitButton.innerText = 'Шешімді жіберу';
+                    textarea.disabled = false;
+                    sessionStorage.removeItem('submitting');
+                    return;
+                }
+                submitButton.innerText = `Сәл күте тұрыңыз... (${countdown}s)`;
+            }, 1000);
+        }
+    }
+}
+
+// Call restoreState on page load
+document.addEventListener('DOMContentLoaded', restoreState);
 </script>
