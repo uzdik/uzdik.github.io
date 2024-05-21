@@ -57,19 +57,19 @@ document.getElementById('submit-form').addEventListener('submit', async function
         textarea.disabled = true;
 
         let countdown = 200;
-        sessionStorage.setItem('countdown', countdown);
-        sessionStorage.setItem('formData', JSON.stringify(data));
-        sessionStorage.setItem('submitting', 'true');
+        localStorage.setItem('countdown', countdown);
+        localStorage.setItem('formData', JSON.stringify(data));
+        localStorage.setItem('submitting', 'true');
 
         const timerInterval = setInterval(() => {
             countdown--;
-            sessionStorage.setItem('countdown', countdown);
+            localStorage.setItem('countdown', countdown);
             if (countdown <= 0) {
                 clearInterval(timerInterval);
                 submitButton.disabled = false;
                 submitButton.innerText = 'Шешімді жіберу';
                 textarea.disabled = false;
-                sessionStorage.removeItem('submitting');
+                localStorage.removeItem('submitting');
                 return;
             }
             submitButton.innerText = `Сәл күте тұрыңыз... (${countdown}s)`;
@@ -95,15 +95,15 @@ document.getElementById('submit-form').addEventListener('submit', async function
     } finally {
         submitButton.disabled = false;
         textarea.disabled = false;
-        sessionStorage.removeItem('submitting');
+        localStorage.removeItem('submitting');
     }
 });
 
 function restoreState() {
-    const isSubmitting = sessionStorage.getItem('submitting');
+    const isSubmitting = localStorage.getItem('submitting');
     if (isSubmitting) {
-        const savedCountdown = parseInt(sessionStorage.getItem('countdown'), 10);
-        const savedFormData = JSON.parse(sessionStorage.getItem('formData'));
+        const savedCountdown = parseInt(localStorage.getItem('countdown'), 10);
+        const savedFormData = JSON.parse(localStorage.getItem('formData'));
         if (savedFormData && savedCountdown) {
             textarea.value = savedFormData.source_code;
             submitButton.disabled = true;
@@ -112,13 +112,13 @@ function restoreState() {
             let countdown = savedCountdown;
             const timerInterval = setInterval(() => {
                 countdown--;
-                sessionStorage.setItem('countdown', countdown);
+                localStorage.setItem('countdown', countdown);
                 if (countdown <= 0) {
                     clearInterval(timerInterval);
                     submitButton.disabled = false;
                     submitButton.innerText = 'Шешімді жіберу';
                     textarea.disabled = false;
-                    sessionStorage.removeItem('submitting');
+                    localStorage.removeItem('submitting');
                     return;
                 }
                 submitButton.innerText = `Сәл күте тұрыңыз... (${countdown}s)`;
