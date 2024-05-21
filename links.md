@@ -59,3 +59,9 @@ git commit -m "Updated app.py and requirements.txt"
 git push origin master
 
 ```
+# Virtual machine runner
+1) Run as administrator
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+3) 
