@@ -17,7 +17,7 @@ layout: base
       {%- for joba in jobalar -%}
       <li>
         <h3>
-          <a class="joba-link" href="{{ olympiada.url | relative_url }}">
+          <a class="joba-link" href="{{ joba.url | relative_url }}">
             {{ joba.title | escape }}
           </a>
         </h3>
