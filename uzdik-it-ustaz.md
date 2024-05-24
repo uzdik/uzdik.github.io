@@ -13,7 +13,7 @@ permalink: /uzdik-it-ustaz/
 - Турнир - сәуір-желтоқсан аралығында жыл бойы өтті.
 - Турнир - әр ай сайынғы 2-кезеңнен және соңғы қорытынды кезеңнен тұрады.
 
-Финалдық кезеңге әр қорытынды айлық кезеңнің** алғашқы 3 орынды алған ұстаздар** мен **1 ауылдық квота бойынша ұстаз** өтеді.
+Финалдық кезеңге әр қорытынды айлық кезеңнің **алғашқы 3 орынды алған ұстаздар** мен **1 ауылдық квота бойынша ұстаз** өтеді.
 
 
  Ай        | Форма бойынша тіркелгендер | Онлайн-іріктеу | Офлайн-қорытынды | Финалға өткендер 
@@ -28,7 +28,7 @@ permalink: /uzdik-it-ustaz/
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=784489035&amp;format=interactive" 
         width="100%" 
-        height="500" 
+        height="100%" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
@@ -38,15 +38,16 @@ permalink: /uzdik-it-ustaz/
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=623866042&format=interactive" 
         width="100%" 
-        height="500" 
+        height="100%" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
         style="border: 0">
     Жүктелуде…
 </iframe>
-<details>
-  <summary>Финалисттер (2023) тізімі</summary>
+<p>«Үздік IT ұстаз» турнирінің <a href = "https://codeforces.com/spectator/ranklist/d9f54fdfbbc49ae1280c0a9b796b4cd6">ақтық кезең (финал) нәтижесі</a></p>
+
+<summary>Финалисттер (2023) тізімі</summary>
 | Regions   | Name                                                           | Month   | Places  | Irikteu | Ailyk | Final | Results   |
 |-----------|----------------------------------------------------------------|---------|---------|---------|-------|-------|-----------|
 | Сайрам    | Анартаев Шерзод Илхамжанвич - №5 Горький мектеп (2)             | Mamyr   | 1-oryn  | 445     | 233   | 302   | 1-oryn    |
@@ -78,4 +79,5 @@ permalink: /uzdik-it-ustaz/
 | Мақтаарал | Закиров Ойбек Махмуджанович - №11 Қажымұқан мектеп             | Kazan   | 3-oryn  | 103     | 102   | 0     |           |
 | Сайрам    | Азамханов Сухраб - №65 Мұзрапов мектеп (2)                      | Mamyr   | 3-oryn  | 315     | 112   |       |           |
 | Сайрам    | Кадыркулов Бахтияр Анаркулович - №47 мектеп (3)                | Tamyz   | 2-oryn  | 221     | 245   |       |           |
-</details>
+
+
