@@ -21,13 +21,11 @@ permalink: /uzdik-it-ustaz/
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
-        justify-content: center
-        align-items: center
-        style="border: 0">
+        style="justify-content: center align-items: center border: 0">
     Жүктелуде…
 </iframe>
 
- Ай        | Форма бойынша тіркелгендер | Онлайн-іріктеу | Офлайн-қорытынды | Финалға өткендер |
+ Ай        | Форма бойынша тіркелгендер | Онлайн-іріктеу | Офлайн-қорытынды | Финалға өткендер 
 -----------|----------------------------|----------------|------------------|------------------
  сәуір     |             256            |       94       |        29        |        4       
  мамыр     |             305            |       38       |        27        |        5       
