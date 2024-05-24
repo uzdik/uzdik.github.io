@@ -12,6 +12,7 @@ header_pages:
   - jazbalar.md
   - audiokitaptar.md
   - problems.md
+  - jobalar.md
 
 permalink: /:categories/:title
 
@@ -21,6 +22,8 @@ collections:
   audiobooks:
     output: true
   esepter:
+    output: true
+  jobalar:
     output: true
 
 minima:
