@@ -14,17 +14,18 @@ permalink: /uzdik-it-ustaz/
 - Турнир - әр ай сайынғы 2-кезеңнен және соңғы қорытынды кезеңнен тұрады.
 
 Жалпы тіркелгендер саны: **968 мұғалім** болды.
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=784489035&amp;format=interactive" 
         width="100%" 
         height="500" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0" 
+        justify-content: center
+        align-items: center
         style="border: 0">
     Жүктелуде…
-</iframe></div>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+</iframe>
+
  Ай        | Форма бойынша тіркелгендер | Онлайн-іріктеу | Офлайн-қорытынды | Финалға өткендер 
 -----------|----------------------------|----------------|------------------|------------------
  сәуір     |             256            |       94       |        29        |        4       
