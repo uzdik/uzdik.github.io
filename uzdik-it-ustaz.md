@@ -33,7 +33,7 @@ permalink: /uzdik-it-ustaz/
  қараша    |             968            |       [64](https://codeforces.com/spectator/ranklist/597ba849afa5d0c0d6d7cfb8d8d6f3c4)       |        [31](https://codeforces.com/spectator/ranklist/8005d1243c75051d1d473248a8fb328c)        |        4       
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=784489035&amp;format=interactive" 
-        width="100%" 
+        width="600" 
         height="400" 
         frameborder="0" 
         marginheight="0" 
@@ -43,7 +43,7 @@ permalink: /uzdik-it-ustaz/
 </iframe>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=623866042&format=interactive" 
-        width="100%" 
+        width="600" 
         height="400" 
         frameborder="0" 
         marginheight="0" 
