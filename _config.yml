@@ -12,7 +12,7 @@ header_pages:
   - jazbalar.md
   - audiokitaptar.md
   - problems.md
-  - jobalar.md
+  - projects.md
 
 permalink: /:categories/:title
 
