@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: joba
 title: «Үздік IT ұстаз» турнирі (2023)
 permalink: /uzdik-it-ustaz-2023/
 ---
