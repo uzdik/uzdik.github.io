@@ -1,6 +1,6 @@
 ---
 layout: page
-title: «Үздік IT ұстаз» турнирі
+title: «Үздік IT ұстаз» турнирі (2023)
 permalink: /uzdik-it-ustaz/
 ---
 
