@@ -97,7 +97,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Абай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521" style="color: red;">Абай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі</a></p>
 </details>
 
 <details>
@@ -246,8 +246,8 @@ permalink: /uzdik-it-ustaz-2024/
  Ақмола    |     52     |         |         |    [12](https://codeforces.com/spectator/ranklist/efeafeab742a0ca53788ee64688c77eb)   |         |     [2](https://codeforces.com/spectator/ranklist/773f36d9e65170c9670ba243f6d88b62)   |   [13](https://codeforces.com/spectator/ranklist/f5c5fe49a8fa7ba5b7ed4221ae435525)    
  Алматы    |     82     |         |         |         |         |    [19](https://codeforces.com/spectator/ranklist/75c985be5c4aac3c9964cd2f2f92fbd8)   |   [11](https://codeforces.com/spectator/ranklist/f73a1422f8fb23d1daee32ec639c1158)           
  Павлодар  |     35     |         |         |         |         |    [15](https://codeforces.com/spectator/ranklist/7b9961cdb2f5da783d2901b89e95688b)   |   [13](https://codeforces.com/spectator/ranklist/3b32751b06054d85967c1cd971f4b5c3)    
- Total     |    1506    |    [238](https://codeforces.com/spectator/ranklist/f970257cb4bfeeff9b8c7a862a1cda18)  |    [65](https://codeforces.com/spectator/ranklist/94e04794a099f5a79fd53ea2c993d179)   |   [239](https://codeforces.com/spectator/ranklist/42c1e0f333f0aca9b103fafbe67db69d)   |    [45](https://codeforces.com/spectator/ranklist/d4c12e04fee0c9e29abeb14ac610c41e)   |   [114](https://codeforces.com/spectator/ranklist/ad10ea5200da96eea2275bfdbf18de33)   |  [139](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
+ Жалпы     |    1506    |    [238](https://codeforces.com/spectator/ranklist/f970257cb4bfeeff9b8c7a862a1cda18)  |    [65](https://codeforces.com/spectator/ranklist/94e04794a099f5a79fd53ea2c993d179)   |   [239](https://codeforces.com/spectator/ranklist/42c1e0f333f0aca9b103fafbe67db69d)   |    [45](https://codeforces.com/spectator/ranklist/d4c12e04fee0c9e29abeb14ac610c41e)   |   [114](https://codeforces.com/spectator/ranklist/ad10ea5200da96eea2275bfdbf18de33)   |  [139](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
 
 
-<p><a href = "https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0">«Үздік IT ұстаз» турнирінің ақтық кезең (финал) Бүкіл Қазақстан нәтижесі</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0" style="color: red;">«Үздік IT ұстаз» турнирінің ақтық кезең (финал) Бүкіл Қазақстан нәтижесі</a></p>
 
