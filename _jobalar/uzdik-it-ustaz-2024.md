@@ -30,6 +30,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">1) Абай облысы</summary>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
@@ -108,7 +117,7 @@ permalink: /uzdik-it-ustaz-2024/
  Total     |    1506    |    238  |    34   |   239   |    45   |   114   |  [161](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
 
 
-### Финалисттер (2024) тізімі
+### Жеңімпаздар (2024) тізімі
 
 | Ауданы   | Ұстаздың аты-жөні, мектебі, (іріктеу кезеңі)                     | Айы    | Іріктеу | Айлық | Орын | Финал | Нәтиже       |
 |----------|------------------------------------------------------------------|----------|---------|-------|------|-------|--------------|
@@ -118,5 +127,5 @@ permalink: /uzdik-it-ustaz-2024/
 | Түркістан| Мирзараимов Зафаржон Анарбаевич - №17 Ататүрік (2)               | маусым   | 160     | 125   | 🥈   | 207   | 📜 (Диплом) |
 
 
-<p><a href = "https://codeforces.com/spectator/ranklist/d9f54fdfbbc49ae1280c0a9b796b4cd6">«Үздік IT ұстаз» турнирінің ақтық кезең (финал) нәтижесі</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0">«Үздік IT ұстаз» турнирінің ақтық кезең (финал) Бүкіл Қазақстан нәтижесі</a></p>
 
