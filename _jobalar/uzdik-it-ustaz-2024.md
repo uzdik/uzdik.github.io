@@ -26,6 +26,8 @@ permalink: /uzdik-it-ustaz-2024/
 - 2-кезең - айлық корытынды кезеңі;
 - 3-кезең - ақтық кезең (мамыр-маусым 2024).
 
+### Турнир аймақтары:
+
 <details>
   <summary style="font-size: 24px;">1) Абай облысы</summary>
   <div class="content">
