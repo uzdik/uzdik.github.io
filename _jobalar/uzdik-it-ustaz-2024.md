@@ -147,7 +147,7 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
-     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubhtml?gid=817766759&amp;single=true&amp;widget=true&amp;headers=false"
+     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubchart?oid=1558306654&amp;format=interactive"
            width="700" 
            height="400" 
            frameborder="0" 
