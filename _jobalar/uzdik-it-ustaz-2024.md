@@ -97,7 +97,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521" style="color: red;">Абай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі</a></p>
+<p>Абай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
 </details>
 
 <details>
@@ -249,5 +249,5 @@ permalink: /uzdik-it-ustaz-2024/
  Жалпы     |    1506    |    [238](https://codeforces.com/spectator/ranklist/f970257cb4bfeeff9b8c7a862a1cda18)  |    [65](https://codeforces.com/spectator/ranklist/94e04794a099f5a79fd53ea2c993d179)   |   [239](https://codeforces.com/spectator/ranklist/42c1e0f333f0aca9b103fafbe67db69d)   |    [45](https://codeforces.com/spectator/ranklist/d4c12e04fee0c9e29abeb14ac610c41e)   |   [114](https://codeforces.com/spectator/ranklist/ad10ea5200da96eea2275bfdbf18de33)   |  [139](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
 
 
-<p><a href = "https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0" style="color: red;">«Үздік IT ұстаз» турнирінің ақтық кезең (финал) Бүкіл Қазақстан нәтижесі</a></p>
+<p>«Үздік IT ұстаз» турнирінің ақтық кезең (финал) Бүкіл Қазақстан нәтижесі <a href = "https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0">(толық кестесі)</a></p>
 
