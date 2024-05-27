@@ -82,6 +82,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">5) Қарағанды облысы</summary>
+ <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcYxJHV4nZBxsNHkqQOViUxTC2LF0pPJGwKV-kvBxIba3NxxyesHlfGVqnT0eyacuRrGVndk2gaXrK/pubchart?oid=966948499&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
