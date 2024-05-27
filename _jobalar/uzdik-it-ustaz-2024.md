@@ -175,18 +175,18 @@ permalink: /uzdik-it-ustaz-2024/
 
  Облыстар  |Тіркелгендер|Іріктеу-1|Негізгі-1|Іріктеу-2|Негізгі-2|Іріктеу-3| Финал
 -----------|------------|---------|---------|---------|---------|---------|-------
- Түркістан |    627     |   163   |    21   |    40   |    15   |         |   22    
- Абай      |    139     |    43   |     5   |    16   |    11   |    10   |   [11](https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521)     
- Жамбыл    |     97     |    32   |     8   |    27   |    19   |     7   |    [9](https://codeforces.com/spectator/ranklist/d9ad05f1e1451eebeec788d7d44007e4)     
- Қостанай  |    154     |         |         |    70   |         |    16   |   [21](https://codeforces.com/spectator/ranklist/08f9c44d7888b7d66b8897c087c281ba)    
- Қызылорда |    102     |         |         |    20   |         |    12   |   [17](https://codeforces.com/spectator/ranklist/d83f9ee1f6b1b1c72d01dbcec078af7b)    
- Қарағанды |     81     |         |         |    20   |         |    11   |   [20](https://codeforces.com/spectator/ranklist/ff05cc76577c6f3c06ae8442e4f92189)    
- Шымкент қ.|     81     |         |         |    20   |         |    10   |   [13](https://codeforces.com/spectator/ranklist/cf73fb1569bfe282a46e97fee5092693)    
- Алматы қ. |     54     |         |         |    14   |         |    12   |   [11](https://codeforces.com/spectator/ranklist/dde4ec93e55d61c6f4b86004118eed05)           
- Ақмола    |     52     |         |         |    12   |         |     2   |   [13](https://codeforces.com/spectator/ranklist/f5c5fe49a8fa7ba5b7ed4221ae435525)    
+ Түркістан |    627     |   [163](https://codeforces.com/spectator/ranklist/5f55612ff73db93d8159b58dfdc935f7)   |    21   |    [40](https://codeforces.com/spectator/ranklist/7e54e26c71c906ca85b45ea67caac684)   |    15   |         |   22    
+ Абай      |    139     |    [43](https://codeforces.com/spectator/ranklist/3e8313734cd35977c1d3c9b06344f425)   |     5   |    [16](https://codeforces.com/spectator/ranklist/8921e52f9734e1bdac7d9129f3e67c02)   |    11   |    10   |   [11](https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521)     
+ Жамбыл    |     97     |    [32](https://codeforces.com/spectator/ranklist/c5e67fc3ca67a49d9030496ecd5b7286)   |     8   |    [27](https://codeforces.com/spectator/ranklist/35d994440d2bdd8572fb0ccec6f54796)   |    19   |     7   |    [9](https://codeforces.com/spectator/ranklist/d9ad05f1e1451eebeec788d7d44007e4)     
+ Қостанай  |    154     |         |         |    [70](https://codeforces.com/spectator/ranklist/1cca5610997e95c2238e15da1aa2b2e2)   |         |    16   |   [21](https://codeforces.com/spectator/ranklist/08f9c44d7888b7d66b8897c087c281ba)    
+ Қызылорда |    102     |         |         |    [20](https://codeforces.com/spectator/ranklist/586cd4b12d85bf6beb43ef27c1f4c84c)   |         |    12   |   [17](https://codeforces.com/spectator/ranklist/d83f9ee1f6b1b1c72d01dbcec078af7b)    
+ Қарағанды |     81     |         |         |    [20](https://codeforces.com/spectator/ranklist/da4adf6183936511720643478f775830)   |         |    11   |   [20](https://codeforces.com/spectator/ranklist/ff05cc76577c6f3c06ae8442e4f92189)    
+ Шымкент қ.|     81     |         |         |    [20](https://codeforces.com/spectator/ranklist/eaacbc8cc2d8d8a750c0d056ffbb6932)   |         |    10   |   [13](https://codeforces.com/spectator/ranklist/cf73fb1569bfe282a46e97fee5092693)    
+ Алматы қ. |     54     |         |         |    [14](https://codeforces.com/spectator/ranklist/42c1e0f333f0aca9b103fafbe67db69d)   |         |    12   |   [11](https://codeforces.com/spectator/ranklist/dde4ec93e55d61c6f4b86004118eed05)           
+ Ақмола    |     52     |         |         |    [12](https://codeforces.com/spectator/ranklist/efeafeab742a0ca53788ee64688c77eb)   |         |     2   |   [13](https://codeforces.com/spectator/ranklist/f5c5fe49a8fa7ba5b7ed4221ae435525)    
  Алматы    |     82     |         |         |         |         |    19   |   [11](https://codeforces.com/spectator/ranklist/f73a1422f8fb23d1daee32ec639c1158)           
  Павлодар  |     35     |         |         |         |         |    15   |   [13](https://codeforces.com/spectator/ranklist/3b32751b06054d85967c1cd971f4b5c3)    
- Total     |    1506    |    238  |    34   |   239   |    45   |   114   |  [161](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
+ Total     |    1506    |    [238](https://codeforces.com/spectator/ranklist/f970257cb4bfeeff9b8c7a862a1cda18)  |    34   |   [239](https://codeforces.com/spectator/ranklist/42c1e0f333f0aca9b103fafbe67db69d)   |    45   |   114   |  [161](https://codeforces.com/spectator/ranklist/64b945fe38df008948d3332536a293c0)       
 
 
 ### Жеңімпаздар (2024) тізімі
