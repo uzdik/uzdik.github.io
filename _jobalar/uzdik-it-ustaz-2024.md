@@ -86,6 +86,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">6) Қостанай облысы</summary>
+       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRv49fFCZ6n5ExVCfBe3WtN6HNkKkpwpDsmiaOKl4XOweRKHVOdUJeh_UV6pqraJIW2JB3uyamgM_fR/pubchart?oid=943354966&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
