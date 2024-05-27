@@ -206,43 +206,33 @@ table td {
 
     table td {
         font-size: 10px; /* Ensure cell text is readable */
-        white-space: normal; /* Allow cell text to wrap */
-        word-wrap: break-word; /* Ensure long words are broken */
     }
 
-    table {
+    /* Hide the table header */
+    table thead {
+        display: none;
+    }
+
+    /* Make each row a block element */
+    table tbody, table tr, table td {
         display: block;
-        overflow-x: auto;
         width: 100%;
-        white-space: nowrap;
     }
 
-    table tr {
-        display: table-row;
+    /* Add spacing between rows */
+    table tbody tr {
+        margin-bottom: 10px;
+    }
+
+    /* Ensure header text is visible */
+    table tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+        text-transform: uppercase;
     }
 }
 
-/* Flexbox for tables */
-@media screen and (max-width: 600px) {
-    table {
-        display: flex;
-        flex-direction: column;
-    }
-
-    table thead, table tbody, table tr {
-        display: flex;
-        flex-direction: column;
-    }
-
-    table th, table td {
-        display: block;
-        text-align: right; /* Align text to the right */
-    }
-
-    table th {
-        text-align: left; /* Keep header text aligned to the left */
-    }
-}
 
 
 .iframe-container {
