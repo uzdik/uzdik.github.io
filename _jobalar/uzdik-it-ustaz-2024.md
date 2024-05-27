@@ -147,10 +147,28 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
+     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubhtml?gid=817766759&amp;single=true&amp;widget=true&amp;headers=false"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
   <summary style="font-size: 16px;">11) Түркістан облысы</summary>
+     <iframe src=""
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 ## Жиынтық кесте:
@@ -164,7 +182,7 @@ permalink: /uzdik-it-ustaz-2024/
  Қызылорда |    102     |         |         |    20   |         |    12   |   [17](https://codeforces.com/spectator/ranklist/d83f9ee1f6b1b1c72d01dbcec078af7b)    
  Қарағанды |     81     |         |         |    20   |         |    11   |   [20](https://codeforces.com/spectator/ranklist/ff05cc76577c6f3c06ae8442e4f92189)    
  Шымкент қ.|     81     |         |         |    20   |         |    10   |   [13](https://codeforces.com/spectator/ranklist/cf73fb1569bfe282a46e97fee5092693)    
- Алматы қ. |     56     |         |         |    14   |         |    12   |   [11](https://codeforces.com/spectator/ranklist/dde4ec93e55d61c6f4b86004118eed05)           
+ Алматы қ. |     54     |         |         |    14   |         |    12   |   [11](https://codeforces.com/spectator/ranklist/dde4ec93e55d61c6f4b86004118eed05)           
  Ақмола    |     52     |         |         |    12   |         |     2   |   [13](https://codeforces.com/spectator/ranklist/f5c5fe49a8fa7ba5b7ed4221ae435525)    
  Алматы    |     82     |         |         |         |         |    19   |   [11](https://codeforces.com/spectator/ranklist/f73a1422f8fb23d1daee32ec639c1158)           
  Павлодар  |     35     |         |         |         |         |    15   |   [13](https://codeforces.com/spectator/ranklist/3b32751b06054d85967c1cd971f4b5c3)    
