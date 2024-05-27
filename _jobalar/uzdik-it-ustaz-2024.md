@@ -80,7 +80,15 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">8) Павлодар облысы</summary>
   <div class="content">
-   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactive"></iframe>
+   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactiv">
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
   </div>
 </details>
 <details>
@@ -97,6 +105,7 @@ permalink: /uzdik-it-ustaz-2024/
   <div class="content"></div>
 </details>
 
+## Жиынтық кесте
 
  Облыстар  |Тіркелгендер|Іріктеу-1|Негізгі-1|Іріктеу-2|Негізгі-2|Іріктеу-3| Финал
 -----------|------------|---------|---------|---------|---------|---------|-------
