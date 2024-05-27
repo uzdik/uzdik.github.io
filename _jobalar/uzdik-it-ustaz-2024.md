@@ -43,6 +43,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">2) Алматы облысы</summary>
+     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcj3IE6t9FYVOePK2RozrMUL9SKshK9IRMAewoaV-AeSKWCLtLLKuzomdlEiwmKqXNbEyluVS4deYK/pubchart?oid=1812826999&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
