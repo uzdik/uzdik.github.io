@@ -29,7 +29,7 @@ permalink: /uzdik-it-ustaz-2024/
 ## Турнир аймақтары:
 
 <details>
-  <summary style="font-size: 24px;">1) Абай облысы</summary>
+  <summary style="font-size: 16px;">1) Абай облысы</summary>
   <div class="content">
    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=784489035&amp;format=interactive" 
            width="600" 
@@ -54,44 +54,44 @@ permalink: /uzdik-it-ustaz-2024/
 </details>
 
 <details>
-  <summary style="font-size: 24px;">2) Алматы облысы</summary>
+  <summary style="font-size: 16px;">2) Алматы облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">3) Ақмола облысы</summary>
+  <summary style="font-size: 16px;">3) Ақмола облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">4) Жамбыл облысы</summary>
+  <summary style="font-size: 16px;">4) Жамбыл облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">5) Қарағанды облысы</summary>
+  <summary style="font-size: 16px;">5) Қарағанды облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">6) Қостанай облысы</summary>
+  <summary style="font-size: 16px;">6) Қостанай облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">7) Қызылорда облысы</summary>
+  <summary style="font-size: 16px;">7) Қызылорда облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">8) Павлодар облысы</summary>
+  <summary style="font-size: 16px;">8) Павлодар облысы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">9) Алматы қаласы</summary>
+  <summary style="font-size: 16px;">9) Алматы қаласы</summary>
   <div class="content"></div>
 </details>
 <details>
-  <summary style="font-size: 24px;">10) Шымкент қаласы</summary>
+  <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
   <div class="content"></div>
 </details>
 
 <details>
-  <summary style="font-size: 24px;">11) Түркістан облысы</summary>
+  <summary style="font-size: 16px;">11) Түркістан облысы</summary>
   <div class="content"></div>
 </details>
 
