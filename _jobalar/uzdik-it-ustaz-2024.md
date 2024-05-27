@@ -160,7 +160,7 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">11) Түркістан облысы</summary>
-     <iframe src=""
+     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"
            width="700" 
            height="400" 
            frameborder="0" 
