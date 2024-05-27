@@ -128,7 +128,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">4) Жамбыл облысы</summary>
       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVRzecw7x-mJ05tXq0uvLeJMDtW1eEnyiWOcGszab6ZRF8l3NsRCxf9g3ooibng9dg26XOiG5BZrdj/pubchart?oid=500599164&amp;format=interactive"
-           width="00" 
+           width="700" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
