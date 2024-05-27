@@ -160,6 +160,7 @@ pre>code {
 }
 
 
+/* General table styles */
 table {
     margin-bottom: 30px;
     width: 100%;
@@ -189,8 +190,7 @@ table td {
     border: 1px solid #e8e8e8;
 }
 
-
-/* Mobile styles */
+/* Responsive table styles */
 @media screen and (max-width: 600px) {
     table {
         font-size: 10px; /* Smaller font size for mobile */
@@ -206,11 +206,14 @@ table td {
 
     table td {
         font-size: 10px; /* Ensure cell text is readable */
+        white-space: normal; /* Allow cell text to wrap */
+        word-wrap: break-word; /* Ensure long words are broken */
     }
 
     table {
         display: block;
         overflow-x: auto;
+        width: 100%;
         white-space: nowrap;
     }
 
@@ -218,6 +221,29 @@ table td {
         display: table-row;
     }
 }
+
+/* Flexbox for tables */
+@media screen and (max-width: 600px) {
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table thead, table tbody, table tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table th, table td {
+        display: block;
+        text-align: right; /* Align text to the right */
+    }
+
+    table th {
+        text-align: left; /* Keep header text aligned to the left */
+    }
+}
+
 
 .iframe-container {
     position: relative;
