@@ -134,6 +134,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">9) Алматы қаласы</summary>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6eXEMftCWesSSmnpk3aidzbleLDk-Umb7jnpRpS6ZIILFBsbFhF5vatEh59lfv7VQIPyBr5-ecHV8/pubchart?oid=902546954&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
