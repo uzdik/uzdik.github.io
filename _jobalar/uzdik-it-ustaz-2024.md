@@ -30,7 +30,9 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">1) Абай облысы</summary>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive"></iframe>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive">
+    Жүктелуде…
+  </iframe>
 <h3> Жеңімпаздар</h3>
  <table>
     <thead>
