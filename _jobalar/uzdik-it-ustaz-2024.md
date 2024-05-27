@@ -75,7 +75,17 @@ permalink: /uzdik-it-ustaz-2024/
 </details>
 <details>
   <summary style="font-size: 16px;">7) Қызылорда облысы</summary>
-  <div class="content"></div>
+   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVcdz5SoxgH_FUurJBdPVnM4znG0njAPb2XTQU6p8bzqN1J59gU9aoWh75YQJAVyvvlNcSHzn74xgD/pubchart?oid=897505068&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
+   
+  </div>
 </details>
 <details>
   <summary style="font-size: 16px;">8) Павлодар облысы</summary>
