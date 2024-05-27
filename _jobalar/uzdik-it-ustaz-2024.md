@@ -79,7 +79,9 @@ permalink: /uzdik-it-ustaz-2024/
 </details>
 <details>
   <summary style="font-size: 16px;">8) Павлодар облысы</summary>
-  <div class="content"></div>
+  <div class="content">
+   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactive"></iframe>
+  </div>
 </details>
 <details>
   <summary style="font-size: 16px;">9) Алматы қаласы</summary>
