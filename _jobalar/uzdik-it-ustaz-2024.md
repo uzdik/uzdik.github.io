@@ -30,49 +30,28 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">1) Абай облысы</summary>
-  <div class="content">
-   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=784489035&amp;format=interactive" 
-           width="600" 
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
-       Жүктелуде…
-   </iframe>
-   
-   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZKvtEHJC4rv8JWTZjAmR1y7Yah1qtDADHgbWW2Vk96QY1XTB4JoQiZ6t6EM9zDyB6KJu6oQwlDvX/pubchart?oid=623866042&format=interactive" 
-           width="600" 
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
-       Жүктелуде…
-   </iframe>
- </div>
 </details>
 
 <details>
   <summary style="font-size: 16px;">2) Алматы облысы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">3) Ақмола облысы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">4) Жамбыл облысы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">5) Қарағанды облысы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">6) Қостанай облысы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">7) Қызылорда облысы</summary>
    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVcdz5SoxgH_FUurJBdPVnM4znG0njAPb2XTQU6p8bzqN1J59gU9aoWh75YQJAVyvvlNcSHzn74xgD/pubchart?oid=897505068&amp;format=interactive"
@@ -84,12 +63,10 @@ permalink: /uzdik-it-ustaz-2024/
            style="border: 0">
        Жүктелуде…
    </iframe>
-   
-  </div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">8) Павлодар облысы</summary>
-  <div class="content">
    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactive"
            width="700" 
            height="400" 
@@ -99,20 +76,18 @@ permalink: /uzdik-it-ustaz-2024/
            style="border: 0">
        Жүктелуде…
    </iframe>
-  </div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">9) Алматы қаласы</summary>
-  <div class="content"></div>
 </details>
+
 <details>
   <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
-  <div class="content"></div>
 </details>
 
 <details>
   <summary style="font-size: 16px;">11) Түркістан облысы</summary>
-  <div class="content"></div>
 </details>
 
 ## Жиынтық кесте:
