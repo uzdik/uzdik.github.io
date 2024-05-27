@@ -31,13 +31,11 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">1) Абай облысы</summary>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive"
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
-       Жүктелуде…
-   </iframe>
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+    Жүктелуде…
+    </iframe>
 <h3> Жеңімпаздар</h3>
  <table>
     <thead>
@@ -101,14 +99,11 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">2) Алматы облысы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcj3IE6t9FYVOePK2RozrMUL9SKshK9IRMAewoaV-AeSKWCLtLLKuzomdlEiwmKqXNbEyluVS4deYK/pubchart?oid=1812826999&amp;format=interactive"
-           width="700" 
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
-       Жүктелуде…
-   </iframe>
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+    Жүктелуде…
+    </iframe>
 </details>
 
 <details>
@@ -218,14 +213,11 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">11) Түркістан облысы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"
-           width="700" 
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
-       Жүктелуде…
-   </iframe>
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+    Жүктелуде…
+    </iframe>
 </details>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"></iframe>
