@@ -70,7 +70,7 @@ permalink: /uzdik-it-ustaz-2024/
             <td>№1</td>
             <td>352</td>
             <td>30.8</td>
-            <td>🥇</td>
+            <td>-</td>
             <td>148</td>
             <td>🥈 (Вице-чемпион)</td>
         </tr>
