@@ -32,7 +32,7 @@ permalink: /uzdik-it-ustaz-2024/
   <summary style="font-size: 16px;">1) Абай облысы</summary>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive"
            width="100%" 
-           height="400" 
+           height="300" 
            frameborder="0" 
            marginheight="0" 
            marginwidth="0" 
@@ -103,7 +103,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">2) Алматы облысы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcj3IE6t9FYVOePK2RozrMUL9SKshK9IRMAewoaV-AeSKWCLtLLKuzomdlEiwmKqXNbEyluVS4deYK/pubchart?oid=1812826999&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -116,7 +116,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">3) Ақмола облысы</summary>
        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRozL6OCvBWWmMM6swT0XJkKjDYacsE7LBGPQQd5KNveWVfbxEeTPTR_8u2CZX3GfxdGEb4ijdMMf5D/pubchart?oid=773847704&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -129,7 +129,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">4) Жамбыл облысы</summary>
       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVRzecw7x-mJ05tXq0uvLeJMDtW1eEnyiWOcGszab6ZRF8l3NsRCxf9g3ooibng9dg26XOiG5BZrdj/pubchart?oid=500599164&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -142,7 +142,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">5) Қарағанды облысы</summary>
  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcYxJHV4nZBxsNHkqQOViUxTC2LF0pPJGwKV-kvBxIba3NxxyesHlfGVqnT0eyacuRrGVndk2gaXrK/pubchart?oid=966948499&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -155,7 +155,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">6) Қостанай облысы</summary>
        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRv49fFCZ6n5ExVCfBe3WtN6HNkKkpwpDsmiaOKl4XOweRKHVOdUJeh_UV6pqraJIW2JB3uyamgM_fR/pubchart?oid=943354966&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -168,7 +168,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">7) Қызылорда облысы</summary>
    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVcdz5SoxgH_FUurJBdPVnM4znG0njAPb2XTQU6p8bzqN1J59gU9aoWh75YQJAVyvvlNcSHzn74xgD/pubchart?oid=897505068&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -181,7 +181,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">8) Павлодар облысы</summary>
    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -194,7 +194,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">9) Алматы қаласы</summary>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6eXEMftCWesSSmnpk3aidzbleLDk-Umb7jnpRpS6ZIILFBsbFhF5vatEh59lfv7VQIPyBr5-ecHV8/pubchart?oid=902546954&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -207,7 +207,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubchart?oid=1558306654&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
@@ -220,7 +220,7 @@ permalink: /uzdik-it-ustaz-2024/
 <details>
   <summary style="font-size: 16px;">11) Түркістан облысы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"
-           width="700" 
+           width="100%" 
            height="400" 
            frameborder="0" 
            marginheight="0" 
