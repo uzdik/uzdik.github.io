@@ -56,6 +56,15 @@ permalink: /uzdik-it-ustaz-2024/
 
 <details>
   <summary style="font-size: 16px;">3) Ақмола облысы</summary>
+       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRozL6OCvBWWmMM6swT0XJkKjDYacsE7LBGPQQd5KNveWVfbxEeTPTR_8u2CZX3GfxdGEb4ijdMMf5D/pubchart?oid=773847704&amp;format=interactive"
+           width="700" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+   </iframe>
 </details>
 
 <details>
