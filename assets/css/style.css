@@ -167,7 +167,7 @@ table {
     color: #3f3f3f;
     border-collapse: collapse;
     border: 1px solid #e8e8e8;
-    font-size: 12px; /* Adjust the font size here */
+    font-size: 16px; /* Adjust the font size here */
 }
 
 table tr:nth-child(even) {
@@ -189,6 +189,35 @@ table td {
     border: 1px solid #e8e8e8;
 }
 
+
+/* Mobile styles */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 10px; /* Smaller font size for mobile */
+    }
+
+    table th, table td {
+        padding: 5px 10px; /* Less padding for mobile */
+    }
+
+    table th {
+        font-size: 12px; /* Ensure header text is readable */
+    }
+
+    table td {
+        font-size: 10px; /* Ensure cell text is readable */
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table tr {
+        display: table-row;
+    }
+}
 
 .site-header {
     border-top: 5px solid #424242;
