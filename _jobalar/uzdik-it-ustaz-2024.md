@@ -39,8 +39,7 @@ permalink: /uzdik-it-ustaz-2024/
            style="border: 0">
        Жүктелуде…
    </iframe>
-    Жүктелуде…
-  </iframe>
+
 <h3> Жеңімпаздар</h3>
  <table>
     <thead>
@@ -111,8 +110,6 @@ permalink: /uzdik-it-ustaz-2024/
            marginwidth="0" 
            style="border: 0">
        Жүктелуде…
-   </iframe>
-    Жүктелуде…
     </iframe>
 </details>
 
@@ -230,8 +227,6 @@ permalink: /uzdik-it-ustaz-2024/
            marginwidth="0" 
            style="border: 0">
        Жүктелуде…
-   </iframe>
-    Жүктелуде…
     </iframe>
 </details>
 
