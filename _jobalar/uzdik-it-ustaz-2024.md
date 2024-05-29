@@ -919,7 +919,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Абай</td>
-    <td>139</td>
+    <td>
+         <span class="hover-text">139
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWzG3QTb-Ck29Z-bM9oPsFy5lLEGKKU2kruJUgZ_oDp7VcWmpjCPzSB_kcbgiohZKMEBNEDSBp1gTb/pubchart?oid=1752755576&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td><a href="https://codeforces.com/spectator/ranklist/3e8313734cd35977c1d3c9b06344f425">43</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/6451ccdcfff0ea0c951fd8e1f9d9c978">20</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/8921e52f9734e1bdac7d9129f3e67c02">16</a></td>
@@ -929,7 +939,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Жамбыл</td>
-    <td>97</td>
+    <td>
+          <span class="hover-text">97
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVRzecw7x-mJ05tXq0uvLeJMDtW1eEnyiWOcGszab6ZRF8l3NsRCxf9g3ooibng9dg26XOiG5BZrdj/pubchart?oid=500599164&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td><a href="https://codeforces.com/spectator/ranklist/c5e67fc3ca67a49d9030496ecd5b7286">32</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/7ef933d5e8e1189f0ef65d31e74d1f71">24</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/35d994440d2bdd8572fb0ccec6f54796">27</a></td>
@@ -939,7 +959,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Қостанай</td>
-    <td>154</td>
+    <td>
+          <span class="hover-text">154
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRv49fFCZ6n5ExVCfBe3WtN6HNkKkpwpDsmiaOKl4XOweRKHVOdUJeh_UV6pqraJIW2JB3uyamgM_fR/pubchart?oid=943354966&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/1cca5610997e95c2238e15da1aa2b2e2">70</a></td>
@@ -949,7 +979,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Қызылорда</td>
-    <td>102</td>
+    <td>
+          <span class="hover-text">102
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVcdz5SoxgH_FUurJBdPVnM4znG0njAPb2XTQU6p8bzqN1J59gU9aoWh75YQJAVyvvlNcSHzn74xgD/pubchart?oid=897505068&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/586cd4b12d85bf6beb43ef27c1f4c84c">20</a></td>
@@ -959,7 +999,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Қарағанды</td>
-    <td>81</td>
+    <td>
+          <span class="hover-text">81
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcYxJHV4nZBxsNHkqQOViUxTC2LF0pPJGwKV-kvBxIba3NxxyesHlfGVqnT0eyacuRrGVndk2gaXrK/pubchart?oid=966948499&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/da4adf6183936511720643478f775830">20</a></td>
@@ -969,7 +1019,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Шымкент қ.</td>
-    <td>81</td>
+    <td>
+          <span class="hover-text">81
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubchart?oid=1558306654&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/eaacbc8cc2d8d8a750c0d056ffbb6932">20</a></td>
@@ -979,7 +1039,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Алматы қ.</td>
-    <td>54</td>
+    <td>
+          <span class="hover-text">54
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6eXEMftCWesSSmnpk3aidzbleLDk-Umb7jnpRpS6ZIILFBsbFhF5vatEh59lfv7VQIPyBr5-ecHV8/pubchart?oid=902546954&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/369e2f0fda2171f89eb44eca5a3e72d2">14</a></td>
@@ -989,7 +1059,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Ақмола</td>
-    <td>52</td>
+    <td>
+          <span class="hover-text">52
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRozL6OCvBWWmMM6swT0XJkKjDYacsE7LBGPQQd5KNveWVfbxEeTPTR_8u2CZX3GfxdGEb4ijdMMf5D/pubchart?oid=773847704&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td><a href="https://codeforces.com/spectator/ranklist/efeafeab742a0ca53788ee64688c77eb">12</a></td>
@@ -999,7 +1079,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Алматы</td>
-    <td>82</td>
+    <td>
+          <span class="hover-text">82
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcj3IE6t9FYVOePK2RozrMUL9SKshK9IRMAewoaV-AeSKWCLtLLKuzomdlEiwmKqXNbEyluVS4deYK/pubchart?oid=1812826999&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td></td>
@@ -1009,7 +1099,17 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Павлодар</td>
-    <td>35</td>
+    <td>
+          <span class="hover-text">35
+                    <div class="iframe-container">
+                        <div class="iframe-wrapper">
+                            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5u_WQcEuwCP8Imcg5WGRopXcAkXQNH9ga1Ymk4S46Qa0j_7w13XwrNslWF1dr5o468rgqTArGTSQr/pubchart?oid=442017277&amp;format=interactive">
+                                Жүктелуде…
+                            </iframe>
+                        </div>
+                    </div>
+                </span>
+    </td>
     <td></td>
     <td></td>
     <td></td>
