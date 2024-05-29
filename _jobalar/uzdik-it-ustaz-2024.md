@@ -248,12 +248,11 @@ permalink: /uzdik-it-ustaz-2024/
             <td>37</td>
             <td>🥈 (Вице-чемпион)</td>
         </tr>
-
         <tr>
             <td>Целиноград</td>
             <td>Турсынгазыева Асемгуль Даулеткызы - КГУ "школа села Кабанбай батыр"</td>
             <td>№2</td>
-            <td>200</td>
+            <td>300</td>
             <td>-</td>
             <td>🥈</td>
             <td>36</td>
@@ -263,7 +262,7 @@ permalink: /uzdik-it-ustaz-2024/
             <td>Зеренді</td>
             <td>Куанышбаева Алия Аскаровна - КГУ «школа села Викторовка»</td>
             <td>№2</td>
-            <td>?</td>
+            <td>28</td>
             <td>-</td>
             <td>-</td>
             <td>36</td>
@@ -994,7 +993,7 @@ permalink: /uzdik-it-ustaz-2024/
     <td></td>
     <td></td>
     <td></td>
-    <td><a href="https://codeforces.com/spectator/ranklist/75c985be5c4aac3c9964cd2f2f92fbd8">19</a></td>
+    <td><a href="https://codeforces.com/spectator/ranklist/efeafeab742a0ca53788ee64688c77eb">19</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/f73a1422f8fb23d1daee32ec639c1158">11</a></td>
   </tr>
   <tr>
