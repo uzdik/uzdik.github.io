@@ -97,7 +97,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
      <tr>
             <td>Семей0</td>
-            <td>Орынбекұлы Нұрлыбек”</td>
+            <td>Орынбекұлы Нұрлыбек</td>
             <td>№1</td>
             <td>0</td>
             <td>0</td>
@@ -107,7 +107,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
      <tr>
             <td>Семей0</td>
-            <td>Семёнов Сергей”</td>
+            <td>Семёнов Сергей</td>
             <td>№1</td>
             <td>0</td>
             <td>0</td>
@@ -118,7 +118,7 @@ permalink: /uzdik-it-ustaz-2024/
      
     </tbody>
 </table>
-<p>Абай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Абай облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -188,10 +188,9 @@ permalink: /uzdik-it-ustaz-2024/
             <td>0</td>
             <td>🥉 (3-орын)</td>
         </tr>
-    
     </tbody>
 </table>
-<p>Алматы облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -272,7 +271,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Ақмола облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -343,7 +342,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Жамбыл облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -434,7 +433,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Қарағанды облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -525,7 +524,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Қостанай облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -616,7 +615,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Қызылорда облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -707,7 +706,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Павлодар облысы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Алматы облысы - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -778,8 +777,9 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Алматы қаласы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(Алматы облысы - Финал нәтижесі</a></p>
 </details>
+
 <details>
   <summary style="font-size: 16px;">10) Шымкент қаласы</summary>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAC-J2YuDqGeNEoi4YVzQL_CmBheAV3hxT_pdZZwGKIDshp8V5XPHiLNGz4qYNDKJnhxWlNlaVDAqa/pubchart?oid=1558306654&amp;format=interactive"
@@ -868,7 +868,7 @@ permalink: /uzdik-it-ustaz-2024/
         </tr>
     </tbody>
 </table>
-<p>Шымкент қаласы - «Үздік IT ұстаз» турнирінің ақтық кезең нәтижесі <a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">(толық кестесі)</a></p>
+<p><a href = "https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521">Шымкент қаласы  - Финал нәтижесі</a></p>
 </details>
 
 <details>
@@ -890,7 +890,7 @@ permalink: /uzdik-it-ustaz-2024/
  Облыстар  |Тіркелгендер|Іріктеу-1|Негізгі-1|Іріктеу-2|Негізгі-2|Іріктеу-3| Финал
 -----------|------------|---------|---------|---------|---------|---------|-------
  Түркістан |    627     |   [163](https://codeforces.com/spectator/ranklist/5f55612ff73db93d8159b58dfdc935f7)   |    [21](https://codeforces.com/spectator/ranklist/6523eead68ea913dfe4981f3f4989c18)   |    [40](https://codeforces.com/spectator/ranklist/7e54e26c71c906ca85b45ea67caac684)   |    [15](https://codeforces.com/spectator/ranklist/11c60620cafaa5d4761e0e55840949ea)   |         |   22*    
- Абай      |    139     |    [43](https://codeforces.com/spectator/ranklist/3e8313734cd35977c1d3c9b06344f425)   |    [20](https://codeforces.com/spectator/ranklist/6451ccdcfff0ea0c951fd8e1f9d9c978)   |    [16](https://codeforces.com/spectator/ranklist/8921e52f9734e1bdac7d9129f3e67c02)   |    [11](https://codeforces.com/spectator/ranklist/6b306964176db996300ba90f4b0aa2e3)   |    [10](https://codeforces.com/spectator/ranklist/a8d473fe8d8bc07bf6b0875d4b6e1525)   |   [11](https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521)     
+ Абай      |    139     |    [43](https://codeforces.com/spectator/ranklist/3e8313734cd35977c1d3c9b06344f425)   |    [20](https://codeforces.com/spectator/ranklist/6451ccdcfff0ea0c951fd8e1f9d9c978)   |    [16](https://codeforces.com/spectator/ranklist/8921e52f9734e1bdac7d9129f3e67c02)   |    [11](https://codeforces.com/spectator/ranklist/6b306964176db996300ba90f4b0aa2e3)   |    [10](https://codeforces.com/spectator/ranklist/a8d473fe8d8bc07bf6b0875d4b6e1525)   |   [12](https://codeforces.com/spectator/ranklist/82de141981aded311194121e99f68521)     
  Жамбыл    |     97     |    [32](https://codeforces.com/spectator/ranklist/c5e67fc3ca67a49d9030496ecd5b7286)   |     [24](https://codeforces.com/spectator/ranklist/7ef933d5e8e1189f0ef65d31e74d1f71)   |    [27](https://codeforces.com/spectator/ranklist/35d994440d2bdd8572fb0ccec6f54796)   |    [19](https://codeforces.com/spectator/ranklist/d525a5e81c66d8f79a267af7d8f9fbf6)   |     [7](https://codeforces.com/spectator/ranklist/cff7e3770b7c96ba1db88f52c2db4427)   |    [9](https://codeforces.com/spectator/ranklist/d9ad05f1e1451eebeec788d7d44007e4)     
  Қостанай  |    154     |         |         |    [70](https://codeforces.com/spectator/ranklist/1cca5610997e95c2238e15da1aa2b2e2)   |         |    [16](https://codeforces.com/spectator/ranklist/0ef5b8d0d54414514b020b7b9db1f92b)   |   [21](https://codeforces.com/spectator/ranklist/08f9c44d7888b7d66b8897c087c281ba)    
  Қызылорда |    102     |         |         |    [20](https://codeforces.com/spectator/ranklist/586cd4b12d85bf6beb43ef27c1f4c84c)   |         |    [12](https://codeforces.com/spectator/ranklist/8205d2d00152e81a02ead2ad4dfcf567)   |   [17](https://codeforces.com/spectator/ranklist/d83f9ee1f6b1b1c72d01dbcec078af7b)    
