@@ -237,38 +237,25 @@ table td {
     height: 200px; /* Adjust height as needed */
     border: 1px solid #ccc;
     background-color: white;
-    overflow: auto; /* Add scrolling */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
 }
 
 .hover-text:hover .iframe-container {
     display: block;
 }
 
-
-.iframe-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    overflow: hidden;
-}
-
-.iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+.iframe-wrapper {
     width: 100%;
     height: 100%;
-    border: 0;
+    transform: scale(0.5); /* Adjust scale to fit the iframe content */
+    transform-origin: top left;
 }
 
-@media (max-width: 767px) {
-    .iframe-container {
-        padding-bottom: 75%; /* 4:3 aspect ratio for smaller screens */
-    }
+.iframe-wrapper iframe {
+    width: 50%; /* Adjust width to account for the scaling */
+    height: 50%; /* Adjust height to account for the scaling */
+    border: none;
 }
-
-
 
 .site-header {
     border-top: 5px solid #424242;
