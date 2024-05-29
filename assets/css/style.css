@@ -224,7 +224,6 @@ table td {
     display: inline-block;
     cursor: pointer;
     color: blue;
-    text-decoration: underline;
 }
 
 .hover-text .iframe-container {
@@ -252,8 +251,8 @@ table td {
 }
 
 .iframe-wrapper iframe {
-    width: 50%; /* Adjust width to account for the scaling */
-    height: 50%; /* Adjust height to account for the scaling */
+    width: 200%; /* Adjust width to account for the scaling */
+    height: 200%; /* Adjust height to account for the scaling */
     border: none;
 }
 
