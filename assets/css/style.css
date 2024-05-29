@@ -223,7 +223,7 @@ table td {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    color: blue;
+    color: #1756a9;
 }
 
 .hover-text .iframe-container {
