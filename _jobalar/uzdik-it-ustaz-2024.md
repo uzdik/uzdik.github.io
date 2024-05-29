@@ -899,7 +899,19 @@ permalink: /uzdik-it-ustaz-2024/
   </tr>
   <tr>
     <td>Түркістан</td>
-    <td>627</td>
+    <td><span class="hover-text">627
+            <div class="iframe-container">
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"
+           width="100%" 
+           height="400" 
+           frameborder="0" 
+           marginheight="0" 
+           marginwidth="0" 
+           style="border: 0">
+       Жүктелуде…
+    </iframe>
+            </div>
+        </span></td>
     <td><a href="https://codeforces.com/spectator/ranklist/5f55612ff73db93d8159b58dfdc935f7">163</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/6523eead68ea913dfe4981f3f4989c18">21</a></td>
     <td><a href="https://codeforces.com/spectator/ranklist/7e54e26c71c906ca85b45ea67caac684">40</a></td>
