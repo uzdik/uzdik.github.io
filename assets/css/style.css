@@ -243,7 +243,6 @@ table td {
     }
 }
 
-
 .hover-text {
     position: relative;
     display: inline-block;
@@ -258,8 +257,8 @@ table td {
     top: 100%;
     left: 0;
     z-index: 1;
-    width: 300px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
     border: 1px solid #ccc;
     background-color: white;
 }
@@ -273,7 +272,6 @@ table td {
     height: 100%;
     border: none;
 }
-
 
 
 
