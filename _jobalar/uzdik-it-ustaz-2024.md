@@ -901,13 +901,7 @@ permalink: /uzdik-it-ustaz-2024/
     <td>Түркістан</td>
     <td><span class="hover-text">627
             <div class="iframe-container">
-                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive"
-           width="100%" 
-           height="400" 
-           frameborder="0" 
-           marginheight="0" 
-           marginwidth="0" 
-           style="border: 0">
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRC6QWoXEYJ5mBySW2QtlgdoB_SHPsPNfphB_DIe1FKyY0qWDCefF-koSn6TTP5yRUJvelSE8pRfGiq/pubchart?oid=1086977058&amp;format=interactive" width="100%" height="100%" frameborder="0">
        Жүктелуде…
     </iframe>
             </div>
