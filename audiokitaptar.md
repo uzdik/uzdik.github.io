@@ -1,5 +1,5 @@
 ---
 layout: audiobooks
-title: Аудиокітаптар
+title: Аудиокітап
 permalink: /audiobooks/
 ---
