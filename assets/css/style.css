@@ -109,18 +109,18 @@ pre>code {
 }
 
 .wrapper {
-    max-width: -webkit-calc(900px - (30px * 2));
-    max-width: calc(900px - (30px * 2));
+    max-width: -webkit-calc(920px - (30px * 2));
+    max-width: calc(920px - (30px * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .wrapper {
-        max-width:-webkit-calc(900px - (30px));
-        max-width: calc(900px - (30px));
+        max-width:-webkit-calc(920px - (30px));
+        max-width: calc(920px - (30px));
         padding-right: 15px;
         padding-left: 15px
     }
