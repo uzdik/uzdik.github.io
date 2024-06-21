@@ -65,7 +65,6 @@ git push origin master
 git init
 git add .   # Add all files
 git commit -m "Your commit message here"
-git remote add origin <repository_url>
 git push -u origin main
 yarn build
 yarn deploy
