@@ -1,10 +1,10 @@
 ---
 layout: course
-title: Python тілінде жасанды интеллект құру
+title: Python тілінде жасанды интеллект AI құру
 ---
 <hr>
 <div class="youtube-spoilers">
-    <h3>Python тілінде жасанды интеллект құру</h3>
+    <h3>Python тілінде жасанды интеллект AI құру</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=uLBHPQ9kR00" target="_blank">Кіріспе</a></li>
         <li><a href="https://www.youtube.com/watch?v=75AORLefbEc" target="_blank">1-сабақ - Жалпы python туралы</a></li>
