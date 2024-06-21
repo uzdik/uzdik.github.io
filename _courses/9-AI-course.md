@@ -1,10 +1,10 @@
 ---
 layout: course
-title: Python тілінде жасанды интеллект AI құру
+title: Python тілінде жасанды интеллект AI құру (11-сабақ)
 ---
 <hr>
 <div class="youtube-spoilers">
-    <h3>Python тілінде жасанды интеллект AI құру</h3>
+    <h3>Python тілінде жасанды интеллект AI құру (11-сабақ)</h3>
     <ul>
         <li><a href="https://www.youtube.com/watch?v=uLBHPQ9kR00" target="_blank">Кіріспе</a></li>
         <li><a href="https://www.youtube.com/watch?v=75AORLefbEc" target="_blank">1-сабақ - Жалпы python туралы</a></li>
@@ -24,7 +24,7 @@ title: Python тілінде жасанды интеллект AI құру
         <li><a href="https://www.youtube.com/watch?v=QishY4BCJhk" target="_blank">9.3-сабақ - Jupyter Notebook - Google Colab орнату</a></li>
         <li><a href="https://www.youtube.com/watch?v=wduZoV5VoWc" target="_blank">9.4-сабақ - Jupyter Notebook мүмкіндіктері</a></li>
         <li><a href="https://www.youtube.com/watch?v=k5DdqwHGDR0" target="_blank">10-сабақ - Numpy</a></li>
-        <li><a href="https://www.youtube.com/watch?v=sjs8spn-n14" target="_blank"11-сабақ - Pandas</a></li>
+        <li><a href="https://www.youtube.com/watch?v=sjs8spn-n14" target="_blank">11-сабақ - Pandas</a></li>
     </ul>
 </div>
 <hr>
