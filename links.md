@@ -59,9 +59,22 @@ git commit -m "Updated app.py and requirements.txt"
 git push origin master
 
 ```
+
+### Deploy to github
+```
+git init
+git add .   # Add all files
+git commit -m "Your commit message here"
+git remote add origin <repository_url>
+git push -u origin main
+yarn build
+yarn deploy
+
+```
+
 # Virtual machine runner
 1) Run as administrator
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
-3) 
+
