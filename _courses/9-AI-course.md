@@ -6,7 +6,7 @@ title: Python тілінде жасанды интеллект AI құру (26-�
 <div class="youtube-spoilers">
     <h3>Python тілінде жасанды интеллект AI құру (11-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=uLBHPQ9kR00" target="_blank">Кіріспе</a></li>
+        <li><a href="https://www.youtube.com/watch?v=uLBHPQ9kR00" target="_blank">Кіріспе. Python тілінде жасанды интеллект құру</a></li>
         <li><a href="https://www.youtube.com/watch?v=75AORLefbEc" target="_blank">1-сабақ - Жалпы python туралы</a></li>
         <li><a href="https://www.youtube.com/watch?v=4pLZbaS9Bwk" target="_blank">2-сабақ - Жасанды интеллектке арналған python кітапханалары</a></li>
         <li><a href="https://www.youtube.com/watch?v=Wz9RFkRflFQ" target="_blank">3-сабақ - Жасанды интеллект деген не?</a></li>
@@ -23,8 +23,8 @@ title: Python тілінде жасанды интеллект AI құру (26-�
         <li><a href="https://www.youtube.com/watch?v=adsjHBWy000" target="_blank">9.2-сабақ - Jupyter Notebook - Mac OS-қа орнату</a></li>
         <li><a href="https://www.youtube.com/watch?v=QishY4BCJhk" target="_blank">9.3-сабақ - Jupyter Notebook - Google Colab орнату</a></li>
         <li><a href="https://www.youtube.com/watch?v=wduZoV5VoWc" target="_blank">9.4-сабақ - Jupyter Notebook мүмкіндіктері</a></li>
-        <li><a href="https://www.youtube.com/watch?v=k5DdqwHGDR0" target="_blank">10-сабақ - Numpy</a></li>
-        <li><a href="https://www.youtube.com/watch?v=sjs8spn-n14" target="_blank">11-сабақ - Pandas</a></li>
+        <li><a href="https://www.youtube.com/watch?v=k5DdqwHGDR0" target="_blank">10-сабақ - Numpy кітапханасы</a></li>
+        <li><a href="https://www.youtube.com/watch?v=sjs8spn-n14" target="_blank">11-сабақ - Pandas кітапханасы</a></li>
     </ul>
 </div>
 <hr>
@@ -32,7 +32,7 @@ title: Python тілінде жасанды интеллект AI құру (26-�
 <div class="youtube-spoilers">
     <h3>Python көмегімен деректерді талдау (15-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=zrkKXrbUrZ0" target="_blank">1-сабақ. Python ортасымен танысу.</a></li>
+        <li><a href="https://www.youtube.com/watch?v=zrkKXrbUrZ0" target="_blank">1-сабақ. Python ортасымен танысу</a></li>
         <li><a href="https://www.youtube.com/watch?v=c-HkLSd8DNQ" target="_blank">2-сабақ. Python типтері. IF-ELSE. Егер Әйтпесе</a></li>
         <li><a href="https://www.youtube.com/watch?v=UBXsgHCrpvs" target="_blank">3-сабақ. Python Цикл. For-While loop</a></li>
         <li><a href="https://www.youtube.com/watch?v=vzVliy1EyYA" target="_blank">4-сабақ. Реттелген python дата типтері. List. Dict. Tuple. Set</a></li>
