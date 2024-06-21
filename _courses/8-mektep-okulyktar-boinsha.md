@@ -76,12 +76,12 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 6-сынып (6-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=/TMNiF1fNxr4" target="_blank">§15 Python IDE-мен танысу</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/hR03xLZVRfI" target="_blank">§16 Тіл әліпбиі. Синтаксис</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/PmnmMG6xkfo" target="_blank">§17 Мәліметтер типтері</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/0FHbX3m4NwA" target="_blank">§18 Мәліметтер типтерін жіктеу</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/WQnE0VfGESI" target="_blank">§19 Арифметикалық өрнектердің жазылуы</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/29WewCfP5ZI" target="_blank">§20 Мәліметтерді енгізу мен шығару</a></li>
+        <li><a href="https://www.youtube.com/watch?v=TMNiF1fNxr4" target="_blank">§15 Python IDE-мен танысу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=hR03xLZVRfI" target="_blank">§16 Тіл әліпбиі. Синтаксис</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PmnmMG6xkfo" target="_blank">§17 Мәліметтер типтері</a></li>
+        <li><a href="https://www.youtube.com/watch?v=0FHbX3m4NwA" target="_blank">§18 Мәліметтер типтерін жіктеу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=WQnE0VfGESI" target="_blank">§19 Арифметикалық өрнектердің жазылуы</a></li>
+        <li><a href="https://www.youtube.com/watch?v=29WewCfP5ZI" target="_blank">§20 Мәліметтерді енгізу мен шығару</a></li>
     </ul>
 </div>
 <a href="https://www.yumpu.com/ru/document/read/66297509/-6-2020" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 6-сынып</a><br>
@@ -90,8 +90,8 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 8-сынып (2-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=/PzK1OMQYaNU" target="_blank">§17 WHILE циклі</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/RFKiHdCgzk4" target="_blank">§18-19 FOR циклі</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PzK1OMQYaNU" target="_blank">§17 WHILE циклі</a></li>
+        <li><a href="https://www.youtube.com/watch?v=RFKiHdCgzk4" target="_blank">§18-19 FOR циклі</a></li>
     </ul>
 </div>
 <a href="https://www.yumpu.com/ru/document/read/66297616/-8-2021" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 8-сынып</a><br>
@@ -99,8 +99,8 @@ title: Мектеп оқулығы бойынша сабақтар (6-9 сыны
 <div class="youtube-spoilers">
     <h3>Арман ПВ: 9-сынып (2-сабақ)</h3>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=/F1_gn5jNC_E" target="_blank">§16-17. Бірөлшемді массив</a></li>
-        <li><a href="https://www.youtube.com/watch?v=/9H3G4vB5_b8" target="_blank">§18-19. Берілген сипаттары бар элементтерді іздеу</a></li>
+        <li><a href="https://www.youtube.com/watch?v=F1_gn5jNC_E" target="_blank">§16-17. Бірөлшемді массив</a></li>
+        <li><a href="https://www.youtube.com/watch?v=9H3G4vB5_b8" target="_blank">§18-19. Берілген сипаттары бар элементтерді іздеу</a></li>
     </ul>
 </div>
 <a href="https://www.yumpu.com/ru/document/read/66297663/-9-2019" target="_blank" style="float: left; color: red; font-style:italic;">Электронды оқулық: (Арман ПВ) Информатика 9-сынып</a><br>
