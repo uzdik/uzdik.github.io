@@ -88,7 +88,7 @@ function loadProtectedContent() {
       <th>Маңғыстау</th>
       <th>Ұлытау</th>
       <th>Түркістан</th>
-      <th>Шымкент қ.</th>
+      <th>Шымкент</th>
     </tr>
   </thead>
   <tbody>
@@ -39807,5 +39807,6 @@ function loadProtectedContent() {
 </table>
     </div>`;
     document.getElementById('protected-content').innerHTML = tableHtml;
-  }, 500); // Simulate network delay
+    $('#myT').DataTable();
+  }, 2000); // Simulate network delay
 }
