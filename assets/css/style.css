@@ -132,6 +132,21 @@ pre>code {
     clear: both
 }
 
+table.dataTable, table.dataTable th, table.dataTable td {
+    font-size: 12px;  /* Set the font size as needed */
+}
+
+table.dataTable {
+    width: 100% !important;
+}
+
+.dataTables_wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+
 .svg-icon {
     width: 16px;
     height: 16px;
