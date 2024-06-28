@@ -39807,6 +39807,7 @@ function loadProtectedContent() {
 </table>
     </div>`;
     document.getElementById('protected-content').innerHTML = tableHtml;
+
     $('#myT').DataTable({
       "paging": false,  // Disable pagination if not needed
       "ordering": true,
@@ -39849,3 +39850,8 @@ const customStyles = `
 
 // Append custom CSS styles to the head of the document
 $('head').append(customStyles);
+
+// Trigger the protected content loading function when the window loads
+window.onload = function() {
+  loadProtectedContent();
+};
