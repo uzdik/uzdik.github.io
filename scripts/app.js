@@ -39807,6 +39807,45 @@ function loadProtectedContent() {
 </table>
     </div>`;
     document.getElementById('protected-content').innerHTML = tableHtml;
-    $('#myT').DataTable();
+    $('#myT').DataTable({
+      "paging": false,  // Disable pagination if not needed
+      "ordering": true,
+      "searching": true,
+      "info": false  // Disable "Showing X of Y entries" info
+    });
+
+    // Custom search input handling
+    const dataTable = $('#myT').DataTable();
+    $('#search-input').on('keyup change', function() {
+      dataTable.search(this.value).draw();
+    });
+
   }, 2000); // Simulate network delay
 }
+
+// Custom CSS styles for DataTable
+const customStyles = `
+  <style>
+    .dataTables_wrapper {
+      max-width: 100%;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    table.dataTable, table.dataTable th, table.dataTable td {
+      font-size: 16px;  /* Smaller font size */
+    }
+    table.dataTable {
+      width: 100% !important;
+      max-width: 100%;
+    }
+    .wrapper1 {
+      max-width: calc(100% - 100px);  /* Adjusted to leave some space on the sides */
+      margin: 0 auto;
+      padding-right: 100px;
+      padding-left: 100px;
+      overflow-x: auto;  /* Ensure the wrapper can handle overflow */
+    }
+  </style>`;
+
+// Append custom CSS styles to the head of the document
+$('head').append(customStyles);
