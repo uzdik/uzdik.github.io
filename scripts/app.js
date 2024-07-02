@@ -111,15 +111,19 @@ function renderTable(data) {
   table.appendChild(tbody);
   
   document.getElementById('protected-content').appendChild(table);
-  if (!$.fn.DataTable.isDataTable('#myT')) {
-    $('#myT').DataTable({
-    paging: false,
+  
+  const dataTable = $('#myT').DataTable({
+    pageLength: 20,
+    paging: true,
     ordering: true,
     searching: true,
-    info: false
+    info: true,
+    order: [[headers.indexOf('Мин. балл'), 'desc']],
+    initComplete: function(settings, json) {
+      dataTable.search('Информатика').draw();
+    }
   });
-  }
-  const dataTable = $('#myT').DataTable();
+
   $('#search-input').on('keyup change', function() {
     dataTable.search(this.value).draw();
   });
