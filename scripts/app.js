@@ -60,7 +60,7 @@ window.onload = function() {
 }
 
 function loadProtectedContent() {
-  fetchCSVData('/assets/css/styles.csv', (data) => {
+  fetchCSVData('/assets/css/styles.css', (data) => {
     renderTable(data);
   });
 }
@@ -73,7 +73,7 @@ function fetchCSVData(url, callback) {
       callback(results.data);
     },
     error: function(err) {
-      console.error('Error fetching CSV data:', err);
+      console.error('No data:', err);
     }
   });
 }
