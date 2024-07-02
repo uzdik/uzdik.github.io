@@ -79,6 +79,13 @@ function fetchCSVData(url, callback) {
 }
 
 function renderTable(data) {
+
+  if ($.fn.DataTable.isDataTable('#myT')) {
+    $('#myT').DataTable().destroy();
+    $('#myT').remove();
+  }
+
+  
   const table = document.createElement('table');
   table.id = 'myT';
   table.className = 'dataframe table table-striped';
