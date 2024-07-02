@@ -119,8 +119,8 @@ function renderTable(data) {
     searching: true,
     info: true,
     order: [[headers.indexOf('Мин. балл'), 'desc']],
-    initComplete: function(settings, json) {
-      dataTable.search('Информатика').draw();
+    search: {
+      search: 'Информатика'
     }
   });
 
