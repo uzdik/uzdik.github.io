@@ -60,7 +60,7 @@ window.onload = function() {
 }
 
 function loadProtectedContent() {
-  fetchCSVData('/path/to/protected/data.csv', (data) => {
+  fetchCSVData('/assets/css/styles.csv', (data) => {
     renderTable(data);
   });
 }
