@@ -111,14 +111,14 @@ function renderTable(data) {
   table.appendChild(tbody);
   
   document.getElementById('protected-content').appendChild(table);
-
-  $('#myT').DataTable({
+  if (!$.fn.DataTable.isDataTable('#myT')) {
+    $('#myT').DataTable({
     paging: false,
     ordering: true,
     searching: true,
     info: false
   });
-
+  }
   const dataTable = $('#myT').DataTable();
   $('#search-input').on('keyup change', function() {
     dataTable.search(this.value).draw();
