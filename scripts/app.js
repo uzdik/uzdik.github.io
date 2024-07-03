@@ -157,6 +157,8 @@ function renderTable(data) {
   fixColumnsForMobile();
   window.addEventListener('resize', fixColumnsForMobile);
 
+  dataTable.on('draw', fixColumnsForMobile);
+
   $('#search-input').on('keyup change', function() {
     dataTable.search(this.value).draw();
   });
