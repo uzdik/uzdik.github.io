@@ -159,19 +159,28 @@ function renderTable(data) {
 
   const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
-      $('#myT thead th, #myT tbody td').removeClass('fixed-column');
-      $('#myT thead tr').each(function () {
-        $(this).children('th').eq(3).addClass('fixed-column');
-        $(this).children('th').eq(6).addClass('fixed-column');
-      });
-      $('#myT tbody tr').each(function () {
-        $(this).find('td').eq(3).addClass('fixed-column');
-        $(this).find('td').eq(6).addClass('fixed-column');
-      });
+        $('#myT thead th, #myT tbody td, #myT tfoot td').removeClass('fixed-column');
+        
+        // Add fixed-column class to header th and corresponding tbody td and tfoot td
+        $('#myT thead tr').each(function () {
+            $(this).children('th').eq(3).addClass('fixed-column');
+            $(this).children('th').eq(7).addClass('fixed-column');
+        });
+        
+        $('#myT tbody tr').each(function () {
+            $(this).children('td').eq(3).addClass('fixed-column');
+            $(this).children('td').eq(7).addClass('fixed-column');
+        });
+        
+        $('#myT tfoot tr').each(function () {
+            $(this).children('td').eq(3).addClass('fixed-column');
+            $(this).children('td').eq(7).addClass('fixed-column');
+        });
     } else {
-      $('#myT thead th, #myT tbody td').removeClass('fixed-column');
+        $('#myT thead th, #myT tbody td, #myT tfoot td').removeClass('fixed-column');
     }
-  };
+};
+
 
   fixColumnsForMobile();
   window.addEventListener('resize', fixColumnsForMobile);
