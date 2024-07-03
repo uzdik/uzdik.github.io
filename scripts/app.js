@@ -137,7 +137,7 @@ function renderTable(data) {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
     },
-    fixedHeader: false,
+    fixedHeader: false // Disable the fixed header
   });
 
   const fixColumnsForMobile = () => {
@@ -145,7 +145,7 @@ function renderTable(data) {
       // Remove existing fixed column classes
       $('#myT thead th, #myT tbody td').removeClass('fixed-column');
 
-      // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
+      // Fix columns 4 and 7 (adjusting for 0-based index)
       $('#myT tbody tr').each(function () {
         $(this).find('td').eq(3).addClass('fixed-column');
         $(this).find('td').eq(6).addClass('fixed-column');
