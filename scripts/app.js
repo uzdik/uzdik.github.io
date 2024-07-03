@@ -81,13 +81,11 @@ function fetchCSVData(url, callback) {
 
 
 function renderTable(data) {
-  // Destroy and remove the old table if it exists
   if ($.fn.DataTable.isDataTable('#myT')) {
     $('#myT').DataTable().destroy();
     $('#myT').remove();
   }
 
-  // Create a new table element
   const table = document.createElement('table');
   table.id = 'myT';
   table.className = 'dataframe table table-striped';
@@ -133,13 +131,13 @@ function renderTable(data) {
     },
     scrollX: true,
     fixedColumns: {
-      leftColumns: 0, // Initially no columns fixed
+      leftColumns: 0, 
       rightColumns: 0
     }
   });
 
   const fixColumnsForMobile = () => {
-    if (window.innerWidth <= 600) {
+    if (window.innerWidth <= 800) {
       dataTable.fixedColumns().leftColumns(0);
       // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
       $('#myT thead th').eq(3).addClass('fixed-column');
@@ -158,8 +156,6 @@ function renderTable(data) {
   };
 
   fixColumnsForMobile();
-
-  // Add an event listener to handle window resize
   window.addEventListener('resize', fixColumnsForMobile);
 
   $('#search-input').on('keyup change', function() {
