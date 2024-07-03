@@ -141,12 +141,16 @@ function renderTable(data) {
     //fixedHeader: true, // Disable the fixed header
   });
 
-  const fixColumnsForMobile = () => {
+ const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
       // Remove existing fixed column classes
       $('#myT thead th, #myT tbody td').removeClass('fixed-column');
 
       // Fix columns 4 and 7 (adjusting for 0-based index)
+      $('#myT thead tr').each(function () {
+        $(this).children('th').eq(3).addClass('fixed-column');
+        $(this).children('th').eq(6).addClass('fixed-column');
+      });
       $('#myT tbody tr').each(function () {
         $(this).find('td').eq(3).addClass('fixed-column');
         $(this).find('td').eq(6).addClass('fixed-column');
