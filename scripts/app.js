@@ -109,7 +109,7 @@ function renderTable(data) {
     const footTh = document.createElement('th');
     const input = document.createElement('input');
     input.type = 'text';
-    input.placeholder = `Search ${header}`;
+    input.placeholder = `${header}`;
     input.dataset.index = headers.indexOf(header);
     footTh.appendChild(input);
     footerRow.appendChild(footTh);
@@ -140,11 +140,9 @@ function renderTable(data) {
     ordering: true,
     searching: true,
     info: true,
-    scrollX: true, // Enable horizontal scrolling
+    //scrollX: true, // Enable horizontal scrolling
     order: [[headers.indexOf('Мин. балл'), 'desc']],
-    search: {
-      search: 'Информатика'
-    },
+    search: {search: 'Информатика'},
     fixedColumns: {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
