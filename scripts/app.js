@@ -147,7 +147,7 @@ function renderTable(data) {
       // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
       $('#myT tbody tr').each(function () {
         $(this).find('td').eq(3).addClass('fixed-column');
-        $(this).find('td').eq(6).addClass('fixed-column');
+        $(this).find('td').eq(7).addClass('fixed-column');
       });
     } else {
       // Remove fixed column classes when not on mobile
