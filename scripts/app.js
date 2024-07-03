@@ -81,31 +81,24 @@ function fetchCSVData(url, callback) {
 
 
 function renderTable(data) {
-  // Destroy and remove the old table if it exists
   if ($.fn.DataTable.isDataTable('#myT')) {
     $('#myT').DataTable().destroy();
     $('#myT').remove();
   }
 
-  // Create a new table element
   const table = document.createElement('table');
   table.id = 'myT';
   table.className = 'dataframe table table-striped';
-
   const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
   const tfoot = document.createElement('tfoot'); // Create tfoot
-
   const headers = Object.keys(data[0]);
   const headerRow = document.createElement('tr');
-  const footerRow = document.createElement('tr'); // Create footer row
-
+  const footerRow = document.createElement('tr'); 
   headers.forEach(header => {
     const th = document.createElement('th');
     th.textContent = header;
     headerRow.appendChild(th);
-
-    // Add a footer cell with input for each header
     const footTh = document.createElement('th');
     const input = document.createElement('input');
     input.type = 'text';
@@ -116,7 +109,7 @@ function renderTable(data) {
   });
 
   thead.appendChild(headerRow);
-  tfoot.appendChild(footerRow); // Append the footer row to tfoot
+  tfoot.appendChild(footerRow); 
 
   data.forEach(row => {
     const tr = document.createElement('tr');
@@ -130,7 +123,7 @@ function renderTable(data) {
 
   table.appendChild(thead);
   table.appendChild(tbody);
-  table.appendChild(tfoot); // Append tfoot to table
+  table.appendChild(tfoot);
 
   document.getElementById('protected-content').appendChild(table);
 
@@ -140,16 +133,14 @@ function renderTable(data) {
     ordering: true,
     searching: true,
     info: true,
-    //scrollX: true, // Enable horizontal scrolling
     order: [[headers.indexOf('Мин. балл'), 'desc']],
-    search: {search: 'Информатика'},
+    //search: {search: 'Информатика'},
     fixedColumns: {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
     },
   });
 
-  // Add event handler for filtering
   $(dataTable.table().container()).on('keyup', 'tfoot input', function() {
     dataTable
       .column($(this).data('index'))
@@ -160,8 +151,6 @@ function renderTable(data) {
   const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
         $('#myT thead th, #myT tbody td, #myT tfoot td').removeClass('fixed-column');
-        
-        // Add fixed-column class to header th and corresponding tbody td and tfoot td
         $('#myT thead tr').each(function () {
             $(this).children('th').eq(3).addClass('fixed-column');
             $(this).children('th').eq(7).addClass('fixed-column');
