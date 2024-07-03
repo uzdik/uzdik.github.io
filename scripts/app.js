@@ -128,8 +128,6 @@ function renderTable(data) {
     ordering: true,
     searching: true,
     info: true,
-    //scrollX: true, // Ensure horizontal scrolling
-    //autoWidth: true, // Prevent automatic column width calculation
     order: [[headers.indexOf('Мин. балл'), 'desc']],
     search: {
       search: 'Информатика'
@@ -138,15 +136,11 @@ function renderTable(data) {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
     },
-    //fixedHeader: true, // Disable the fixed header
   });
 
  const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
-      // Remove existing fixed column classes
       $('#myT thead th, #myT tbody td').removeClass('fixed-column');
-
-      // Fix columns 4 and 7 (adjusting for 0-based index)
       $('#myT thead tr').each(function () {
         $(this).children('th').eq(3).addClass('fixed-column');
         $(this).children('th').eq(6).addClass('fixed-column');
@@ -156,14 +150,11 @@ function renderTable(data) {
         $(this).find('td').eq(6).addClass('fixed-column');
       });
     } else {
-      // Remove fixed column classes when not on mobile
       $('#myT thead th, #myT tbody td').removeClass('fixed-column');
     }
   };
 
   fixColumnsForMobile();
-
-  // Add an event listener to handle window resize
   window.addEventListener('resize', fixColumnsForMobile);
 
   $('#search-input').on('keyup change', function() {
