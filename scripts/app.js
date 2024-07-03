@@ -128,11 +128,17 @@ function renderTable(data) {
     ordering: true,
     searching: true,
     info: true,
+    scrollX: true, // Ensure horizontal scrolling
+    autoWidth: false, // Prevent automatic column width calculation
+    columnDefs: [
+      { width: '20%', targets: 0 }, // Adjust the width of specific columns as needed
+      { width: '20%', targets: 1 },
+      // Add more column width settings as needed
+    ],
     order: [[headers.indexOf('Мин. балл'), 'desc']],
     search: {
       search: 'Информатика'
     },
-    scrollX: true,
     fixedColumns: {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
