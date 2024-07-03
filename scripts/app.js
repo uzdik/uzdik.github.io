@@ -133,7 +133,8 @@ function renderTable(data) {
     },
     scrollX: true,
     fixedColumns: {
-      leftColumns: 0 // Initially no columns fixed
+      leftColumns: 0, // Initially no columns fixed
+      rightColumns: 0
     }
   });
 
@@ -141,19 +142,18 @@ function renderTable(data) {
     if (window.innerWidth <= 600) {
       dataTable.fixedColumns().leftColumns(0);
       // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
-      dataTable.column(3).visible(false);  // Hide 'd' column
-      dataTable.column(7).visible(false);  // Hide 'h' column
-      // Add custom fixed columns with CSS
-      $(".fixed-columns").remove(); // Clear previous fixed columns
-      $('#myT thead tr').append('<th class="fixed-columns">d</th><th class="fixed-columns">h</th>');
+      $('#myT thead th').eq(3).addClass('fixed-column');
+      $('#myT thead th').eq(7).addClass('fixed-column');
       $('#myT tbody tr').each(function () {
-        $(this).append('<td class="fixed-columns">' + $(this).find('td:eq(3)').text() + '</td>');
-        $(this).append('<td class="fixed-columns">' + $(this).find('td:eq(7)').text() + '</td>');
+        $(this).find('td').eq(3).addClass('fixed-column');
+        $(this).find('td').eq(7).addClass('fixed-column');
       });
     } else {
-      dataTable.column(3).visible(true);   // Show 'd' column
-      dataTable.column(7).visible(true);   // Show 'h' column
-      $(".fixed-columns").remove(); // Clear fixed columns on desktop view
+      // Remove fixed column classes
+      $('#myT thead th').removeClass('fixed-column');
+      $('#myT tbody tr').each(function () {
+        $(this).find('td').removeClass('fixed-column');
+      });
     }
   };
 
