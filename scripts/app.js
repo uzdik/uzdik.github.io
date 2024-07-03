@@ -123,15 +123,14 @@ function renderTable(data) {
   document.getElementById('protected-content').appendChild(table);
 
   const dataTable = $('#myT').DataTable({
-    filter: 'bottom',
-    selection: 'single',
     pageLength: 10,
     paging: true,
     ordering: true,
     searching: true,
     info: true,
     scrollX: true, // Ensure horizontal scrolling
-    autoWidth: false, // Prevent automatic column width calculation
+    scrollY: true, // Ensure horizontal scrolling
+    autoWidth: true, // Prevent automatic column width calculation
     columnDefs: [
       { width: '20%', targets: 0 }, // Adjust the width of specific columns as needed
       { width: '20%', targets: 1 },
