@@ -138,8 +138,7 @@ function renderTable(data) {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
     },
-    fixedHeader: false, // Disable the fixed header
-    fixedRows: false,
+    fixedHeader: true, // Disable the fixed header
   });
 
   const fixColumnsForMobile = () => {
