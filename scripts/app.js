@@ -127,7 +127,7 @@ function renderTable(data) {
     info: true,
     order: [[headers.indexOf('Мин. балл'), 'desc']],
     search: {
-      search: '6B06'
+      search: 'Информатика'
     }
   });
 
