@@ -133,19 +133,27 @@ function renderTable(data) {
     },
     scrollX: true,
     fixedColumns: {
-      leftColumns: 4,  // Always fix the first column (e.g., 'a')
+      leftColumns: 0 // Initially no columns fixed
     }
   });
 
   const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
-      dataTable.fixedColumns().update({
-        leftColumns: 7  // Fix the first two columns (e.g., 'a' and 'd')
+      dataTable.fixedColumns().leftColumns(0);
+      // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
+      dataTable.column(3).visible(false);  // Hide 'd' column
+      dataTable.column(7).visible(false);  // Hide 'h' column
+      // Add custom fixed columns with CSS
+      $(".fixed-columns").remove(); // Clear previous fixed columns
+      $('#myT thead tr').append('<th class="fixed-columns">d</th><th class="fixed-columns">h</th>');
+      $('#myT tbody tr').each(function () {
+        $(this).append('<td class="fixed-columns">' + $(this).find('td:eq(3)').text() + '</td>');
+        $(this).append('<td class="fixed-columns">' + $(this).find('td:eq(7)').text() + '</td>');
       });
     } else {
-      dataTable.fixedColumns().update({
-        leftColumns: 4  // Only fix the first column (e.g., 'a')
-      });
+      dataTable.column(3).visible(true);   // Show 'd' column
+      dataTable.column(7).visible(true);   // Show 'h' column
+      $(".fixed-columns").remove(); // Clear fixed columns on desktop view
     }
   };
 
