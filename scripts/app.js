@@ -80,7 +80,6 @@ function fetchCSVData(url, callback) {
 
 
 
-
 function renderTable(data) {
   // Destroy and remove the old table if it exists
   if ($.fn.DataTable.isDataTable('#myT')) {
@@ -95,17 +94,29 @@ function renderTable(data) {
 
   const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
+  const tfoot = document.createElement('tfoot'); // Create tfoot
 
   const headers = Object.keys(data[0]);
   const headerRow = document.createElement('tr');
+  const footerRow = document.createElement('tr'); // Create footer row
 
   headers.forEach(header => {
     const th = document.createElement('th');
     th.textContent = header;
     headerRow.appendChild(th);
+
+    // Add a footer cell with input for each header
+    const footTh = document.createElement('th');
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.placeholder = `Search ${header}`;
+    input.dataset.index = headers.indexOf(header);
+    footTh.appendChild(input);
+    footerRow.appendChild(footTh);
   });
 
   thead.appendChild(headerRow);
+  tfoot.appendChild(footerRow); // Append the footer row to tfoot
 
   data.forEach(row => {
     const tr = document.createElement('tr');
@@ -119,6 +130,7 @@ function renderTable(data) {
 
   table.appendChild(thead);
   table.appendChild(tbody);
+  table.appendChild(tfoot); // Append tfoot to table
 
   document.getElementById('protected-content').appendChild(table);
 
@@ -128,6 +140,7 @@ function renderTable(data) {
     ordering: true,
     searching: true,
     info: true,
+    scrollX: true, // Enable horizontal scrolling
     order: [[headers.indexOf('Мин. балл'), 'desc']],
     search: {
       search: 'Информатика'
@@ -138,7 +151,15 @@ function renderTable(data) {
     },
   });
 
- const fixColumnsForMobile = () => {
+  // Add event handler for filtering
+  $(dataTable.table().container()).on('keyup', 'tfoot input', function() {
+    dataTable
+      .column($(this).data('index'))
+      .search(this.value)
+      .draw();
+  });
+
+  const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
       $('#myT thead th, #myT tbody td').removeClass('fixed-column');
       $('#myT thead tr').each(function () {
