@@ -128,7 +128,7 @@ function renderTable(data) {
   document.getElementById('protected-content').appendChild(table);
 
   const dataTable = $('#myT').DataTable({
-    pageLength: 10,
+    pageLength: 5,
     paging: true,
     ordering: true,
     searching: true,
