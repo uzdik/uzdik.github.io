@@ -109,7 +109,7 @@ function renderTable(data) {
     const footTh = document.createElement('th');
     const input = document.createElement('input');
     input.type = 'text';
-    input.placeholder = `${header}`;
+    input.placeholder = ``;
     input.dataset.index = headers.indexOf(header);
     footTh.appendChild(input);
     footerRow.appendChild(footTh);
