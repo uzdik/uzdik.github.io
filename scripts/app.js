@@ -81,11 +81,13 @@ function fetchCSVData(url, callback) {
 
 
 function renderTable(data) {
+  // Destroy and remove the old table if it exists
   if ($.fn.DataTable.isDataTable('#myT')) {
     $('#myT').DataTable().destroy();
     $('#myT').remove();
   }
 
+  // Create a new table element
   const table = document.createElement('table');
   table.id = 'myT';
   table.className = 'dataframe table table-striped';
@@ -131,20 +133,18 @@ function renderTable(data) {
     },
     scrollX: true,
     fixedColumns: {
-      leftColumns: 0,
-      rightColumns: 0
+      leftColumns: 4,  // Always fix the first column (e.g., 'a')
     }
   });
+
   const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
       dataTable.fixedColumns().update({
-        leftColumns: 1,  // Fix 'd' column
-        rightColumns: 1  // Fix 'h' column
+        leftColumns: 7  // Fix the first two columns (e.g., 'a' and 'd')
       });
     } else {
       dataTable.fixedColumns().update({
-        leftColumns: 0,
-        rightColumns: 0
+        leftColumns: 4  // Only fix the first column (e.g., 'a')
       });
     }
   };
