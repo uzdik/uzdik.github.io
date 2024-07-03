@@ -129,13 +129,7 @@ function renderTable(data) {
     searching: true,
     info: true,
     scrollX: true, // Ensure horizontal scrolling
-    scrollY: true, // Ensure horizontal scrolling
     autoWidth: true, // Prevent automatic column width calculation
-    columnDefs: [
-      { width: '20%', targets: 0 }, // Adjust the width of specific columns as needed
-      { width: '20%', targets: 1 },
-      // Add more column width settings as needed
-    ],
     order: [[headers.indexOf('Мин. балл'), 'desc']],
     search: {
       search: 'Информатика'
@@ -144,7 +138,8 @@ function renderTable(data) {
       leftColumns: 0, // Initially no columns fixed
       rightColumns: 0
     },
-    fixedHeader: false // Disable the fixed header
+    fixedHeader: false, // Disable the fixed header
+    fixedRows: false,
   });
 
   const fixColumnsForMobile = () => {
