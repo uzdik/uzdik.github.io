@@ -123,6 +123,8 @@ function renderTable(data) {
   document.getElementById('protected-content').appendChild(table);
 
   const dataTable = $('#myT').DataTable({
+    filter: 'bottom',
+    selection: 'single',
     pageLength: 10,
     paging: true,
     ordering: true,
