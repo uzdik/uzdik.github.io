@@ -80,6 +80,7 @@ function fetchCSVData(url, callback) {
 
 
 
+
 function renderTable(data) {
   // Destroy and remove the old table if it exists
   if ($.fn.DataTable.isDataTable('#myT')) {
@@ -140,20 +141,17 @@ function renderTable(data) {
 
   const fixColumnsForMobile = () => {
     if (window.innerWidth <= 600) {
-      dataTable.fixedColumns().leftColumns(0);
+      // Remove existing fixed column classes
+      $('#myT thead th, #myT tbody td').removeClass('fixed-column');
+
       // Fix 'd' and 'h' columns (assuming indexes 3 and 7 respectively)
-      $('#myT thead th').eq(3).addClass('fixed-column');
-      $('#myT thead th').eq(7).addClass('fixed-column');
       $('#myT tbody tr').each(function () {
         $(this).find('td').eq(3).addClass('fixed-column');
         $(this).find('td').eq(7).addClass('fixed-column');
       });
     } else {
-      // Remove fixed column classes
-      $('#myT thead th').removeClass('fixed-column');
-      $('#myT tbody tr').each(function () {
-        $(this).find('td').removeClass('fixed-column');
-      });
+      // Remove fixed column classes when not on mobile
+      $('#myT thead th, #myT tbody td').removeClass('fixed-column');
     }
   };
 
