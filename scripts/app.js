@@ -160,7 +160,7 @@ function renderTable(data) {
         $('#myT tbody tr').each(function () {
             $(this).children('td').eq(3).addClass('fixed-column');
             $(this).children('td').eq(7).addClass('fixed-column');
-            $(this).children('th').eq(8).addClass('fixed-column');
+            $(this).children('td').eq(8).addClass('fixed-column');
         });
         
         $('#myT tfoot tr').each(function () {
