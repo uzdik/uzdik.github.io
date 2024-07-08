@@ -154,16 +154,19 @@ function renderTable(data) {
         $('#myT thead tr').each(function () {
             $(this).children('th').eq(3).addClass('fixed-column');
             $(this).children('th').eq(7).addClass('fixed-column');
+            $(this).children('th').eq(8).addClass('fixed-column');
         });
         
         $('#myT tbody tr').each(function () {
             $(this).children('td').eq(3).addClass('fixed-column');
             $(this).children('td').eq(7).addClass('fixed-column');
+            $(this).children('th').eq(8).addClass('fixed-column');
         });
         
         $('#myT tfoot tr').each(function () {
             $(this).children('td').eq(3).addClass('fixed-column');
             $(this).children('td').eq(7).addClass('fixed-column');
+            $(this).children('td').eq(8).addClass('fixed-column');
         });
     } else {
         $('#myT thead th, #myT tbody td, #myT tfoot td').removeClass('fixed-column');
