@@ -17,9 +17,10 @@ const auth = getAuth(app);
 window.login = function() {
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
-
+  document.getElementById('loader').style.display = 'block';
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
+      document.getElementById('loader').style.display = 'none';
       document.getElementById('login').style.display = 'none';
       document.getElementById('content').style.display = 'block';
       document.getElementById('login-logout-link').textContent = 'Шығу';
@@ -27,6 +28,7 @@ window.login = function() {
       loadProtectedContent();
     })
     .catch((error) => {
+      document.getElementById('loader').style.display = 'none';
       alert(error.message);
     });
 }
@@ -38,7 +40,15 @@ window.logout = function() {
     document.getElementById('login-logout-link').textContent = 'Кіру';
     document.getElementById('login-logout-link').onclick = login;
   }).catch((error) => {
-    alert(error.message);
+    // Custom error message
+      let errorMessage = 'Логин кірмеді. Электрондық поштаңызды және құпия сөзіңізді тексеріп, әрекетті қайталаңыз.';
+      if (error.code === 'auth/user-not-found') {
+        errorMessage = 'Пайдаланушы табылмады. Электрондық поштаңызды тексеріңіз немесе қайта тіркеліңіз.';
+      } else if (error.code === 'auth/wrong-password') {
+        errorMessage = 'Қате құпиясөз. Қайталап көріңіз.';
+      }
+
+      alert(errorMessage);
   });
 }
 
