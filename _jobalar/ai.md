@@ -1,13 +1,18 @@
 ---
 layout: joba
 title: "Үздік Білім GenAI"
-permalink: /uzdik-it-ustaz-2023/
+permalink: /gen-ai/
 ---
 
 
-<iframe src="https://uzdik-ai.streamlit.app/" title="Streamlit App"></iframe>
+<p>Төмендегі батырманы басу арқылы қолданбаны жаңа терезеде ашыңыз:</p>
 
+<button onclick="openApp()" style="background-color: #007bff; color: white; padding: 15px 32px; font-size: 16px; border-radius: 5px; border: none; cursor: pointer;">
+    Үздік Білім GenAI қолданбасын ашыңыз
+</button>
 
-```
-test
-```
+<script>
+    function openApp() {
+        window.open("https://uzdik-ai.streamlit.app/", "_blank", "width=1200,height=800");
+    }
+</script>
