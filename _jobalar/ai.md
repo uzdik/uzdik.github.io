@@ -4,6 +4,9 @@ title: "Үздік Білім GenAI"
 permalink: /gen-ai/
 ---
 
+<div style="position: relative;">
+  <img src="\assets\img\genai.png" alt="Blog Image" style="float: right; width: 200px; height: 200px; margin-left: 20px;" />
+</div>
 
 <p>Төмендегі батырманы басу арқылы қолданбаны жаңа терезеде ашыңыз:</p>
 
