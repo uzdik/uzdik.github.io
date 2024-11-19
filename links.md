@@ -77,3 +77,7 @@ yarn deploy
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
+# Run on Server in background:
+```
+nohup python api-fire-smoke.py > api.log 2>&1 &
+```
