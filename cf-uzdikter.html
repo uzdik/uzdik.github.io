@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces User Statistics</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #addUserContainer {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Codeforces User Statistics</h1>
+    <div id="addUserContainer">
+        <input type="text" id="newUsername" placeholder="Enter username" />
+        <button id="addUserButton">Add User</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Today</th>
+                <th>Yesterday</th>
+                <th>Last 7 Days</th>
+                <th>Last 30 Days</th>
+                <th>Last 1 Year</th>
+                <th>Total Problems</th>
+            </tr>
+        </thead>
+        <tbody id="rankingTable">
+            <!-- Rankings will appear here -->
+        </tbody>
+    </table>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const storedUsers = JSON.parse(localStorage.getItem("codeforcesUsers")) || [];
+            fetchRanking(storedUsers);
+
+            const addUserButton = document.getElementById("addUserButton");
+            addUserButton.addEventListener("click", () => {
+                const newUsername = document.getElementById("newUsername").value.trim();
+                if (newUsername && !storedUsers.includes(newUsername)) {
+                    storedUsers.push(newUsername);
+                    localStorage.setItem("codeforcesUsers", JSON.stringify(storedUsers));
+                    fetchRanking(storedUsers);
+                    document.getElementById("newUsername").value = ""; // Clear the input field
+                }
+            });
+        });
+
+        async function fetchRanking(usernames) {
+            const today = new Date();
+            const yesterday = new Date(today);
+            yesterday.setDate(today.getDate() - 1);
+
+            const last7Days = new Date(today);
+            last7Days.setDate(today.getDate() - 7);
+
+            const last30Days = new Date(today);
+            last30Days.setDate(today.getDate() - 30);
+
+            const last1Year = new Date(today);
+            last1Year.setFullYear(today.getFullYear() - 1);
+
+            const formatDate = date => new Date(date.getTime() + 5 * 60 * 60 * 1000).toISOString().split("T")[0]; // Almaty +5 timezone
+
+            const todayStr = formatDate(today);
+            const yesterdayStr = formatDate(yesterday);
+            const last7DaysStr = formatDate(last7Days);
+            const last30DaysStr = formatDate(last30Days);
+            const last1YearStr = formatDate(last1Year);
+
+            const ranking = [];
+
+            for (const username of usernames) {
+                try {
+                    const response = await fetch(`https://codeforces.com/api/user.status?handle=${username}`);
+                    const data = await response.json();
+                    if (data.status !== "OK") throw new Error("API Error");
+
+                    const solvedToday = new Set();
+                    const solvedYesterday = new Set();
+                    const solvedLast7Days = new Set();
+                    const solvedLast30Days = new Set();
+                    const solvedLast1Year = new Set();
+                    const totalSolved = new Set();
+
+                    data.result.forEach(submission => {
+                        const submissionDate = new Date(submission.creationTimeSeconds * 1000).toISOString().split("T")[0];
+                        if (submission.verdict === "OK") {
+                            totalSolved.add(submission.problem.name);
+                            if (submissionDate === todayStr) {
+                                solvedToday.add(submission.problem.name);
+                            } else if (submissionDate === yesterdayStr) {
+                                solvedYesterday.add(submission.problem.name);
+                            }
+                            if (submissionDate >= last7DaysStr) {
+                                solvedLast7Days.add(submission.problem.name);
+                            }
+                            if (submissionDate >= last30DaysStr) {
+                                solvedLast30Days.add(submission.problem.name);
+                            }
+                            if (submissionDate >= last1YearStr) {
+                                solvedLast1Year.add(submission.problem.name);
+                            }
+                        }
+                    });
+
+                    ranking.push({
+                        username,
+                        today: solvedToday.size,
+                        yesterday: solvedYesterday.size,
+                        last7Days: solvedLast7Days.size,
+                        last30Days: solvedLast30Days.size,
+                        last1Year: solvedLast1Year.size,
+                        totalSolved: totalSolved.size
+                    });
+                } catch (error) {
+                    console.error(`Error fetching data for ${username}:`, error);
+                }
+            }
+
+            ranking.sort((a, b) => 
+                b.today - a.today || 
+                b.yesterday - a.yesterday || 
+                b.last7Days - a.last7Days || 
+                b.last30Days - a.last30Days || 
+                b.last1Year - a.last1Year || 
+                b.totalSolved - a.totalSolved
+            );
+
+            const rankingTable = document.getElementById("rankingTable");
+            rankingTable.innerHTML = ranking
+                .map((user, index) => `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td><a href="https://codeforces.com/profile/${user.username}" target="_blank">${user.username}</a></td>
+                        <td>${user.today}</td>
+                        <td>${user.yesterday}</td>
+                        <td>${user.last7Days}</td>
+                        <td>${user.last30Days}</td>
+                        <td>${user.last1Year}</td>
+                        <td>${user.totalSolved}</td>
+                    </tr>`).join("");
+        }
+    </script>
+</body>
+</html>
